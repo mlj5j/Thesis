@@ -15,13 +15,7 @@ The Large Hadron Collider (LHC) is a 26.7 kilometer-long, two-ring particle acce
 
 
 \section{Injection Complex}
-In order to bring the protons from rest up to their target collision energy a series of accelerators is used.  The acceleration sequence begins with the injection of hydrogen gas into a duoplasmatron.  Here a bombardment of electrons ionize the hydrogen atoms while an electric field pushes them through the duoplasmatron cavity. The result is 100 keV protons being passed to a quadrapole magnet which guides them into the aperture of a linear accelerator (LINAC2).  The radio frequency (RF) cavities in LINAC2 accelerate the protons up to 50 MeV. The protons are then passed to a series of three cyclotrons before being injected into the LHC ring.  The first of these is the Proton Synchrotron Booster (PSB), which repeatedly accelerates the protons around a circular path until they reach an energy of 1.4 GeV.  The second is the Proton Synchrotron (PS) which brings the energies up to 25 GeV before sending them on to the Super Proton Synchrotron (SPS).  The SPS increases the energies to 450 GeV before finally splitting them into two beam pipes and injecting them into the LHC ring at Point 2 and Point 8.  Once in the LHC the protons are accelerated up to 6.5 TeV at which point the two counter-rotating beams can be collided to yield $\sqrt{s}=13$ center of mass energy.
-
-The result is a packet of 100 keV protons being passed on to a quadrapole magnet which guides them into the aperture of a linear accelerator (LINAC2).  The radio frequency (RF) cavities in LINAC2 accelerate the packet of protons up to 50 MeV.  At this point the packet is split into four bunches and each bunch is sent into one of four rings in the Proton Synchrotron Booster (PSB).  The PSB increases the energy to 1.4 GeV and squeezes the protons into tighter bunches before sequentially injecting them into the single-ringed Proton Synchrotron (PS).  The protons are then passed to a series of three cyclotrons before being injected into the LHC ring.  The first of these is the Proton Synchrotron Booster (PSB), which repeatedly accelerates the protons around a circular path until they reach an energy of 1.4 GeV.  The second is the Proton Synchrotron (PS) which brings the proton energies up to 25 GeV before sending them on to the Super Proton Synchrotron (SPS).  The SPS increases the proton energies to 450 GeV before finally splitting them into two beam pipes and injecting them into the LHC ring at Point 2 and Point 8.  Once in the LHC the protons are accelerated up to 6.5 TeV at which point the two counter-rotating beams can be collided to yield $\sqrt{s}=13$ center of mass energy.
-
-The protons are then passed to a series of three cyclotrons before being injected into the LHC.  The first of these is the Proton Synchrotron Booster (PSB), which repeatedly accelerates the protons around a 20-meter circular path until they reach an energy of 1.4 GeV.  The second is the Proton Synchrotron (PS) which brings the proton energies up to 25 GeV before sending them on to the Super Proton Synchrotron (SPS).  The SPS increases the proton energies to 450 GeV before finally splitting them into two beam pipes and injecting them into the LHC .  
-
-  The pThe first of these is a linear accelerator (LINAC2) the accelerates protons from rest up 50 MeV.  This beam of protons then moves on the Proton Synchrotron Booster (PSB).  The PSB
+In order to bring the protons from rest up to their target collision energy a series of accelerators, as shown in Figure \ref{fig:lhcsketch}, are used.  The acceleration sequence begins with the injection of hydrogen gas into a duoplasmatron.  Here a bombardment of electrons ionize the hydrogen atoms while an electric field pushes them through the duoplasmatron cavity. The result is 100 keV protons being passed on to a quadrapole magnet which guides them into the aperture of a linear accelerator (LINAC2).  The radio frequency (RF) cavities in LINAC2 accelerate the protons up to 50 MeV.  At this point the protons are sent into one of four rings in the Proton Synchrotron Booster (PSB).  The PSB repeatedly accelerates the protons around a circular path until they reach an energy of 1.4 GeV.  The bunches of protons from each PSB ring are then sequentially injected into the single-ringed Proton Synchrotron (PS).  Each bunch injected into the PS are captured by one of the "buckets" (Figure \ref{fig:rfbucket}) provided by the PS RF system which also manipulates the bunches into the desired profile and proton density. These proton bunches are accelerated to 25 GeV and injected into the Super Proton Synchrotron (SPS) where they are accelerated to 450 GeV.  Finally the proton bunches are injected into the LHC ring where they are accelerated to 6.5 TeV and collided to yield a center of mass energy of $\sqrt{s} = 13$ TeV.
 
 \begin{figure}[h]
 	\centering
@@ -30,8 +24,24 @@ The protons are then passed to a series of three cyclotrons before being injecte
 	\label{fig:lhcsketch}
 \end{figure}
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/RFbucket}
+	\caption{Proton bunch capture onto RF bucket.}
+	\label{fig:rfbucket}
+\end{figure}
+
 
 \section{Tunnel and Magnets}
+The LHC was designed to produce collisions with up to $\sqrt{s} = 14$ TeV.  That requires confining and guiding 7 TeV protons around the circumference of the LHC ring.  The ring is housed in a 4 meter-wide underground tunnel that ranges in depth between 45 and 170 meters below the surface.  This tunnel was repurposed from the Large Electron-Positron (LEP) Collider which previously occupied the space.  For this reason the tunnel is not completely circular but is instead made up of alternating curved and straight sections of 2500 m and 530 m in length respectively.  The straight sections, labeled 1-8 in Figure \ref{fig:lhcips}, are used as either experimental facilities or sites for hardware necessary for LHC operations such as RF cavities for momentum cleaning, quadrupole magnets for beam focusing, and sextupole magnets for acceleration and betatron cleaning. 
+Steering a 7 TeV proton beam around the curved sections requires a magnetic field of 8.33 Tesla which is provided by 1223 superconducting dipole magnets cooled to 1.9 K using liquid helium.  A cross section of the LHC dipole is shown in Figure \ref{fig:lhcdipole}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/LHCdipole}
+	\caption{Cross section of LHC dipole \cite{dipole} }
+	\label{fig:lhcdipole}
+\end{figure}
 
 
 \section{Luminosity} 

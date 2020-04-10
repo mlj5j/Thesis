@@ -1,19 +1,7 @@
 \begin{thebibliography}{1}
-\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-\expandafter\ifx\csname bibnamefont\endcsname\relax
-  \def\bibnamefont#1{#1}\fi
-\expandafter\ifx\csname bibfnamefont\endcsname\relax
-  \def\bibfnamefont#1{#1}\fi
-\expandafter\ifx\csname citenamefont\endcsname\relax
-  \def\citenamefont#1{#1}\fi
-\expandafter\ifx\csname url\endcsname\relax
-  \def\url#1{\texttt{#1}}\fi
-\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
-\providecommand{\bibinfo}[2]{#2}
-\providecommand{\eprint}[2][]{\url{#2}}
 
-\bibitem[{\citenamefont{Guy}(2016)}]{43}
-\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Guy}},
-  \bibinfo{journal}{Journal of stuff}  (\bibinfo{year}{2016}).
+\bibitem{dipole}
+J.-L. Caron, ``Cross section of lhc dipole.. dipole lhc: coupe transversale..''
+  "AC Collection. Legacy of AC. Pictures from 1992 to 2002.", May 1998.
 
 \end{thebibliography}
