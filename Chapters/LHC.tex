@@ -1,8 +1,5 @@
 \chapter{The Large Hadron Collider}
 
-\section{scratch section to work out outline...}
-First thing to do is introduce the LHC as the large hadron collider and mention where it is located.  Now I should give a brief overview of what it does.  Now I need to talk about how it does this.  That means I need to mention how the protons are accelerated.  Then I need to explain how we contain and collide them once they are accelerated.  This leads into talking about the tunnel and magnets used for steering the bunches.
-
 \section{Introduction}
 The Large Hadron Collider (LHC) is a 26.7 kilometer-long, two-ring particle accelerator and collider located on the border of France and Switzerland at the European Organization for Nuclear Research (CERN).  During normal operations the LHC maintains two counter-rotating beams of proton bunches that collide at four interaction points (IP) with up to $\sqrt{s}=14$ TeV center of mass energy and a luminosity of 10$^{34}$cm$^{-2}$s$^{-1}$.  The ALICE (Point 2), ATLAS (Point 1), CMS (Point 5), and LHC-b experiments each have a detector at one of these interaction points as scene in Figure \ref{fig:lhcips} .  The CMS and ATLAS are general-purpose detectors while LHC-b specializes in beauty quark studies.  ALICE is a heavy-ion experiment which uses $^{208}Pb-p$ or $^{208}Pb-^{208}Pb$ collisions that can also be produced by the LHC.
 
@@ -34,7 +31,8 @@ In order to bring the protons from rest up to their target collision energy a se
 
 \section{Tunnel and Magnets}
 The LHC was designed to produce collisions with up to $\sqrt{s} = 14$ TeV.  That requires confining and guiding 7 TeV protons around the circumference of the LHC ring.  The ring is housed in a 4 meter-wide underground tunnel that ranges in depth between 45 and 170 meters below the surface.  This tunnel was repurposed from the Large Electron-Positron (LEP) Collider which previously occupied the space.  For this reason the tunnel is not completely circular but is instead made up of alternating curved and straight sections of 2500 m and 530 m in length respectively.  The straight sections, labeled 1-8 in Figure \ref{fig:lhcips}, are used as either experimental facilities or sites for hardware necessary for LHC operations such as RF cavities for momentum cleaning, quadrupole magnets for beam focusing, and sextupole magnets for acceleration and betatron cleaning. 
-Steering a 7 TeV proton beam around the curved sections requires a magnetic field of 8.33 Tesla which is provided by 1223 superconducting dipole magnets cooled to 1.9 K using liquid helium.  A cross section of the LHC dipole is shown in Figure \ref{fig:lhcdipole}.
+
+Steering a 7 TeV proton beam around the curved sections requires a magnetic field of 8.33 Tesla which is provided by 1223 superconducting dipole magnets cooled to 1.9 K.  A cross section of the LHC dipole is shown in Figure \ref{fig:lhcdipole}.  Supercooled liquid helium flows through the heat exchanger pipe to cool the iron yolk to a temperature of 1.9 K.  Ultra high vacuum is maintainted in the outer volume to provide a layer of thermal insulation between the inner volume and the outer steel casing.  Inside the iron yolk is a twin bore assembly of niobium-titanium superconducting coils.  Two parallel beam pipes are located within the focus of the superconducting coils.  This is the ultra high vacuum region where the subatomic particles are confined as they travel around the LHC ring.
 
 \begin{figure}[h]
 	\centering
@@ -45,3 +43,16 @@ Steering a 7 TeV proton beam around the curved sections requires a magnetic fiel
 
 
 \section{Luminosity} 
+The number of events generated per second for specific process having cross-section $\sigma_{event}$ is given by:
+\begin{equation}
+N_{event} = L\sigma_{event}
+\end{equation}
+where $L$ in the machine luminosity.  The machine luminosity for a Gaussian beam distribution can be written in terms of the beam parameters as:
+\begin{equation}
+L = \frac{N^{2}_{b}n_{b}f_{rev}\gamma_{r}}{4\pi\epsilon_{n}\beta*}F
+\end{equation}
+where $N_{b}$ is particle density in each bunch, $n_{b}$ is the number of bunches in each beam, $f_{rev}$ is the frequency of revolution, and $\gamma_{r}$ is the relativistic gamma factor.  The variables $\epsilon_{n}$ and 
+
+
+
+

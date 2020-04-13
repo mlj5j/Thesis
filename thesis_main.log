@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (MiKTeX 2.9.6840 64-bit)  (format=lualatex 2019.9.11)  9 APR 2020 20:15
+This is LuaTeX, Version 1.07.0 (MiKTeX 2.9.6840 64-bit)  (format=lualatex 2019.9.11)  13 APR 2020 15:22
  restricted system commands enabled.
 **thesis_main.tex
 (./thesis_main.tex
@@ -32,7 +32,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 1.149 seconds ("C:/Users/Matt/A
+luaotfload | main : initialization completed in 1.080 seconds ("C:/Users/Matt/A
 ppData/Local/Programs/MiKTeX 2.9/tex/latex/thesis/thesis.cls"
 Document Class: thesis 1996/25/01 1.0g LaTeX document class (wm).
 \hours=\count80
@@ -202,7 +202,7 @@ Chapter 1.
 <Figures/LHC_IPs.png, id=13, 681.54625pt x 685.56125pt>
 File: Figures/LHC_IPs.png Graphic file (type png)
 <use Figures/LHC_IPs.png>
-Package luatex.def Info: Figures/LHC_IPs.png  used on input line 11.
+Package luatex.def Info: Figures/LHC_IPs.png  used on input line 8.
 (luatex.def)             Requested size: 251.9989pt x 253.48631pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -213,7 +213,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Figures/LHC_sketch1.png, id=22, 3362.4822pt x 2625.3282pt>
 File: Figures/LHC_sketch1.png Graphic file (type png)
 <use Figures/LHC_sketch1.png>
-Package luatex.def Info: Figures/LHC_sketch1.png  used on input line 22.
+Package luatex.def Info: Figures/LHC_sketch1.png  used on input line 19.
 (luatex.def)             Requested size: 360.0pt x 281.05556pt.
 
 
@@ -222,7 +222,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Figures/RFbucket.jpg, id=23, 280.04625pt x 174.6525pt>
 File: Figures/RFbucket.jpg Graphic file (type jpg)
 <use Figures/RFbucket.jpg>
-Package luatex.def Info: Figures/RFbucket.jpg  used on input line 29.
+Package luatex.def Info: Figures/RFbucket.jpg  used on input line 26.
 (luatex.def)             Requested size: 251.9989pt x 157.16713pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -231,39 +231,39 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Figures/LHCdipole.jpg, id=28, 782.17218pt x 572.89032pt>
 File: Figures/LHCdipole.jpg Graphic file (type jpg)
 <use Figures/LHCdipole.jpg>
-Package luatex.def Info: Figures/LHCdipole.jpg  used on input line 41.
+Package luatex.def Info: Figures/LHCdipole.jpg  used on input line 39.
 (luatex.def)             Requested size: 251.9989pt x 184.56995pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./Chapters/CMS.tex [5<./Figures/LHC_sketch1.png>] [6<./Figures/RFbucket.jpg><
-./Figures/LHCdipole.jpg>]
+[5<./Figures/LHC_sketch1.png>]) (./Chapters/CMS.tex [6<./Figures/RFbucket.jpg>]
+[7<./Figures/LHCdipole.jpg>]
 Chapter 2.
-) (./Chapters/StandardModel.tex [7
+) (./Chapters/StandardModel.tex [8
 
 ]
 Chapter 3.
-) (./Chapters/SUSY.tex [8
+) (./Chapters/SUSY.tex [9
 
 ]
 Chapter 4.
-) (./thesis_main.bbl [9
+) (./thesis_main.bbl [10
 
-]) [10
+]) [11
 
 ] (./thesis_main.aux))
 
 Here is how much of LuaTeX's memory you used:
  1849 strings out of 494407
  100000,106986 words of node,token memory allocated
- 396 words of node memory still in use:
-   2 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 48 glue_spec,
- 4 attribute_list, 1 write nodes
-   avail lists: 2:167,3:44,4:8,5:172,6:10,7:3110,8:14,9:81,10:6,11:205
+ 412 words of node memory still in use:
+   2 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 8 attribute, 48 glue_spec,
+ 8 attribute_list, 1 write nodes
+   avail lists: 2:166,3:48,4:21,5:149,6:9,7:2606,8:19,9:79,10:14,11:183
  5877 multiletter control sequences out of 65536+200000
  31 fonts using 2135199 bytes
- 41i,7n,25p,1472b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,8n,25p,1472b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/users/matt/appdata/local/programs/miktex 2.9/fonts/opentype/public/lm/lmroma
 nslant12-regular.otf><c:/users/matt/appdata/local/programs/miktex 2.9/fonts/open
 type/public/lm/lmromanslant10-regular.otf><c:/users/matt/appdata/local/programs/
@@ -272,13 +272,14 @@ miktex 2.9/fonts/opentype/public/lm/lmroman12-regular.otf><c:/users/matt/appdata
 ers/matt/appdata/local/programs/miktex 2.9/fonts/opentype/public/lm/lmroman17-re
 gular.otf><C:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmmi10.pfb><C:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr10.pfb><C:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Matt/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Matt/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on thesis_main.pdf (10 pages, 1540355 bytes).
+1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Matt/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Matt/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Matt/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on thesis_main.pdf (11 pages, 1552920 bytes).
 
-PDF statistics: 94 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 103 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
