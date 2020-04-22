@@ -1,7 +1,24 @@
 \begin{thebibliography}{1}
 
+\bibitem{Baird:1017689}
+S~Baird.
+\newblock {Accelerators for pedestrians; rev. version}.
+\newblock Technical Report AB-Note-2007-014. CERN-AB-Note-2007-014.
+  PS-OP-Note-95-17-Rev-2. CERN-PS-OP-Note-95-17-Rev-2, CERN, Geneva, Feb 2007.
+
 \bibitem{dipole}
-J.-L. Caron, ``Cross section of lhc dipole.. dipole lhc: coupe transversale..''
-  "AC Collection. Legacy of AC. Pictures from 1992 to 2002.", May 1998.
+Jean-Luc Caron.
+\newblock Cross section of lhc dipole.. dipole lhc: coupe transversale.
+\newblock "AC Collection. Legacy of AC. Pictures from 1992 to 2002.", May 1998.
+
+\bibitem{Collaboration_2008}
+The~CMS Collaboration.
+\newblock The {CMS} experiment at the {CERN} {LHC}.
+\newblock {\em Journal of Instrumentation}, 3(08):S08004--S08004, aug 2008.
+
+\bibitem{Evans_2008}
+Lyndon Evans and Philip Bryant.
+\newblock {LHC} machine.
+\newblock {\em Journal of Instrumentation}, 3(08):S08001--S08001, aug 2008.
 
 \end{thebibliography}

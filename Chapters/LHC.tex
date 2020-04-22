@@ -12,19 +12,19 @@ The Large Hadron Collider (LHC) is a 26.7 kilometer-long, two-ring particle acce
 
 
 \section{Injection Complex}
-In order to bring the protons from rest up to their target collision energy a series of accelerators, as shown in Figure \ref{fig:lhcsketch}, are used.  The acceleration sequence begins with the injection of hydrogen gas into a duoplasmatron.  Here a bombardment of electrons ionize the hydrogen atoms while an electric field pushes them through the duoplasmatron cavity. The result is 100 keV protons being passed on to a quadrapole magnet which guides them into the aperture of a linear accelerator (LINAC2).  The radio frequency (RF) cavities in LINAC2 accelerate the protons up to 50 MeV.  At this point the protons are sent into one of four rings in the Proton Synchrotron Booster (PSB).  The PSB repeatedly accelerates the protons around a circular path until they reach an energy of 1.4 GeV.  The bunches of protons from each PSB ring are then sequentially injected into the single-ringed Proton Synchrotron (PS).  Each bunch injected into the PS are captured by one of the "buckets" (Figure \ref{fig:rfbucket}) provided by the PS RF system which also manipulates the bunches into the desired profile and proton density. These proton bunches are accelerated to 25 GeV and injected into the Super Proton Synchrotron (SPS) where they are accelerated to 450 GeV.  Finally the proton bunches are injected into the LHC ring where they are accelerated to 6.5 TeV and collided to yield a center of mass energy of $\sqrt{s} = 13$ TeV.
+In order to bring the protons from rest up to their target collision energy a series of accelerators, as shown in Figure \ref{fig:lhcsketch}, are used.  The acceleration sequence begins with the injection of hydrogen gas into a duoplasmatron.  Here a bombardment of electrons ionize the hydrogen atoms while an electric field pushes them through the duoplasmatron cavity. The result is 100 keV protons being passed on to a quadrapole magnet which guides them into the aperture of a linear accelerator (LINAC2).  The radio frequency (RF) cavities in LINAC2 accelerate the protons up to 50 MeV.  At this point the protons are sent into one of four rings in the Proton Synchrotron Booster (PSB).  The PSB repeatedly accelerates the protons around a circular path until they reach an energy of 1.4 GeV.  The bunches of protons from each PSB ring are then sequentially injected into the single-ringed Proton Synchrotron (PS).  Each bunch injected into the PS are captured by one of the "buckets" (Figure \ref{fig:rfbucket}) provided by the PS RF system which also manipulates the bunches into the desired profile and proton density. These proton bunches are accelerated to 25 GeV and injected into the Super Proton Synchrotron (SPS) where they are accelerated to 450 GeV.  Finally the proton bunches are injected into the LHC ring where they are accelerated to 6.5 TeV and collided in 25 ns intervals to yield a center of mass energy of $\sqrt{s} = 13$ TeV.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1.0\linewidth]{Figures/LHC_sketch1}
-	\caption{Layout of LHC accelerator complex.}
+	\caption{Layout of LHC accelerator complex \cite{Evans_2008}.}
 	\label{fig:lhcsketch}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{Figures/RFbucket}
-	\caption{Proton bunch capture onto RF bucket.}
+	\caption{Proton bunch capture onto RF bucket \cite{Baird:1017689}.}
 	\label{fig:rfbucket}
 \end{figure}
 
@@ -45,13 +45,26 @@ Steering a 7 TeV proton beam around the curved sections requires a magnetic fiel
 \section{Luminosity} 
 The number of events generated per second for specific process having cross-section $\sigma_{event}$ is given by:
 \begin{equation}
-N_{event} = L\sigma_{event}
+\frac{dN_{event}}{dt} = L\sigma_{event}
 \end{equation}
 where $L$ in the machine luminosity.  The machine luminosity for a Gaussian beam distribution can be written in terms of the beam parameters as:
 \begin{equation}
 L = \frac{N^{2}_{b}n_{b}f_{rev}\gamma_{r}}{4\pi\epsilon_{n}\beta*}F
 \end{equation}
-where $N_{b}$ is particle density in each bunch, $n_{b}$ is the number of bunches in each beam, $f_{rev}$ is the frequency of revolution, and $\gamma_{r}$ is the relativistic gamma factor.  The variables $\epsilon_{n}$ and 
+where $N_{b}$ is particle density in each bunch, $n_{b}$ is the number of bunches in each beam, $f_{rev}$ is the frequency of revolution, and $\gamma_{r}$ is the relativistic gamma factor.  The variables $\epsilon_{n}$ and $\beta*$ are the normalized transverse beam emittance and the beta function at the IP respectively, while $F$ is the geometric reduction factor depending due to the beams' crossing angle at the IP. \cite{Evans_2008}
+
+The total number of events produced over a given amount of time would then be
+\begin{equation}
+N_{event} = \sigma_{event}\int Ldt = \sigma_{event}L_{integrated}.
+\end{equation}
+The integrated luminosity delivered each year to the CMS experiment is shown in \ref{fig:intlumirun2}.  The analysis presented here uses data collected from the 2016, 2017, and 2018 campaigns which gives a combined integrated luminosity of 158.7 fb$^{-1}$.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/Int_lumi_run2}
+	\caption{Integrated luminosity delivered by the LHC to the CMS experiment each year from 2010-2018.}
+	\label{fig:intlumirun2}
+\end{figure}
+
 
 
 
