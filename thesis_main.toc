@@ -6,5 +6,10 @@
 \contentsline {chapter}{\numberline {2.}Compact Muon Solenoid}{8}
 \contentsline {section}{\numberline {2.1}scratch}{8}
 \contentsline {section}{\numberline {2.2}Introduction}{8}
-\contentsline {chapter}{\numberline {3.}The Standard Model}{10}
-\contentsline {chapter}{\numberline {4.}Supersymmetry}{11}
+\contentsline {section}{\numberline {2.3}Coordinate System}{9}
+\contentsline {section}{\numberline {2.4}Tracker}{10}
+\contentsline {section}{\numberline {2.5}Electromagnetic Calorimeter}{10}
+\contentsline {section}{\numberline {2.6}Hadronic Calorimeter}{10}
+\contentsline {section}{\numberline {2.7}Muon System}{10}
+\contentsline {chapter}{\numberline {3.}The Standard Model}{11}
+\contentsline {chapter}{\numberline {4.}Supersymmetry}{12}
