@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (MiKTeX 2.9.6840 64-bit)  (format=lualatex 2019.9.11)  5 MAY 2020 15:44
+This is LuaTeX, Version 1.07.0 (MiKTeX 2.9.6840 64-bit)  (format=lualatex 2019.9.11)  15 MAY 2020 15:41
  restricted system commands enabled.
 **thesis_main.tex
 (./thesis_main.tex
@@ -32,7 +32,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 1.078 seconds ("C:/Users/Matt/A
+luaotfload | main : initialization completed in 0.829 seconds ("C:/Users/Matt/A
 ppData/Local/Programs/MiKTeX 2.9/tex/latex/thesis/thesis.cls"
 Document Class: thesis 1996/25/01 1.0g LaTeX document class (wm).
 \hours=\count80
@@ -287,25 +287,31 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Figures/Tracker_sideview.png, id=329, 1112.35574pt x 563.706pt>
 File: Figures/Tracker_sideview.png Graphic file (type png)
 <use Figures/Tracker_sideview.png>
-Package luatex.def Info: Figures/Tracker_sideview.png  used on input line 78.
+Package luatex.def Info: Figures/Tracker_sideview.png  used on input line 80.
 (luatex.def)             Requested size: 251.9989pt x 127.70572pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./thesis_main.bbl [13<./Figures/TrackerLayout_v2.png>] [14<./Figures/Tracker_
-sideview.png>]) [15
+[13<./Figures/TrackerLayout_v2.png>] [14<./Figures/Tracker_sideview.png>]
+<Figures/ECAL_layout.png, id=339, 590.80725pt x 390.86024pt>
+File: Figures/ECAL_layout.png Graphic file (type png)
+<use Figures/ECAL_layout.png>
+Package luatex.def Info: Figures/ECAL_layout.png  used on input line 99.
+(luatex.def)             Requested size: 251.9989pt x 166.71278pt.
+)
+(./thesis_main.bbl [15<./Figures/ECAL_layout.png>]) [16
 
 ] (./thesis_main.aux))
 
 Here is how much of LuaTeX's memory you used:
- 1920 strings out of 494407
+ 1934 strings out of 494407
  100000,106986 words of node,token memory allocated
  449 words of node memory still in use:
    2 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 16 attribute, 49 glue_spec
 , 16 attribute_list, 1 write nodes
-   avail lists: 2:280,3:71,4:29,5:236,6:16,7:3715,8:61,9:115,10:18,11:266
- 5911 multiletter control sequences out of 65536+200000
+   avail lists: 2:280,3:72,4:24,5:250,6:17,7:4048,8:61,9:125,10:16,11:302
+ 5916 multiletter control sequences out of 65536+200000
  32 fonts using 2266943 bytes
  41i,8n,25p,1491b,231s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/users/matt/appdata/local/programs/miktex 2.9/fonts/opentype/public/lm/lmroma
@@ -324,9 +330,9 @@ t/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
 Users/Matt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb><C:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmsy8.pfb>
-Output written on thesis_main.pdf (15 pages, 8752050 bytes).
+Output written on thesis_main.pdf (16 pages, 8999256 bytes).
 
-PDF statistics: 401 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 406 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
