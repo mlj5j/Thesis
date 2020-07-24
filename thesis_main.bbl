@@ -1,4 +1,9 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{Apollinari:2017cqg}
+G.~Apollinari, O.~Brüning, T.~Nakamoto, and Lucio Rossi.
+\newblock {High Luminosity Large Hadron Collider HL-LHC}.
+\newblock {\em CERN Yellow Rep.}, (5):1--19, 2015.
 
 \bibitem{Baird:1017689}
 S~Baird.
@@ -37,6 +42,13 @@ CMS Collaboration.
 The~CMS Collaboration.
 \newblock The {CMS} experiment at the {CERN} {LHC}.
 \newblock {\em Journal of Instrumentation}, 3(08):S08004--S08004, aug 2008.
+
+\bibitem{DeMelis:2063307}
+Cinzia De~Melis.
+\newblock {Timeline for the LHC and High-Luminosity LHC. Frise chronologique du
+  LHC et du LHC haute luminosité}.
+\newblock Oct 2015.
+\newblock General Photo.
 
 \bibitem{Evans_2008}
 Lyndon Evans and Philip Bryant.
