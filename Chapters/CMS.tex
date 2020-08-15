@@ -30,7 +30,7 @@ At the heart of the CMS detector is a 3.8-Tesla magnetic field produced by a sup
 	\hline 
 	Electrons & Yes & Yes & No & No \\ 
 	\hline 
-	Hadrons (charged) & Yes & No & Yes & No \\ 
+	Hadrons (charged) & Yes & Yes & Yes & No \\ 
 	\hline 
 	Hadrons (neutral) & No & No & Yes & No \\ 
 	\hline 
@@ -93,29 +93,47 @@ To provide additional measurements of the $z$ coordinate in the barrel and $r$ c
 
 \section{Electromagnetic Calorimeter}
 
-scratch:
-Mention what ECAL is, a hermetic homogeneous calorimeter designed to measure energy doposited by electrons and protons.  There are three parts to ECAL, the barrel, the endcaps, and the preshower.  Say that it's made of lead tungstate crystals in the barrel and in the endcaps.  As electrons pass through the crystal they cause showering due to bremstrahlum (spelling).  Photons produce e/e+ pairs.  The light from the those showers is detected by avalanche photodiodes APDs in the barrel and vacuum phototriodes VPTs in the endcaps.  Say what the preshower is made of and what it does.
-
-Just outside of the tracker is the electromagnetic calorimeter (ECAL).  The ECAL is a hermetic homogeneous calorimeter designed to measure the energy deposited by electrons and photons.  It consists of a central barrel region (EB) closed on each end by an endcap (EE) with a preshower layer (ES) in front of each EE.  A single layer of lead tungstate (PbWO$_{4}$) are mounted in both the EB and EE.  Electrons passing through a crystal primarily lose energy by producing bremsstrahlung photons.  Photons lose energy by producing $e^{-}-e^{+}$ pairs.  
-  
-
-The electromagnetic calorimeter (ECAL) lies just outside the tracker.  The ECAL is a hermetic homogeneous calorimeter.  It consists of a central barrel (EB) with 61200 lead tungstate (PbWO$_{4}$) crystals which is closed by two endcaps (EE), each having 7324 crystals.  In front of each EE is a preshower (ES) detector which acts as a two-layered sampling calorimeter.  Lead radiators make up the first layer.  These initiate electromagnetic showers from incoming electrons of photons.  The deposited energy and transverse profiles of these showers are then measured by the silicon strip sensors which make up the second layer.  The EB covers $|\eta|<1.479$ while the two EE cover $1.497<|\eta|<3.0$.  The PbWO$_{4}$ crystals are mounted in a single layer.  In the EB these crystals are grouped in modules composed of 400 or 500 crystals.  The modules are then organized in supermodules consisting of four modules running along the beam axis.  Figure \ref{fig:ecallayout} shows the orientation of the crystals, modules, and supermodules within the ECAL.
- 
- \begin{figure}[h]
- 	\centering
- 	\includegraphics[width=0.7\linewidth]{Figures/ECAL_layout}
- 	\caption{Schematic of ECAL. Reprint from \cite{Collaboration_2008}}
- 	\label{fig:ecallayout}
- \end{figure}
- 
- 
-The high density (8.28 g/cm$^{3}$), short radiation length ()
-
-The ECAL is a hermetic homogeneous calorimeter containing 75848 lead tungstate (PbWO$_{4}$) crystals used for the detection and measurement of photon and electron energies.  The choice of PbWO$_{4}$ was made for its high density 
-This is done via detection of scintillation light produced
+%Okay, trying to do this more organized
+The electromagnetic calorimeter (ECAL) lies just outside the tracker and is a hermetic homogeneous calorimeter designed to measure the energy deposited by electrons and photons.  It consists of a central barrel (EB) with 61200 lead tungstate (PbWO$_{4}$) crystals which is closed by two endcaps (EE), each having 7324 crystals.  Highly-relativistic charged particles passing through a crystal primarily lose energy by producing bremsstrahlung photons.  Photons lose energy by producing $e^{-}-e^{+}$ pairs.  In front of each EE is a preshower (ES) detector which acts as a two-layered sampling calorimeter.  The crystals in the EB are instrumented with avalanche photodiodes (APDs) while the EE crystals are instrumented with vacuum phototriodes (VPTs). The ECAL design was strongly driven to be sensitive to the di-photon decay channel of the Higgs boson.  This led to the design of a calorimeter that was fast, radiation-hard, and had good spatial and energy resolution.  
 
 
-It consists of 75848 lead tungstate (PbWO$_{4}$) crystals with 61200 of those mounted in a central barrel section (EB) and the remaining 14648 divided evenly between two endcaps (EE) \cite{Collaboration_2008}.  In front of each endcap is a pre
+
+
+\subsection{Crystals}
+In order to provide a good spacial resolution it was necessary for the ECAL to have a fine granularity. The small Molier radius (22 mm) and short radiation length (8.9 mm) of PbWO$_{4}$ allows for fine granularity while maintaining good energy resolution by containing nearly all of the energy from an EM shower without the need for a restrictively thick crystal layer.  The PbWO$_{4}$ scintillation is also fast enough that approximately 80 percent of an EM shower is produced within 25 ns, which is the also the amount of time between bunch crossings at the LHC.  These crystals have a Gaussian-shaped spectrum spanning from 360 nm to 570 nm with a maximum at approximately 440 nm.  While PbWO$_{4}$ is relatively radiation-hard, the amount of ionizing radiation seen by the crystal leading up to the HL-LHC era of operations causes wavelength-dependent degradation in light transmission.  The scintillation mechanism however is unchanged so this damage can be tracked and accounted for by injecting laser light near the peak wavelength of the emission spectrum into the crystals to monitor optical transparency.
+
+Light produced in the crystal is transmitted along its length and collected at the rear by either an APD in the EB or a VPT in one of the EE.  Light output is temperature dependent so the crystals are kept at precisely 18$^{\circ}$C at which the yield is about 4.5 photoelectrons per MeV.  The EB and EB crystals, which have a tuncated pyramidal shape to match the lateral development of the shower, along with their photosensors are shown in Figure \ref{fig:ecalcrystals}.  
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/ECAL_crystals}
+	\caption{PbWO$_{4}$ crystals. Left: EB crystal with APD. Right: EE crystal with VPT.  Reprinted from \cite{Collaboration_2008}}
+	\label{fig:ecalcrystals}
+\end{figure}
+
+
+\subsection{Barrel and Endcaps}
+The EB covers the pseudorapidity range $|\eta|<1.479$ and uses crystals that are 230 mm long, which corresponds to 25.8 radiation lengths.  The front face of each crystal measures 22$\times$22 mm$^{2}$ while the rear face measures 26$\times$26 mm$^{2}$.  These are grouped in 36 supermodules (SM), each comprised of 1700 crystals arranged in a 20$\times$85 grid in $\phi \times \eta$.  Each SM spans half the length of the barrel and covers 20$^{\circ}$ in $\phi$.  On the back face of each crystal is a pair of APDs (semiconductor diodes).  APDs are compact, immune to the longitudinal 3.8 T magnetic field produced by the solenoid at this location, and resistant to the radiation levels expected in the EB over a ten year period.  They also have high enough gain to counter to low light yield of the crystals.  All of this makes them an ideal choice for use in the EB.  Each APD has an active area of $5 \times 5$ mm$^{2}$ and are operated at a gain of 50 which requires a bias voltage between 340 and 430 V.  As the gain of the APDs is highly dependent on the applied bias voltage and any gain instability would translate to degradation in energy resolution, very stable power supplies are used to maintain voltages within a few tens of mV.
+
+The EE cover the pseudorapidity range $1.497<|\eta|<3.0$.  The crystals in the EE have a 28.62$\times$28.62 mm$^{2}$ front face cross section and 30$\times$30 mm$^{2}$ rear face cross section.  Each crystal is 220 mm long which corresponds to 24.7 radiation lengths and are grouped in 5$\times$5 units called supercrystals (SCs).  Two halves, called \textit{Dees}, make up each EE.  Each Dee contains 138 SCs and 18 partial SCs which lie along the inner and outer circumference.  On the back of each crystal in EE is a VPT which is a conventional photomultiplier with a single gain stage. While not as compact as the APDs used in the EB, the VPTs are a more suitable for the more hostile environment at higher $\eta$.  Each VPT has a 25-mm diameter and approximately 280 mm$^{2}$ of active area.  Though the VPT gain and quantum efficiency are lower than that of the APDs this is offset by the larger active area allowing for better light collection.  Figure \ref{fig:ecallayout} shows the orientation of the crystals, modules, and supermodules within the ECAL.   \cite{Collaboration_2008}
+
+
+\subsection{Preshower layer}
+In front of each EE is a preshower (ES) detector.  The main purpose of the ES is to identify photons resulting from $\pi^{0}\rightarrow \gamma \gamma$ within the pseudorapidity range $1.653 < |\eta| < 2.6$, but it also aids in the identification of electrons against minimum ionizing particles (MIPs) and provides a spacial resolution of 2 mm compared to the 3 mm resolution of the EB and EE.  The ES acts as a two-layered sampling calorimeter.  Lead radiators make up the first layer.   These initiate electromagnetic showers from incoming electrons or photons.  The deposited energy and transverse profiles of these showers are then measured by the silicon strip sensors which make up the second layer.  
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/ECAL_layout}
+	\caption{Schematic of ECAL. Reprint from \cite{Collaboration_2008}}
+	\label{fig:ecallayout}
+\end{figure}
+
+\subsection{Performance}
+The energy resolution of the ECAL can be parameterized as 
+\begin{equation}
+\frac{\sigma}{E} = \frac{S}{\sqrt{E}} \oplus \frac{N}{E} \oplus C
+\end{equation}
+where $S$ is the stochastic term characterizing the size of photostatistical fluctuations, $N$ is the term characterizing the contributions of electronic, digital, and pileup noise, and $C$ is a constant which accounts for crystal performance non-uniformity, intercalibration errors, and leakage of energy from the back of a crystal.  The values for these terms, as measured in a beam test using 20 to 250 GeV electrons, are $S=0.028$ GeV$^{1/2}$, $N=0.12$ GeV, and $C=0.003$.  \cite{Collaboration_2008}
 
 
 \section{Hadronic Calorimeter}

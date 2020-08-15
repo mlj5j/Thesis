@@ -1,17 +1,22 @@
-\contentsline {chapter}{\numberline {1.}The Standard Model}{3}
-\contentsline {chapter}{\numberline {2.}Supersymmetry}{4}
-\contentsline {chapter}{\numberline {3.}The Large Hadron Collider}{5}
-\contentsline {section}{\numberline {3.1}Introduction}{5}
-\contentsline {section}{\numberline {3.2}Injection Complex}{5}
-\contentsline {section}{\numberline {3.3}Tunnel and Magnets}{6}
-\contentsline {section}{\numberline {3.4}Luminosity}{8}
-\contentsline {section}{\numberline {3.5}Future of LHC}{9}
-\contentsline {chapter}{\numberline {4.}Compact Muon Solenoid}{11}
-\contentsline {section}{\numberline {4.1}Introduction}{11}
-\contentsline {section}{\numberline {4.2}Coordinate System}{12}
-\contentsline {section}{\numberline {4.3}Tracker}{13}
-\contentsline {subsection}{\numberline {4.3.1}Pixel Detector}{13}
-\contentsline {subsection}{\numberline {4.3.2}Strip Detector}{14}
-\contentsline {section}{\numberline {4.4}Electromagnetic Calorimeter}{15}
-\contentsline {section}{\numberline {4.5}Hadronic Calorimeter}{16}
-\contentsline {section}{\numberline {4.6}Muon System}{16}
+\contentsline {chapter}{\numberline {1.}The Standard Model}{5}
+\contentsline {chapter}{\numberline {2.}Supersymmetry}{6}
+\contentsline {chapter}{\numberline {3.}The Large Hadron Collider}{7}
+\contentsline {section}{\numberline {3.1}Introduction}{7}
+\contentsline {section}{\numberline {3.2}Injection Complex}{7}
+\contentsline {section}{\numberline {3.3}Tunnel and Magnets}{8}
+\contentsline {section}{\numberline {3.4}Luminosity}{10}
+\contentsline {chapter}{\numberline {4.}Compact Muon Solenoid}{12}
+\contentsline {section}{\numberline {4.1}Introduction}{12}
+\contentsline {section}{\numberline {4.2}Coordinate System}{13}
+\contentsline {section}{\numberline {4.3}Tracker}{14}
+\contentsline {subsection}{\numberline {4.3.1}Pixel Detector}{14}
+\contentsline {subsection}{\numberline {4.3.2}Strip Detector}{15}
+\contentsline {section}{\numberline {4.4}Electromagnetic Calorimeter}{16}
+\contentsline {subsection}{\numberline {4.4.1}Crystals}{17}
+\contentsline {subsection}{\numberline {4.4.2}Barrel and Endcaps}{17}
+\contentsline {subsection}{\numberline {4.4.3}Preshower layer}{19}
+\contentsline {subsection}{\numberline {4.4.4}Performance}{19}
+\contentsline {section}{\numberline {4.5}Hadronic Calorimeter}{20}
+\contentsline {section}{\numberline {4.6}Muon System}{20}
+\contentsline {chapter}{\numberline {5.}MIP Timing Detector (MTD)}{21}
+\contentsline {subsection}{\numberline {5.0.1}Barrel Timing Layer}{22}
