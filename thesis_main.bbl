@@ -1,5 +1,20 @@
 \begin{thebibliography}{10}
 
+\bibitem{CERN-LHCC-97-033}
+{\em {The CMS electromagnetic calorimeter project: Technical Design Report}}.
+\newblock Technical design report. CMS. CERN, Geneva, 1997.
+
+\bibitem{CERN-LHCC-97-031}
+{\em {The CMS hadron calorimeter project: Technical Design Report}}.
+\newblock Technical design report. CMS. CERN, Geneva, 1997.
+
+\bibitem{Abdullin:2009zz}
+S.~Abdullin et~al.
+\newblock {The CMS barrel calorimeter response to particle beams from 2-GeV/c
+  to 350-GeV/c}.
+\newblock {\em Eur. Phys. J. C}, 60:359--373, 2009.
+\newblock [Erratum: Eur.Phys.J.C 61, 353--356 (2009)].
+
 \bibitem{Apollinari:2017cqg}
 G.~Apollinari, O.~Brüning, T.~Nakamoto, and Lucio Rossi.
 \newblock {High Luminosity Large Hadron Collider HL-LHC}.
@@ -20,6 +35,12 @@ David Barney.
 Jean-Luc Caron.
 \newblock Cross section of lhc dipole.. dipole lhc: coupe transversale.
 \newblock "AC Collection. Legacy of AC. Pictures from 1992 to 2002.", May 1998.
+
+\bibitem{Chatrchyan:2009si}
+S~Chatrchyan et~al.
+\newblock {Precise Mapping of the Magnetic Field in the CMS Barrel Yoke using
+  Cosmic Rays}.
+\newblock {\em JINST}, 5:T03021, 2010.
 
 \bibitem{Dominguez:1481838}
 CMS Collaboration.
@@ -43,6 +64,12 @@ The~CMS Collaboration.
 \newblock The {CMS} experiment at the {CERN} {LHC}.
 \newblock {\em Journal of Instrumentation}, 3(08):S08004--S08004, aug 2008.
 
+\bibitem{muon_collaboration_2013}
+The~CMS collaboration.
+\newblock {The performance of the CMS muon detector in proton-proton collisions
+  at √s=7 TeV at the LHC}.
+\newblock {\em Journal of Instrumentation}, 8(11):P11002--P11002, nov 2013.
+
 \bibitem{DeMelis:2063307}
 Cinzia De~Melis.
 \newblock {Timeline for the LHC and High-Luminosity LHC. Frise chronologique du
@@ -60,5 +87,11 @@ Tai Sakuma and Thomas McCauley.
 \newblock Detector and event visualization with {SketchUp} at the {CMS}
   experiment.
 \newblock {\em Journal of Physics: Conference Series}, 513(2):022032, jun 2014.
+
+\bibitem{Sirunyan_2018}
+A.M. Sirunyan et~al.
+\newblock {Performance of the CMS muon detector and muon reconstruction with
+  proton-proton collisions at √s=13 TeV}.
+\newblock {\em Journal of Instrumentation}, 13(06):P06015–P06015, jun 2018.
 
 \end{thebibliography}

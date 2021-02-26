@@ -1,0 +1,57 @@
+\documentclass[a4paper]{article}
+\usepackage{lineno}
+\title{Statement of Research}
+\author{Matthew Joyce\\
+	University of Virginia\\
+	E-mail: \texttt{mlj5j@virginia.edu}}
+\date{\today}
+
+\setlength{\topmargin}{-5mm}
+\setlength{\textwidth}{7in}
+\setlength{\oddsidemargin}{-8mm}
+\setlength{\textheight}{9in}
+\setlength{\footskip}{1in}
+
+\begin{document}
+\fontsize{12}{15}
+\selectfont
+\maketitle
+
+\section{General Introduction}
+
+\subsection{PhD}
+%{\bf PhD Degree}:  
+In pursuing my PhD Degree at the University of Virginia I have been working in the High Energy Physics Group under the supervision of Professor Bradley Cox and have been an active member of the CMS Collaboration since 2016.  As a part of the CMS Collaboration I am heavily involved in the research and development of the Minimum Ionizing Particle (MIP) Timing Detector, or MTD.  My physics analysis is the investigation of events with 2 photons, jets, and large missing transverse momentum to search for evidence of new physics in general gauge mediated (GGM) supersymmetry breaking scenarios.
+
+\subsection{Masters Degree}
+My interest in experimental particle physics led me to pursue my Master's Degree at Virginia Tech under the guidance of Professor Bruce Vogelaar as an active member of the Borexino Solar Neutrino Experiment.  During my time in this role I helped develop the radioactive source insertion system used to calibrate the detector.
+ 
+\section{Research Interest}
+As an undergraduate student studying physics at Virginia Tech, there were two things that grabbed my attention and never let go.  The first was why is there an asymmetry between the amounts of matter and anti-matter in the universe.  The second was a pie chart that showed the the breakdown of the composition of the universe.  The idea that we only understood about 5$\%$ of the content of the universe was both mind blowing and exciting to me.  While the standard model of particle physics is one of the greatest accomplishments in modern physics, it is not complete.  It doesn't address the aforementioned issues that grabbed my attention as an undergraduate student and as I advanced in my physics education I came to realize that there were many other things that were not explained by the standard model.  It is a passion of mine to pursue the answers to these questions and further test the predictions of the standard model through the development of new experiments and analysis techniques.
+
+
+
+\section{Research Experience}
+%Throughout my academic career, I have had the opportunity to acquire and hone skills ranging from software, simulation, and data analysis to hardware design and fabrication that would prove invaluable to the development of the Moller Experiment.
+
+
+
+\subsection{Hardware Experience - CMS MIP Timing Detector}
+In preparation for the High Luminosity (HL-LHC) phase of operations at the LHC, part of the extensive upgrade program for the CMS detector is to add a new timing layer that will measure minimum ionizing particles (MIPs) with a time resolution of ~30 ps.  The central Barrel Timing Layer (BTL) is based on LYSO:Ce crystals read out with silicon photomultipliers (SiPMs).  
+
+Over the past three years I have maintained a leading role in test beam efforts made at the Fermilab Test Beam Facility (FTBF) to study BTL detector components.  Among the studies performed at the FTBF were testing performance of irradiated sensors, investigating methods to mitigate high dark count rate (DCR), and testing different geometries of crystals and sensors.  I designed, fabricated, and installed the mechanical structures used at FTBF by the UVA BTL group as well as performing benchtop measurements to characterize such things as temperature dependence of SiPM breakdown voltage and DCR, light yield, and minimizing environmental noise.  I also participated in analysis of the collected data to extract light detection efficiency and time resolution.
+
+In addition to my test beam activities, one of my major contributions to this project was to design and execute a series of studies to investigate candidate optical glues for coupling the crystals to the SiPMs.  These studies insured that the glue would remain optically clear and the glue joints be mechanically sound after large amounts of radiation damage and thermal cycling.  I negotiated usage of a Cs-137 medical research irradiator with the UVA Radiation Safety Department for the purpose of exposing glue samples to doses of up to 50 kGy.  I measured the glue transmission curves at different levels of radiation exposure using a photospectrometer.  By characterizing the light transmission response to increasing levels of radiation, we were able to choose a glue that would remain optical transparent during the expected lifetime of the MTD.  I studied the robustness of the glue joints under the conditions of thermal stress by taking glued sensors and thermally cycling them while checking periodically for any changes in light yield.  This was done by exiting the crystals with a Na-22 source and measuring the output with a DRS digitizer.
+
+\subsection{Physics Analysis}
+In my analysis I search for evidence of new physics in GGM scenarios using events with 2 photons, jets, and large missing transverse momentum (MET).  The analysis was performed using proton-proton collisions at a center-of-mass energy $\sqrt{s}=13$ TeV collected at with the Compact Muon Solenoid (CMS) detector at CERN LHC from 2016 to 2018.  The total integrated luminosity of the data set is 137 fb$^{-1}$. Events involving jets and MET are subject to substantial instrumental backgrounds.  These are mostly comprised of QCD events that don't inherently have any MET, but have the appearance of MET due to mismeasured hadronic activity.  Previous attempts to investigate events of this nature have been limited by this spurious MET. My analysis implements a combination of novel multivariate techniques and a technique known as "rebalance and smear" to mitigate this background.  I trained a boosted decision tree (BDT) to discriminate between events with real and fake MET to decrease the instrumental background.  The rebalance and smear technique "rebalances" the jets in the event by performing a kinematic fit with the constraint that there is no MET.  The rebalanced jets are then "smeared" according to a jet energy response function to get this event back to detector-level.  This removes real MET events and only leaves the instrumental MET which is then used to model the background and train the BDT. This analysis is ongoing and is expected to result in a publication upon completion.
+
+%Familiarity with fixed target experiments and accelerator operation was gained through numerous studies performed at the Fermilab Test Beam Facility.  Collectively, these experiences have allowed me to collaborate effectively with scientists, engineers, and technicians from different institutional backgrounds and provided a pathway to developing strong programing skills in addition to expertise in the design, construction, and commissioning of testing apparatus.  
+
+
+\section{Summary}
+Working in large collaborations such as CMS and Borexino has enhanced my ability to work as part of a team. As a major contributor of my thesis analysis I developed the necessary skills for working independently.  These experiences have allowed me to collaborate effectively with scientists, engineers, and technicians from different institutional backgrounds and provided a pathway to developing strong programming skills in addition to expertise in the design, construction, and commissioning of testing apparatus.  I am eager to use these skills as a firm foundation on which to expand my knowledge in the field of particle physics, enhance the performance capabilities of one of the experiments I have dedicated most of my academic career to, and provide contributions to the exciting physics taking place at the LHC.
+	
+	
+	
+\end{document}	
