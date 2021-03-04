@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 20.7) (format=lualatex 2020.9.20)  25 FEB 2021 16:15
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 20.7) (format=lualatex 2020.9.20)  2 MAR 2021 22:06
  restricted system commands enabled.
 **thesis_main.tex
 (./thesis_main.tex
@@ -215,41 +215,41 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 {C:/Users/Matt/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (./thesis_ma
-in.toc)
+in.toc [2
+
+])
 \tf@toc=\write3
 
 \openout3 = thesis_main.toc
- [2
-
-] (./thesis_main.lof
+ [3] (./thesis_main.lof
 Overfull \hbox (23.96176pt too wide) in paragraph at lines 12--12
  \TU/lmr/m/n/10.95 Tracker In-ner Disks (TID), and Tracker End-caps (TEC). Repri
 nted 
  []
 
-[3
+[4
 
 ])
 \tf@lof=\write4
 
 \openout4 = thesis_main.lof
- [4] (./thesis_main.lot)
+ [5] (./thesis_main.lot)
 \tf@lot=\write5
 
 \openout5 = thesis_main.lot
- (./Chapters/StandardModel.tex [5
+ (./Chapters/StandardModel.tex [6
 
 ]
 Chapter 1.
-) (./Chapters/SUSY.tex [6
+) (./Chapters/SUSY.tex [7
 
 ]
 Chapter 2.
-) (./Chapters/LHC.tex [7
+) (./Chapters/LHC.tex [8
 
 ]
 Chapter 3.
-<Figures/LHC_IPs.png, id=30, 681.54625pt x 685.56125pt>
+<Figures/LHC_IPs.png, id=33, 681.54625pt x 685.56125pt>
 File: Figures/LHC_IPs.png Graphic file (type png)
 <use Figures/LHC_IPs.png>
 Package luatex.def Info: Figures/LHC_IPs.png  used on input line 8.
@@ -257,10 +257,10 @@ Package luatex.def Info: Figures/LHC_IPs.png  used on input line 8.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8
+[9
 
 ]
-<Figures/LHC_sketch1.png, id=38, 3362.4822pt x 2625.3282pt>
+<Figures/LHC_sketch1.png, id=41, 3362.4822pt x 2625.3282pt>
 File: Figures/LHC_sketch1.png Graphic file (type png)
 <use Figures/LHC_sketch1.png>
 Package luatex.def Info: Figures/LHC_sketch1.png  used on input line 19.
@@ -269,7 +269,7 @@ Package luatex.def Info: Figures/LHC_sketch1.png  used on input line 19.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/RFbucket.jpg, id=39, 280.04625pt x 174.6525pt>
+<Figures/RFbucket.jpg, id=42, 280.04625pt x 174.6525pt>
 File: Figures/RFbucket.jpg Graphic file (type jpg)
 <use Figures/RFbucket.jpg>
 Package luatex.def Info: Figures/RFbucket.jpg  used on input line 26.
@@ -277,8 +277,8 @@ Package luatex.def Info: Figures/RFbucket.jpg  used on input line 26.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9<./Figures/LHC_IPs.png>]
-<Figures/LHCdipole.jpg, id=44, 782.17218pt x 572.89032pt>
+[10<./Figures/LHC_IPs.png>]
+<Figures/LHCdipole.jpg, id=47, 782.17218pt x 572.89032pt>
 File: Figures/LHCdipole.jpg Graphic file (type jpg)
 <use Figures/LHCdipole.jpg>
 Package luatex.def Info: Figures/LHCdipole.jpg  used on input line 39.
@@ -287,8 +287,8 @@ Package luatex.def Info: Figures/LHCdipole.jpg  used on input line 39.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10<./Figures/LHC_sketch1.png>]
-<Figures/Int_lumi_run2.pdf, id=49, 578.16pt x 433.62pt>
+[11<./Figures/LHC_sketch1.png>]
+<Figures/Int_lumi_run2.pdf, id=53, 578.16pt x 433.62pt>
 File: Figures/Int_lumi_run2.pdf Graphic file (type pdf)
 <use Figures/Int_lumi_run2.pdf>
 Package luatex.def Info: Figures/Int_lumi_run2.pdf  used on input line 63.
@@ -297,117 +297,136 @@ Package luatex.def Info: Figures/Int_lumi_run2.pdf  used on input line 63.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./Chapters/CMS.tex [11<./Figures/RFbucket.jpg>] [12<./Figures/LHCdipole.jpg><
+) (./Chapters/CMS.tex [12<./Figures/RFbucket.jpg>] [13<./Figures/LHCdipole.jpg><
 ./Figures/Int_lumi_run2.pdf>]
 Chapter 4.
-<Figures/cms_schematic.pdf, id=122, 2392.81453pt x 1690.44048pt>
+<Figures/cms_schematic.pdf, id=125, 2392.81453pt x 1690.44048pt>
 File: Figures/cms_schematic.pdf Graphic file (type pdf)
 <use Figures/cms_schematic.pdf>
 Package luatex.def Info: Figures/cms_schematic.pdf  used on input line 7.
 (luatex.def)             Requested size: 251.9989pt x 178.00447pt.
-[13
+[14
 
 <./Figures/cms_schematic.pdf>]
-<Figures/CMS_slice_white_colour_french_291016.pdf, id=152, 1024.82875pt x 627.61
+<Figures/CMS_slice_white_colour_french_291016.pdf, id=155, 1024.82875pt x 627.61
 877pt>
 File: Figures/CMS_slice_white_colour_french_291016.pdf Graphic file (type pdf)
 <use Figures/CMS_slice_white_colour_french_291016.pdf>
 Package luatex.def Info: Figures/CMS_slice_white_colour_french_291016.pdf  used 
 on input line 16.
 (luatex.def)             Requested size: 251.9989pt x 154.32817pt.
- [14<./Figures/CMS_slice_white_colour_french_291016.pdf>]
-<Figures/TrackerLayout_v2.png, id=329, 1366.50525pt x 642.60075pt>
+ [15<./Figures/CMS_slice_white_colour_french_291016.pdf>]
+<Figures/TrackerLayout_v2.png, id=332, 1366.50525pt x 642.60075pt>
 File: Figures/TrackerLayout_v2.png Graphic file (type png)
 <use Figures/TrackerLayout_v2.png>
-Package luatex.def Info: Figures/TrackerLayout_v2.png  used on input line 69.
+Package luatex.def Info: Figures/TrackerLayout_v2.png  used on input line 68.
 (luatex.def)             Requested size: 251.9989pt x 118.49687pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15]
-<Figures/Tracker_sideview.png, id=333, 1112.35574pt x 563.706pt>
+[16]
+<Figures/Tracker_sideview.png, id=336, 1112.35574pt x 563.706pt>
 File: Figures/Tracker_sideview.png Graphic file (type png)
 <use Figures/Tracker_sideview.png>
-Package luatex.def Info: Figures/Tracker_sideview.png  used on input line 81.
+Package luatex.def Info: Figures/Tracker_sideview.png  used on input line 80.
 (luatex.def)             Requested size: 251.9989pt x 127.70572pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16<./Figures/TrackerLayout_v2.png>] [17<./Figures/Tracker_sideview.png>]
-<Figures/ECAL_crystals.png, id=343, 986.18437pt x 325.5914pt>
+[17<./Figures/TrackerLayout_v2.png>] [18<./Figures/Tracker_sideview.png>]
+<Figures/ECAL_crystals.png, id=346, 986.18437pt x 325.5914pt>
 File: Figures/ECAL_crystals.png Graphic file (type png)
 <use Figures/ECAL_crystals.png>
-Package luatex.def Info: Figures/ECAL_crystals.png  used on input line 110.
+Package luatex.def Info: Figures/ECAL_crystals.png  used on input line 109.
 (luatex.def)             Requested size: 251.9989pt x 83.1961pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 111.
+(Font)              <7> on input line 110.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 111.
+(Font)              <5> on input line 110.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[18] [19<./Figures/ECAL_crystals.png>]
-<Figures/ECAL_layout.png, id=352, 590.80725pt x 390.86024pt>
+[19] [20<./Figures/ECAL_crystals.png>]
+<Figures/ECAL_layout.png, id=355, 590.80725pt x 390.86024pt>
 File: Figures/ECAL_layout.png Graphic file (type png)
 <use Figures/ECAL_layout.png>
-Package luatex.def Info: Figures/ECAL_layout.png  used on input line 127.
+Package luatex.def Info: Figures/ECAL_layout.png  used on input line 126.
 (luatex.def)             Requested size: 251.9989pt x 166.71278pt.
- [20<./Figures/ECAL_layout.png>] [21]
+ [21<./Figures/ECAL_layout.png>]
 <Figures/hcal_longitudinal.png, id=361, 853.1875pt x 471.7625pt>
 File: Figures/hcal_longitudinal.png Graphic file (type png)
 <use Figures/hcal_longitudinal.png>
-Package luatex.def Info: Figures/hcal_longitudinal.png  used on input line 152.
+Package luatex.def Info: Figures/hcal_longitudinal.png  used on input line 151.
 (luatex.def)             Requested size: 251.9989pt x 139.34149pt.
-<Figures/Solenoidmagnet.png, id=362, 458.83922pt x 245.41687pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22]
+<Figures/Solenoidmagnet.png, id=365, 458.83922pt x 245.41687pt>
 File: Figures/Solenoidmagnet.png Graphic file (type png)
 <use Figures/Solenoidmagnet.png>
-Package luatex.def Info: Figures/Solenoidmagnet.png  used on input line 162.
+Package luatex.def Info: Figures/Solenoidmagnet.png  used on input line 161.
 (luatex.def)             Requested size: 323.9978pt x 173.30351pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22<./Figures/hcal_longitudinal.png>]
-<Figures/CMS-MUO-16-001_Figure_001.png, id=367, 2013.5225pt x 1319.93124pt>
+[23<./Figures/hcal_longitudinal.png>]
+<Figures/CMS-MUO-16-001_Figure_001.png, id=370, 2013.5225pt x 1319.93124pt>
 File: Figures/CMS-MUO-16-001_Figure_001.png Graphic file (type png)
 <use Figures/CMS-MUO-16-001_Figure_001.png>
 Package luatex.def Info: Figures/CMS-MUO-16-001_Figure_001.png  used on input li
-ne 175.
+ne 174.
 (luatex.def)             Requested size: 251.9989pt x 165.1924pt.
- [23<./Figures/Solenoidmagnet.png>])
-(./Chapters/MTD.tex [24<./Figures/CMS-MUO-16-001_Figure_001.png>]
+ [24<./Figures/Solenoidmagnet.png>])
+(./Chapters/MTD.tex [25<./Figures/CMS-MUO-16-001_Figure_001.png>]
 Chapter 5.
-<Figures/LHCTimeline.jpg, id=376, 1486.55376pt x 619.31375pt>
+<Figures/LHCTimeline.jpg, id=379, 1486.55376pt x 619.31375pt>
 File: Figures/LHCTimeline.jpg Graphic file (type jpg)
 <use Figures/LHCTimeline.jpg>
 Package luatex.def Info: Figures/LHCTimeline.jpg  used on input line 8.
 (luatex.def)             Requested size: 360.0pt x 149.98022pt.
-[25
+[26
 
 <./Figures/LHCTimeline.jpg>]
-<Figures/Pileup_4D.png, id=380, 831.105pt x 471.26062pt>
+<Figures/Pileup_4D.png, id=383, 831.105pt x 471.26062pt>
 File: Figures/Pileup_4D.png Graphic file (type png)
 <use Figures/Pileup_4D.png>
 Package luatex.def Info: Figures/Pileup_4D.png  used on input line 19.
 (luatex.def)             Requested size: 251.9989pt x 142.88936pt.
- [26<./Figures/Pileup_4D.png>])
-(./thesis_main.bbl [27] [28
+ [27<./Figures/Pileup_4D.png>])
+(./Chapters/TriggerSystem.tex [28]
+Chapter 6.
+<Figures/L1Trigger.png, id=391, 384.31078pt x 279.29344pt>
+File: Figures/L1Trigger.png Graphic file (type png)
+<use Figures/L1Trigger.png>
+Package luatex.def Info: Figures/L1Trigger.png  used on input line 10.
+(luatex.def)             Requested size: 323.9978pt x 235.47853pt.
+[29
 
-]) [29] (./thesis_main.aux))
+] [30<./Figures/L1Trigger.png>]) (./Chapters/EventReconstruction.tex
+[31]
+Chapter 7.
+) (./thesis_main.bbl [32
+
+] [33
+
+]) [34] (./thesis_main.aux))
 
 Here is how much of LuaTeX's memory you used:
- 2008 strings out of 481289
+ 2045 strings out of 481289
  100000,319454 words of node,token memory allocated
  485 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 20 attribute, 51 glue_spec
 , 20 attribute_list, 1 write nodes
-   avail lists: 2:391,3:109,4:37,5:284,6:26,7:4240,8:37,9:178,10:24,11:251
- 19013 multiletter control sequences out of 65536+200000
+   avail lists: 2:389,3:121,4:37,5:289,6:30,7:4207,8:37,9:200,10:24,11:302
+ 19027 multiletter control sequences out of 65536+200000
  53 fonts using 5625715 bytes
- 36i,8n,33p,1857b,312s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,8n,33p,1857b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
 <//?/c:/users/matt/appdata/local/programs/miktex 2.9/fonts/opentype/public/lm/lm
 roman10-italic.otf><//?/c:/users/matt/appdata/local/programs/miktex 2.9/fonts/op
 entype/public/lm/lmromanslant12-regular.otf><//?/c:/users/matt/appdata/local/pro
@@ -426,9 +445,9 @@ nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Matt/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Matt/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Matt/AppData
 /Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on thesis_main.pdf (29 pages, 12347534 bytes).
+Output written on thesis_main.pdf (34 pages, 12613379 bytes).
 
-PDF statistics: 462 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 480 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -1,25 +1,34 @@
-\contentsline {chapter}{\numberline {1.}The Standard Model}{6}%
-\contentsline {chapter}{\numberline {2.}Supersymmetry}{7}%
-\contentsline {chapter}{\numberline {3.}The Large Hadron Collider}{8}%
-\contentsline {section}{\numberline {3.1}Introduction}{8}%
-\contentsline {section}{\numberline {3.2}Injection Complex}{8}%
-\contentsline {section}{\numberline {3.3}Tunnel and Magnets}{9}%
-\contentsline {section}{\numberline {3.4}Luminosity}{11}%
-\contentsline {chapter}{\numberline {4.}Compact Muon Solenoid}{13}%
-\contentsline {section}{\numberline {4.1}Introduction}{13}%
-\contentsline {section}{\numberline {4.2}Coordinate System}{14}%
-\contentsline {section}{\numberline {4.3}Superconducting Magnet}{15}%
-\contentsline {section}{\numberline {4.4}Tracker}{15}%
-\contentsline {subsection}{\numberline {4.4.1}Pixel Detector}{15}%
-\contentsline {subsection}{\numberline {4.4.2}Strip Detector}{16}%
-\contentsline {section}{\numberline {4.5}Electromagnetic Calorimeter}{17}%
-\contentsline {subsection}{\numberline {4.5.1}Crystals}{18}%
-\contentsline {subsection}{\numberline {4.5.2}Barrel and Endcaps}{19}%
-\contentsline {subsection}{\numberline {4.5.3}Preshower layer}{20}%
-\contentsline {subsection}{\numberline {4.5.4}Performance}{20}%
-\contentsline {section}{\numberline {4.6}Hadronic Calorimeter}{21}%
-\contentsline {section}{\numberline {4.7}Superconducting Solenoid}{22}%
-\contentsline {section}{\numberline {4.8}Muon System}{22}%
-\contentsline {chapter}{\numberline {5.}MIP Timing Detector (MTD)}{25}%
-\contentsline {section}{\numberline {5.1}Introduction}{25}%
-\contentsline {section}{\numberline {5.2}Barrel Timing Layer}{26}%
+\contentsline {chapter}{\numberline {1.}The Standard Model}{7}%
+\contentsline {chapter}{\numberline {2.}Supersymmetry}{8}%
+\contentsline {chapter}{\numberline {3.}The Large Hadron Collider}{9}%
+\contentsline {section}{\numberline {3.1}Introduction}{9}%
+\contentsline {section}{\numberline {3.2}Injection Complex}{9}%
+\contentsline {section}{\numberline {3.3}Tunnel and Magnets}{10}%
+\contentsline {section}{\numberline {3.4}Luminosity}{12}%
+\contentsline {chapter}{\numberline {4.}Compact Muon Solenoid}{14}%
+\contentsline {section}{\numberline {4.1}Introduction}{14}%
+\contentsline {section}{\numberline {4.2}Coordinate System}{15}%
+\contentsline {section}{\numberline {4.3}Tracker}{16}%
+\contentsline {subsection}{\numberline {4.3.1}Pixel Detector}{16}%
+\contentsline {subsection}{\numberline {4.3.2}Strip Detector}{17}%
+\contentsline {section}{\numberline {4.4}Electromagnetic Calorimeter}{18}%
+\contentsline {subsection}{\numberline {4.4.1}Crystals}{19}%
+\contentsline {subsection}{\numberline {4.4.2}Barrel and Endcaps}{19}%
+\contentsline {subsection}{\numberline {4.4.3}Preshower layer}{21}%
+\contentsline {subsection}{\numberline {4.4.4}Performance}{21}%
+\contentsline {section}{\numberline {4.5}Hadronic Calorimeter}{22}%
+\contentsline {section}{\numberline {4.6}Superconducting Solenoid}{23}%
+\contentsline {section}{\numberline {4.7}Muon System}{23}%
+\contentsline {chapter}{\numberline {5.}MIP Timing Detector (MTD)}{26}%
+\contentsline {section}{\numberline {5.1}Introduction}{26}%
+\contentsline {section}{\numberline {5.2}Barrel Timing Layer}{27}%
+\contentsline {chapter}{\numberline {6.}CMS Trigger System}{29}%
+\contentsline {section}{\numberline {6.1}L1 trigger}{29}%
+\contentsline {subsection}{\numberline {6.1.1}Calorimeter trigger}{29}%
+\contentsline {subsection}{\numberline {6.1.2}Muon trigger}{30}%
+\contentsline {subsection}{\numberline {6.1.3}Global Trigger}{31}%
+\contentsline {section}{\numberline {6.2}High Level Trigger}{31}%
+\contentsline {section}{\numberline {6.3}Trigger efficiency}{31}%
+\contentsline {chapter}{\numberline {7.}CMS Particle and Event Reconstruction}{32}%
+\contentsline {section}{\numberline {7.1}Track reconstruction}{32}%
+\contentsline {section}{\numberline {7.2}Calorimeter cluster reconstruction}{32}%

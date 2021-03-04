@@ -8,6 +8,10 @@
 {\em {The CMS hadron calorimeter project: Technical Design Report}}.
 \newblock Technical design report. CMS. CERN, Geneva, 1997.
 
+\bibitem{L1Triggerfigure:2013yva}
+{CMS Technical Design Report for the Level-1 Trigger Upgrade}.
+\newblock 6 2013.
+
 \bibitem{Abdullin:2009zz}
 S.~Abdullin et~al.
 \newblock {The CMS barrel calorimeter response to particle beams from 2-GeV/c
@@ -30,6 +34,11 @@ S~Baird.
 David Barney.
 \newblock {CMS Slice}.
 \newblock Feb 2015.
+
+\bibitem{Cadamuro:2017slr}
+L.~Cadamuro.
+\newblock {The CMS Level-1 trigger system for LHC Run II}.
+\newblock {\em JINST}, 12(03):C03021, 2017.
 
 \bibitem{dipole}
 Jean-Luc Caron.
@@ -93,5 +102,11 @@ A.M. Sirunyan et~al.
 \newblock {Performance of the CMS muon detector and muon reconstruction with
   proton-proton collisions at √s=13 TeV}.
 \newblock {\em Journal of Instrumentation}, 13(06):P06015–P06015, jun 2018.
+
+\bibitem{Wittmann_2016}
+J.~Wittmann, B.~Arnold, H.~Bergauer, M.~Jeitler, T.~Matsushita, D.~Rabady,
+  B.~Rahbaran, and C.-E. Wulz.
+\newblock The upgrade of the {CMS} global trigger.
+\newblock {\em Journal of Instrumentation}, 11(02):C02029--C02029, feb 2016.
 
 \end{thebibliography}

@@ -1,21 +1,24 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces LHC interaction points}}{9}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Layout of LHC accelerator complex \cite {Evans_2008}.}}{10}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Proton bunch capture onto RF bucket \cite {Baird:1017689}.}}{11}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Cross section of LHC dipole \cite {dipole} }}{12}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Integrated luminosity delivered by the LHC to the CMS experiment each year from 2010-2018.}}{12}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces LHC interaction points}}{10}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Layout of LHC accelerator complex \cite {Evans_2008}.}}{11}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Proton bunch capture onto RF bucket \cite {Baird:1017689}.}}{12}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Cross section of LHC dipole \cite {dipole} }}{13}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Integrated luminosity delivered by the LHC to the CMS experiment each year from 2010-2018.}}{13}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Schematic of CMS detector \cite {Sakuma_2014}}}{13}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Transverse slice of the CMS detector\cite {Barney:2628641}.}}{14}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Cross section (side) of CMS tracker prior to the Phase 1 upgrade during the year-end technical stop of 2016/2017. Each line represents a detector module while double lines indicate back-to-back strip modules. Surrounding the pixel tracker (PIXEL) is the strip detector, which is divided into the Tracker Inner Barrel (TIB), Tracker Outer Barrel (TOB), Tracker Inner Disks (TID), and Tracker Endcaps (TEC). Reprinted from Reference \cite {Chatrchyan:1704291}.}}{16}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Cross section (side) of pixel detector. The lower half , labeled "Current", shows the design prior to 2017 while the upper half, labeled "Upgrade", shows the design after the upgrade. Reprinted from Resource \cite {Dominguez:1481838}}}{17}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces PbWO$_{4}$ crystals. Left: EB crystal with APD. Right: EE crystal with VPT. Reprinted from \cite {Collaboration_2008}}}{19}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Schematic of ECAL. Reprint from \cite {Collaboration_2008}}}{20}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Longitudinal view of HCAL \cite {CERN-LHCC-97-031}}}{22}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Longitudinal slice of CMS detector while operating at 3.8-T central magnetic field. The right-hand side of the figure shows a mapping of the magnetic field lines while the left-hand side shows a mapping of the field strength. Reprint from \cite {Chatrchyan:2009si}}}{23}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Cross-section of one quadrant of the CMS detector. The DTs are labeled as "MB" (Muon Barrel) and the CSCs are labelled as "ME" (Muon Endcap). The RPCs are "RB" for those in the barrel and "RE" for those in the endcap. Reprint from \cite {Sirunyan_2018}.}}{24}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Schematic of CMS detector \cite {Sakuma_2014}}}{14}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Transverse slice of the CMS detector\cite {Barney:2628641}.}}{15}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Cross section (side) of CMS tracker prior to the Phase 1 upgrade during the year-end technical stop of 2016/2017. Each line represents a detector module while double lines indicate back-to-back strip modules. Surrounding the pixel tracker (PIXEL) is the strip detector, which is divided into the Tracker Inner Barrel (TIB), Tracker Outer Barrel (TOB), Tracker Inner Disks (TID), and Tracker Endcaps (TEC). Reprinted from Reference \cite {Chatrchyan:1704291}.}}{17}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Cross section (side) of pixel detector. The lower half , labeled "Current", shows the design prior to 2017 while the upper half, labeled "Upgrade", shows the design after the upgrade. Reprinted from Resource \cite {Dominguez:1481838}}}{18}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces PbWO$_{4}$ crystals. Left: EB crystal with APD. Right: EE crystal with VPT. Reprinted from \cite {Collaboration_2008}}}{20}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Schematic of ECAL. Reprint from \cite {Collaboration_2008}}}{21}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Longitudinal view of HCAL \cite {CERN-LHCC-97-031}}}{23}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Longitudinal slice of CMS detector while operating at 3.8-T central magnetic field. The right-hand side of the figure shows a mapping of the magnetic field lines while the left-hand side shows a mapping of the field strength. Reprint from \cite {Chatrchyan:2009si}}}{24}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Cross-section of one quadrant of the CMS detector. The DTs are labeled as "MB" (Muon Barrel) and the CSCs are labelled as "ME" (Muon Endcap). The RPCs are "RB" for those in the barrel and "RE" for those in the endcap. Reprint from \cite {Sirunyan_2018}.}}{25}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Timeline for LHC}}{25}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Vertices from a simulated 200 pileup event. Need to replace this with the figure from the TDR. }}{26}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Timeline for LHC}}{26}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Vertices from a simulated 200 pileup event. Need to replace this with the figure from the TDR. }}{27}%
+\addvspace {10pt}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces L1 trigger system. Reprint from \cite {L1Triggerfigure:2013yva}}}{30}%
+\addvspace {10pt}
