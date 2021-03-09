@@ -30,5 +30,11 @@
 \contentsline {section}{\numberline {6.2}High Level Trigger}{31}%
 \contentsline {section}{\numberline {6.3}Trigger efficiency}{31}%
 \contentsline {chapter}{\numberline {7.}CMS Particle and Event Reconstruction}{32}%
-\contentsline {section}{\numberline {7.1}Track reconstruction}{32}%
-\contentsline {section}{\numberline {7.2}Calorimeter cluster reconstruction}{32}%
+\contentsline {section}{\numberline {7.1}Tracks}{32}%
+\contentsline {section}{\numberline {7.2}Calorimeter clusters}{33}%
+\contentsline {section}{\numberline {7.3}Object identification}{33}%
+\contentsline {subsection}{\numberline {7.3.1}Muons}{33}%
+\contentsline {subsection}{\numberline {7.3.2}Electrons}{34}%
+\contentsline {subsection}{\numberline {7.3.3}Photons}{34}%
+\contentsline {subsection}{\numberline {7.3.4}Jets}{34}%
+\contentsline {section}{\numberline {7.4}Missing transverse momentum}{34}%

@@ -16,45 +16,45 @@ Warning--there's a number but no volume in Apollinari:2017cqg
 Warning--empty journal in Barney:2628641
 Warning--empty institution in Dominguez:1481838
 Warning--empty journal in DeMelis:2063307
-You've used 19 entries,
+You've used 20 entries,
             2118 wiz_defined-function locations,
-            629 strings with 7331 characters,
-and the built_in function-call counts, 5588 in all, are:
-= -- 562
-> -- 197
+            637 strings with 7484 characters,
+and the built_in function-call counts, 5880 in all, are:
+= -- 594
+> -- 204
 < -- 2
-+ -- 83
-- -- 62
-* -- 430
-:= -- 940
-add.period$ -- 60
-call.type$ -- 19
-change.case$ -- 83
++ -- 86
+- -- 64
+* -- 449
+:= -- 989
+add.period$ -- 63
+call.type$ -- 20
+change.case$ -- 87
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 201
-empty$ -- 468
-format.name$ -- 62
-if$ -- 1139
+cite$ -- 31
+duplicate$ -- 212
+empty$ -- 494
+format.name$ -- 64
+if$ -- 1199
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 16
-newline$ -- 99
-num.names$ -- 32
-pop$ -- 64
+int.to.str$ -- 20
+missing$ -- 17
+newline$ -- 104
+num.names$ -- 34
+pop$ -- 66
 preamble$ -- 1
-purify$ -- 66
+purify$ -- 69
 quote$ -- 0
-skip$ -- 130
+skip$ -- 137
 stack$ -- 0
-substring$ -- 445
-swap$ -- 15
+substring$ -- 475
+swap$ -- 16
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 72
+type$ -- 76
 warning$ -- 11
-while$ -- 49
-width$ -- 21
-write$ -- 208
+while$ -- 53
+width$ -- 22
+write$ -- 219
 (There were 11 warnings)

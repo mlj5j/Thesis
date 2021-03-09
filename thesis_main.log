@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 20.7) (format=lualatex 2020.9.20)  2 MAR 2021 22:06
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 20.7) (format=lualatex 2020.9.20)  8 MAR 2021 21:30
  restricted system commands enabled.
 **thesis_main.tex
 (./thesis_main.tex
@@ -411,20 +411,20 @@ Package luatex.def Info: Figures/L1Trigger.png  used on input line 10.
 ] [30<./Figures/L1Trigger.png>]) (./Chapters/EventReconstruction.tex
 [31]
 Chapter 7.
-) (./thesis_main.bbl [32
+[32
 
-] [33
+] [33]) (./thesis_main.bbl [34] [35
 
-]) [34] (./thesis_main.aux))
+]) [36] (./thesis_main.aux))
 
 Here is how much of LuaTeX's memory you used:
- 2045 strings out of 481289
+ 2046 strings out of 481289
  100000,319454 words of node,token memory allocated
  485 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 20 attribute, 51 glue_spec
 , 20 attribute_list, 1 write nodes
-   avail lists: 2:389,3:121,4:37,5:289,6:30,7:4207,8:37,9:200,10:24,11:302
- 19027 multiletter control sequences out of 65536+200000
+   avail lists: 2:389,3:121,4:37,5:291,6:30,7:4207,8:37,9:200,10:24,11:302
+ 19028 multiletter control sequences out of 65536+200000
  53 fonts using 5625715 bytes
  36i,8n,33p,1857b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
 <//?/c:/users/matt/appdata/local/programs/miktex 2.9/fonts/opentype/public/lm/lm
@@ -445,9 +445,9 @@ nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Matt/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Matt/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Matt/AppData
 /Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on thesis_main.pdf (34 pages, 12613379 bytes).
+Output written on thesis_main.pdf (36 pages, 12620628 bytes).
 
-PDF statistics: 480 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 486 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

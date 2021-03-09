@@ -91,6 +91,11 @@ Lyndon Evans and Philip Bryant.
 \newblock {LHC} machine.
 \newblock {\em Journal of Instrumentation}, 3(08):S08001--S08001, aug 2008.
 
+\bibitem{Kalmantracking:1987fm}
+R.~Fruhwirth.
+\newblock {Application of Kalman filtering to track and vertex fitting}.
+\newblock {\em Nucl. Instrum. Meth. A}, 262:444--450, 1987.
+
 \bibitem{Sakuma_2014}
 Tai Sakuma and Thomas McCauley.
 \newblock Detector and event visualization with {SketchUp} at the {CMS}
