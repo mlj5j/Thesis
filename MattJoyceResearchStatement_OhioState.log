@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 20.7) (format=lualatex 2020.9.20)  18 FEB 2021 13:11
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 20.7) (format=lualatex 2020.9.20)  16 MAR 2021 15:27
  restricted system commands enabled.
 **MattJoyceResearchStatement_OhioState.tex
 (./MattJoyceResearchStatement_OhioState.tex
@@ -161,10 +161,10 @@ Here is how much of LuaTeX's memory you used:
  411 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 49 glue_spec,
  4 attribute_list, 1 write nodes
-   avail lists: 2:135,3:43,4:12,5:210,6:13,7:4360,8:4,9:62,10:7,11:371
+   avail lists: 2:135,3:43,4:11,5:211,6:13,7:4363,8:4,9:62,10:7,11:374
  17925 multiletter control sequences out of 65536+200000
  41 fonts using 4665243 bytes
- 24i,6n,25p,1541b,261s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 24i,6n,25p,1551b,261s stack positions out of 5000i,500n,10000p,200000b,50000s
 <//?/c:/users/matt/appdata/local/programs/miktex 2.9/fonts/opentype/public/lm/lm
 roman10-regular.otf><//?/c:/users/matt/appdata/local/programs/miktex 2.9/fonts/o
 pentype/public/lm/lmroman12-bold.otf><//?/c:/users/matt/appdata/local/programs/m
@@ -177,7 +177,7 @@ s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Matt/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Matt/AppData/Local/Progr
 ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Matt/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on MattJoyceResearchStatement_OhioState.pdf (3 pages, 73116 bytes
+Output written on MattJoyceResearchStatement_OhioState.pdf (3 pages, 73093 bytes
 ).
 
 PDF statistics: 67 PDF objects out of 1000 (max. 8388607)

@@ -96,6 +96,11 @@ R.~Fruhwirth.
 \newblock {Application of Kalman filtering to track and vertex fitting}.
 \newblock {\em Nucl. Instrum. Meth. A}, 262:444--450, 1987.
 
+\bibitem{Electrontracking:2715343}
+Jonas Rembser.
+\newblock {CMS Electron and Photon Performance at 13 TeV}.
+\newblock {\em J. Phys.: Conf. Ser.}, 1162(1):012008. 8 p, 2019.
+
 \bibitem{Sakuma_2014}
 Tai Sakuma and Thomas McCauley.
 \newblock Detector and event visualization with {SketchUp} at the {CMS}

@@ -16,7 +16,7 @@ The first iteration uses stringent requirements on the seeds and the $\chi^2$ of
 Calorimeter clusters are constructed using energy deposition information from the calorimeters.  Clusters are formed by first identifying the seed cell (ECAL crystal or HCAL scintillating tile) that corresponds to the local maxima of an energy deposit that is above a given threshold.  Neighboring cells are then aggregated to grow topological clusters if their signals are above twice the standard deviation of the level of electronic noise.  
 
 \section{Object identification}
-At this point the tracks and calorimeter clusters are linked to form a PF block.  This linkage is done with an algorithm that quantifies the likelihood that a given track and cluster were results of the same particle.  As PF locks are identified as object candidates they are removed from the collection prior to each subsequent iteration until all tracks and clusters have been assigned to a PF object candidate.  The following sections will outline how each of these PF objects is identified.
+At this point the tracks and calorimeter clusters are linked to form a PF block.  This linkage is done with an algorithm that quantifies the likelihood that a given track and cluster were results of the same particle.  As PF blocks are identified as object candidates they are removed from the collection prior to each subsequent iteration until all tracks and clusters have been assigned to a PF object candidate.  The following sections will outline how each of these PF objects is identified.
 \subsection{Muons}
 Muons are the easiest particle to identify, so they are the first objects reconstructed in the CMS.  PF Muons are classified in three categories depending on how their tracks are reconstructed:
 \begin{itemize}
@@ -26,8 +26,22 @@ Muons are the easiest particle to identify, so they are the first objects recons
 \end{itemize}
 After a muon is reconstructed it is given an identification or ID based on observables such as the $\chi^2$ of the track fit, how many hits were recorded per track, or how well the tracker and stand-alone tracks matched.  These IDs represent different working points (loose, medium, and tight) which correspond to increasing purity but decreasing efficiency as you move from loose toward tight.  
 \subsection{Electrons}
+The next objects reconstructed in the CMS are electrons.  Bremsstrahlung in the tracker layers causes substantial energy loss and changes in momentum which requires the use of a dedicated tracking algorithm.  In place of the Kalman filtering technique, a Gausian-sum filter (GSF) algorithm is used.  This algorithm uses a weighted sum of Gaussian PDFs which does a better job of modeling the Bremsstrahlung effects than the Kalman filtering technique which uses a single Gaussian PDF.  
+
+PF ECAL clusters are regrouped by identifying a seed cluster then associating and adding clusters from Bremsstrahlung photons to form superclusters.  The schematic in Figure \ref{fig:electrontracking} shows how the Bremsstrahlung photons are emitted in directions tangent to the trajectory of the electron.  Electrons bending in the magnetic field causes spreading of PF ECAL clusters to typically occur along the $\phi$-direction.  Two approaches are used to associate the superclusters to GSF tracks.  One is the ECAL-driven method, which uses superclusters with $p_T > 4$ GeV as seeds for the GSF track finding algorithm.  This works well for high-$p_T$ isolated electrons because the bend radius is less severe which decreases the spread of the PF ECAL clusters. This results in more of the Bremsstrahlung radiation being recovered and correctly assoiated with an electron candidate.  The second approach is the tracker-driven method which uses tracks with $p_T > 2$ GeV as seeds that are propagated out to the surface of the ECAL and used for clustering.  This method works best with soft electrons like those in jets because it relies on the high granularity of the tracker to disentangle overlapping energy deposits in the ECAL. \cite{Electrontracking:2715343}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.4\linewidth]{Figures/electrontracking}
+	\caption{Effect of Bremsstrahlung}
+	\label{fig:electrontracking}
+\end{figure}
+
+As a final step, a boosted decision tree (BDT) is used to discriminate between real and fake electrons.  The BDT is given variables associated with track-cluster matching, shower shape, and tracking.  The output score of the BDT is used to classify electrons into loose, medium, and tight working points which exhibit to the same purity and efficiency trends as the muon working points.
 
 \subsection{Photons} 
+Unlike electrons, photons typically deposit most of their energy in the ECAL without interacting with the tracker therefore their reconstruction is seeded from ECAL superclusters that do not have any GSF tracks associated with them.  The goal of the clustering algorithm for photon reconstruction is to include all of the energy deposits of electrons from photon conversions.  As with the calorimeter clustering algorithm, the photon clustering starts by identifying a local energy maxima as a seed crystal. In the EB a cluster is made up of several parallel strips of crystals $5\times1$ in $\eta \times \phi$.  The first strip has the seed crystal at its center.  Neighboring strips in the $\phi$-direction are added if they have energy above a threshold of 10 GeV but less than that of the subsequent strip with a maximum of 17 strips in a cluster.
+
 
 \subsection{Jets}
 
