@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 20.7) (format=lualatex 2020.9.20)  18 MAR 2021 15:01
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 20.7) (format=lualatex 2020.9.20)  1 APR 2021 22:02
  restricted system commands enabled.
 **thesis_main.tex
 (./thesis_main.tex
@@ -249,7 +249,7 @@ Chapter 2.
 
 ]
 Chapter 3.
-<Figures/LHC_IPs.png, id=33, 681.54625pt x 685.56125pt>
+<Figures/LHC_IPs.png, id=34, 681.54625pt x 685.56125pt>
 File: Figures/LHC_IPs.png Graphic file (type png)
 <use Figures/LHC_IPs.png>
 Package luatex.def Info: Figures/LHC_IPs.png  used on input line 8.
@@ -423,45 +423,72 @@ Package luatex.def Info: Figures/electrontracking.png  used on input line 35.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[34]) (./Chapters/DataAnalysis.tex [35<./Figures/electrontracking.png>]
+[34] [35<./Figures/electrontracking.png>]) (./Chapters/DataAnalysis.tex
+[36]
 Chapter 8.
-) (./thesis_main.bbl [36
+<Figures/SUSYsignals.png, id=421, 427.9739pt x 129.48375pt>
+File: Figures/SUSYsignals.png Graphic file (type png)
+<use Figures/SUSYsignals.png>
+Package luatex.def Info: Figures/SUSYsignals.png  used on input line 11.
+(luatex.def)             Requested size: 323.9978pt x 98.02536pt.
+[37
 
-] [37
+<./Figures/SUSYsignals.png>]
+Overfull \hbox (2.17117pt too wide) in paragraph at lines 24--24
+[]\TU/lmtt/m/n/10.95 Cert_294927 306462_13TeV_EOY2017ReReco_Collisions17_JSON_v1
+.txt[] 
+ []
 
-]) [38] (./thesis_main.aux))
+[38]
+Overfull \hbox (92.52742pt too wide) in paragraph at lines 91--107
+ [][] 
+ []
+
+[39]
+<Figures/FakeMET.png, id=433, 188.57953pt x 146.79843pt>
+File: Figures/FakeMET.png Graphic file (type png)
+<use Figures/FakeMET.png>
+Package luatex.def Info: Figures/FakeMET.png  used on input line 122.
+(luatex.def)             Requested size: 180.0pt x 140.1185pt.
+ [40] [41<./Figures/FakeMET.png>]) (./thesis_main.bbl [42] [43
+
+]) [44]
+(./thesis_main.aux))
 
 Here is how much of LuaTeX's memory you used:
- 2072 strings out of 481289
+ 2113 strings out of 481289
  100000,319454 words of node,token memory allocated
  485 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 20 attribute, 51 glue_spec
 , 20 attribute_list, 1 write nodes
-   avail lists: 2:389,3:121,4:37,5:291,6:30,7:4207,8:37,9:200,10:24,11:302
- 19038 multiletter control sequences out of 65536+200000
- 53 fonts using 5625715 bytes
- 36i,8n,33p,1857b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
+   avail lists: 2:487,3:121,4:37,5:293,6:30,7:4506,8:37,9:207,10:24,11:302
+ 19061 multiletter control sequences out of 65536+200000
+ 54 fonts using 5751803 bytes
+ 36i,9n,33p,1857b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
 <//?/c:/users/matt/appdata/local/programs/miktex 2.9/fonts/opentype/public/lm/lm
-roman10-italic.otf><//?/c:/users/matt/appdata/local/programs/miktex 2.9/fonts/op
-entype/public/lm/lmromanslant12-regular.otf><//?/c:/users/matt/appdata/local/pro
-grams/miktex 2.9/fonts/opentype/public/lm/lmsans8-regular.otf><//?/c:/users/matt
-/appdata/local/programs/miktex 2.9/fonts/opentype/public/lm/lmromanslant10-regul
-ar.otf><//?/c:/users/matt/appdata/local/programs/miktex 2.9/fonts/opentype/publi
-c/lm/lmroman12-regular.otf><//?/c:/users/matt/appdata/local/programs/miktex 2.9/
-fonts/opentype/public/lm/lmroman10-regular.otf><//?/c:/users/matt/appdata/local/
-programs/miktex 2.9/fonts/opentype/public/lm/lmroman17-regular.otf><C:/Users/Mat
-t/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
-:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi10.pfb><C:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmmi8.pfb><C:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr10.pfb><C:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Matt/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Matt/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Matt/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on thesis_main.pdf (38 pages, 12721663 bytes).
+mono10-regular.otf><//?/c:/users/matt/appdata/local/programs/miktex 2.9/fonts/op
+entype/public/lm/lmroman10-italic.otf><//?/c:/users/matt/appdata/local/programs/
+miktex 2.9/fonts/opentype/public/lm/lmromanslant12-regular.otf><//?/c:/users/mat
+t/appdata/local/programs/miktex 2.9/fonts/opentype/public/lm/lmsans8-regular.otf
+><//?/c:/users/matt/appdata/local/programs/miktex 2.9/fonts/opentype/public/lm/l
+mromanslant10-regular.otf><//?/c:/users/matt/appdata/local/programs/miktex 2.9/f
+onts/opentype/public/lm/lmroman12-regular.otf><//?/c:/users/matt/appdata/local/p
+rograms/miktex 2.9/fonts/opentype/public/lm/lmroman10-regular.otf><//?/c:/users/
+matt/appdata/local/programs/miktex 2.9/fonts/opentype/public/lm/lmroman17-regula
+r.otf><C:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmex10.pfb><C:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb><C:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Matt/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Matt/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Matt/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Mat
+t/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
+Users/Matt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb><C:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmsy8.pfb>
+Output written on thesis_main.pdf (44 pages, 12839144 bytes).
 
-PDF statistics: 494 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 528 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

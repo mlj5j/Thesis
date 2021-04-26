@@ -33,17 +33,40 @@ PF ECAL clusters are regrouped by identifying a seed cluster then associating an
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.4\linewidth]{Figures/electrontracking}
-	\caption{Effect of Bremsstrahlung}
+	\caption{The Bremsstrahlung photons continue along a straight trajectory while the electron path is bent by the magnetic field.  This results in energy deposited in the calorimeter for such electrons to be spread out along the $\phi$-direction.}
 	\label{fig:electrontracking}
 \end{figure}
 
 As a final step, a boosted decision tree (BDT) is used to discriminate between real and fake electrons.  The BDT is given variables associated with track-cluster matching, shower shape, and tracking.  The output score of the BDT is used to classify electrons into loose, medium, and tight working points which exhibit to the same purity and efficiency trends as the muon working points.
 
 \subsection{Photons} 
-Unlike electrons, photons typically deposit most of their energy in the ECAL without interacting with the tracker therefore their reconstruction is seeded from ECAL superclusters that do not have any GSF tracks associated with them.  The goal of the clustering algorithm for photon reconstruction is to include all of the energy deposits of electrons from photon conversions.  As with the calorimeter clustering algorithm, the photon clustering starts by identifying a local energy maxima as a seed crystal. In the EB a cluster is made up of several parallel strips of crystals $5\times1$ in $\eta \times \phi$.  The first strip has the seed crystal at its center.  Neighboring strips in the $\phi$-direction are added if they have energy above a threshold of 10 GeV but less than that of the subsequent strip with a maximum of 17 strips in a cluster.
+Unlike electrons, photons typically deposit most of their energy in the ECAL without interacting with the tracker therefore their reconstruction is seeded from ECAL superclusters that do not have any GSF tracks associated with them.  When photons interact with the tracker material they convert into electron-positron pairs which follow bent trajectories due to the magnetic field prior to entering the ECAL.  This causes a spread of the energy deposition along the $\phi$-direction.  The goal of the clustering algorithm for photon reconstruction is to include all of the energy deposits of electrons resulting from photon conversions.  As with the calorimeter clustering algorithm, the photon clustering starts by identifying a local energy maxima as a seed crystal. In the EB a cluster is made up of several parallel strips of crystals $5\times1$ in $\eta \times \phi$.  The first strip has the seed crystal at its center.  Neighboring strips in the $\phi$-direction are added if they have energy above a threshold of 10 GeV but less than that of the subsequent strip with a maximum of 17 strips in a cluster.  In the EE, the seed cluster is $5\times5$ with adjacent $5\times5$ clusters being added if they meet the minimum energy requirement.
+
+Converted and unconverted photons can be differentiated by looking at how the energy is distributed in a supercluster.  The variable $R_9$ is used for this purpose.  It is defined as the ratio of the energy in a $3\times3$ crystal array to the energy in the entire supercluster.  As the energy deposits resulting from converted electrons is more spread out they result in a lower $R_9$ value than unconverted photons.  A photon is candidate is considered to be unconverted when $R_9>0.93$.  
+
+An important point regarding the clustering algorithm is that it does not differentiate between showers resulting from photons and those resulting from electrons.  This allows for electron from $Z\rightarrow ee$ events to be used as high purity samples to study analysis inputs and for defining control regions using electron in place of photons.
 
 
 \subsection{Jets}
+When quarks or gluons are produced they hadronize to make cone-shaped, collimated collections of particles called jets.  The jet clustering algorithm aims to combine these particles in order to accurately measure the kinematics of the initial gluon or quark.  The algorithm uses the two distance parameters
+\begin{eqnarray}
+	d_{ij} &=& min(k_{T_i}^{2p},k_{T_j}^{2p})\frac{\Delta R_{ij}^2}{R^2} \\
+	d_{iB} &=& k_{T_i}^{2p}
+\end{eqnarray}
+where $d_{ij}$ is the distance between objects $i$ and $j$ and $d_{iB}$ is the distance between object $i$ and the beam $B$.  The transverse momentum of the object is $k_T$.  The parameter $p$ is set either -1, 0, or +1 to specify whether the anti-$k_T$, inclusive Cambridge/Aachen, or inclusive $k_T$ algorithm is used, respectively.  The value of $\Delta R_{ij}^2$ is defined as $(\eta_i-\eta_j)^2+(\phi_i-\phi_j)^2$ and $R$ is the distance parameter that defines the radius of the jet.
+
+his analysis uses jets reconstructed from PF candidates using the anti-$k_T$ algorithm with $R= 0.4$, also known as AK4PFJets or just PFJets. The algorithm goes through the following steps:
+\begin{enumerate}
+	\item The smallest values of $d_{ij}$ and $d_{iB}$ are computed for all objects in the event.
+	\item Objects $i$ and $j$ are merged into a single object if $d_{ij}<d_{iB}$.  
+	\item Object $i$ is labeled as a jet and removed from the list if $d_{iB}<d_{ij}$. 
+\end{enumerate}
+
+Note for next time:  
+Now talk about infrared and collinear safe.  Use Allie's thesis for guide.
+Look at "recent thesis" for ECAL noise on 2017 data.
+Should also do JEC and JER in here. 
+
 
 \section{Missing transverse momentum}
 

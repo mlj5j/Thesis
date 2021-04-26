@@ -22,5 +22,7 @@
 \addvspace {10pt}
 \contentsline {figure}{\numberline {6.1}{\ignorespaces L1 trigger system. Reprint from \cite {L1Triggerfigure:2013yva}}}{30}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Effect of Bremsstrahlung}}{35}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces The Bremsstrahlung photons continue along a straight trajectory while the electron path is bent by the magnetic field. This results in energy deposited in the calorimeter for such electrons to be spread out along the $\phi $-direction.}}{35}%
 \addvspace {10pt}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Two examples of GGM supersymmetry breaking processes resulting in final states conaining two photons and missing transverse momentum. The T5gg model (left) shows gluinos produced from $p-p$ collisions which subsequently result in two neutralinos, each decaying to a photon and a gravitino. The T6gg model (right) shows squarks produced from $p-p$ collisions following a similar decay chain.}}{37}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Mismeasurement of Jet3 results in an inbalance in the events transverse momentum.}}{41}%

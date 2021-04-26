@@ -36,9 +36,19 @@
 \contentsline {subsection}{\numberline {7.3.1}Muons}{33}%
 \contentsline {subsection}{\numberline {7.3.2}Electrons}{34}%
 \contentsline {subsection}{\numberline {7.3.3}Photons}{35}%
-\contentsline {subsection}{\numberline {7.3.4}Jets}{35}%
-\contentsline {section}{\numberline {7.4}Missing transverse momentum}{35}%
-\contentsline {chapter}{\numberline {8.}Data Analysis}{36}%
-\contentsline {section}{\numberline {8.1}Overview}{36}%
-\contentsline {section}{\numberline {8.2}Data sets}{36}%
-\contentsline {section}{\numberline {8.3}Object definitions}{36}%
+\contentsline {subsection}{\numberline {7.3.4}Jets}{36}%
+\contentsline {section}{\numberline {7.4}Missing transverse momentum}{36}%
+\contentsline {chapter}{\numberline {8.}Data Analysis}{37}%
+\contentsline {section}{\numberline {8.1}Overview}{37}%
+\contentsline {section}{\numberline {8.2}Data}{37}%
+\contentsline {section}{\numberline {8.3}Monte Carlo samples}{38}%
+\contentsline {section}{\numberline {8.4}Object definitions}{38}%
+\contentsline {subsection}{\numberline {8.4.1}Photons}{39}%
+\contentsline {subsection}{\numberline {8.4.2}Electrons}{40}%
+\contentsline {subsection}{\numberline {8.4.3}Muons}{40}%
+\contentsline {section}{\numberline {8.5}Backgrounds}{40}%
+\contentsline {subsection}{\numberline {8.5.1}Instrumental background}{40}%
+\contentsline {subsubsection}{Rebalance and smear}{41}%
+\contentsline {subsubsection}{Multivariate discriminant}{41}%
+\contentsline {subsection}{\numberline {8.5.2}Electroweak background}{41}%
+\contentsline {subsection}{\numberline {8.5.3}Irreducible background}{42}%
