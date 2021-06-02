@@ -1,12 +1,15 @@
 \addvspace {10pt}
+\contentsline {table}{\numberline {1.1}{\ignorespaces Boson fields in the SM}}{8}%
+\contentsline {table}{\numberline {1.2}{\ignorespaces Fermions in the SM. The first two numbers listed in the third column give the supermultiplet representation under $SU(3)_C$ and $SU(2)_L$ respectively. A \textbf {1} means that it is not charged under that group and therefore will not couple to the associated force. A \textbf {3} as the first number means that it has color charge and couples to the strong force. A \textbf {2} for the second number means that it has weak isospin and couples to the weak force. The third number gives the value of the weak isospin. Adjoint representation is specified by the presence of a bar over the number.}}{9}%
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {4.1}{\ignorespaces Summary of signals expected for each particle type in each sub-detector.}}{15}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Summary of signals expected for each particle type in each sub-detector.}}{22}%
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {6.1}{\ignorespaces Primary HLT}}{31}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Primary HLT}}{38}%
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {8.1}{\ignorespaces Data Samples}}{38}%
-\contentsline {table}{\numberline {8.2}{\ignorespaces Summary of loose ID photons cuts}}{39}%
+\contentsline {table}{\numberline {8.1}{\ignorespaces Data Samples}}{45}%
+\contentsline {table}{\numberline {8.2}{\ignorespaces Summary of loose ID photons cuts}}{46}%
+\contentsline {table}{\numberline {8.3}{\ignorespaces Summary of $Z \gamma \gamma \rightarrow \nu \nu \gamma \gamma $ model validation}}{50}%

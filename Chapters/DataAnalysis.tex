@@ -58,6 +58,8 @@ This analysis was performed using 137 fb$^{-1}$ of data collected from the CMS d
 		\hline
 		/EGamma/Run2018C-17Sep2018-v1 \\
 		\hline
+		/EGamma/Run2018D-22Jan2019-v2 \\
+		\hline
 	\end{tabular}
 	\label{table:DataSamples}
 \end{table}
@@ -125,21 +127,66 @@ The sources of background in this analysis can be grouped into three categories.
 \end{figure}
 
 \subsection{Instrumental background}
-The instrumental background is the contribution from events with spurious $E^{miss}_T$ due to mismeasured hadronic activity.  Since most of this background is comprised of QCD events, it is commonly referred to as the "QCD background" and those terms are used interchangeably in this thesis.  Modeling of this background was done using the Rebalance and Smear technique while an multivariate discriminant was constructed to improve the efficiency of identifying events with fake $E^{miss}_T$.
+The instrumental background is the contribution from events with spurious $E^{miss}_T$ due to mismeasured hadronic activity.  Since most of this background is comprised of QCD events, it is commonly referred to as the "QCD background" and those terms are used interchangeably in this thesis.  Modeling of this background was done using the Rebalance and Smear technique while a multivariate discriminant was constructed to improve the efficiency of identifying events with fake $E^{miss}_T$.
 
 \subsubsection{Rebalance and smear}
-The rebalance and smear method is used to estimate the QCD background by 
+The rebalance and smear method is used to model the spurious $E^{miss}_T$ background.  Coming soon....
 \subsubsection{Multivariate discriminant}
+A boosted decision tree (BDT) was used to develop a discriminating variable for identifying events with real $E^{miss}_T$.  The variables used are listed below.  All energy and momentum variables were normalized to the scalar sum of all of the $p_T$ in the event $S_T = \sum_{\gamma,jets} |\vec{p}_{T_i}|$ in order to encourage the BDT to focus more on how the energy and momentum was distributed in an event rather than simply the scale of the energy or momentum.  
+
+\begin{itemize}
+	\item $S_{T_{jets}} = \sum_{jets}|\vec{p}_T|$
+	\item $p_{T_{jets}} = \sum_{jets}\vec{p}_T$
+	\item $p_{T_{\gamma \gamma}} = \vec{p}_{T_{\gamma_1}} + \vec{p}_{T_{\gamma_2}}$
+	\item $HardE_T^{miss} = -\sum_{i}\vec{p}_{T_{i}}$
+	\item $\Delta \Phi_{\gamma \gamma} = \Delta \Phi (\vec{p}_{T_{\gamma_1}}, \vec{p}_{T_{\gamma_2}})$
+	\item $\Delta \Phi_{min} = min[\Delta \Phi (\vec{p}_{T_{HardE_T^{miss}}}, \vec{p}_{T_{jet_i}})]$
+	\item $\Delta \Phi_{1} = \Delta \Phi (\vec{p}_{T_{HardE_T^{miss}}}, \vec{p}_{T_{jet_1}})$
+	\item $\Delta \Phi_{2} = \Delta \Phi (\vec{p}_{T_{HardE_T^{miss}}}, \vec{p}_{T_{jet_2}})$
+	\item $\Delta \Phi_{\gamma \gamma, HardE_T^{miss}} = \Delta \Phi (\vec{p}_{T_{HardE_T^{miss}}}, \vec{p}_{T_{\gamma \gamma}})$
+	\item Add the delta R stuff...
+\end{itemize}
+
+
 
 \subsection{Electroweak background}
-Need to look at this again
-
-The electroweak background is dominated by events with $W \rightarrow e \nu$ where the electron is misidentified as a photon.  Unlike the QCD background these events have  real $E^{miss}_T$ due to the presence of a neutrino.  The key to estimating this background is determining the rate at which electrons get incorrectly labeled as photons in the signal region.  This is done using a tag-and-probe method where the tag is an electron (a loose ID photon that fails the PSV) and the probe is categorized as either a photon or an electron.  The result is an electron-electron region ($ee$) and an electron-photon region ($e\gamma$) that are selected from the data.    As both of these regions contain $Z\rightarrow ee$ decays, fits are applied in each of the samples to the invariant mass spectra $m_{ee}$ and $m_{e\gamma}$.  The integrals of these fits are calculated over the range of the Z mass peak to give 
+The electroweak background is dominated by events with $W \rightarrow e \nu$ where the electron is misidentified as a photon.  Unlike the QCD background these events have  real $E^{miss}_T$ due to the presence of a neutrino.  The key to estimating this background is determining the rate at which electrons get incorrectly labeled as photons in the signal region.  This is done using a tag-and-probe method where the tag is an electron (a loose ID photon that fails the PSV) and the probe is categorized as either a photon or an electron.  The result is an electron-electron region ($ee$) and an electron-photon region ($e\gamma$) that are selected from the data.    As both of these regions contain $Z\rightarrow ee$ decays, fits are applied in each of the samples to the invariant mass spectra $m_{ee}$ and $m_{e\gamma}$.  The integrals of these fits are calculated over the range of the Z mass peak to give the number of events in each category.  
 
 
-This is done using two control regions.  The first is double electron ($ee$) region.  As described before, the electrons are defined as loose ID photons that have a pixel seed match.  The second is the $e\gamma$ region which contains one electron and one photon.  The misidentification rate can be calculated by comparing the invariant mass peaks $m_{ee}$ and $m_{e\gamma}$.  
+%This is done using two control regions.  The first is double electron ($ee$) region.  As described before, the electrons are defined as loose ID photons that have a pixel seed match.  The second is the $e\gamma$ region which contains one electron and one photon.  The misidentification rate can be calculated by comparing the invariant mass peaks $m_{ee}$ and $m_{e\gamma}$.  
 
 
 
 \subsection{Irreducible background}
-The irreducible $Z \gamma \gamma \rightarrow \nu \nu \gamma \gamma$ background produces two photons and has inherent $E^{miss}_T$ via the neutrinos.  There is no easy way to separate these events from our signal so it is estimated using MC simulation.  The modeling of this background was tested using $Z\gamma \gamma \rightarrow \mu \mu \gamma \gamma$ events in data.  Dimuon events with $|m_{\mu \mu} - m_Z|<10$ GeV were selected and the contribution of the muons was removed from the $E^{miss}_T$ calculation to mimic $Z\rightarrow \nu \nu$.
+The irreducible $Z \gamma \gamma \rightarrow \nu \nu \gamma \gamma$ background produces two photons and has inherent $E^{miss}_T$ via the neutrinos.  There is no easy way to separate these events from our signal so it is estimated using MC simulation.  The modeling of this background was tested using $Z\gamma \gamma \rightarrow \mu \mu \gamma \gamma$ and $Z\gamma \gamma \rightarrow ee \gamma \gamma$ events in data.  Di-muon events with $|m_{\mu \mu} - m_Z|<15$ GeV and di-electron events with $|m_{ee}-m_Z|<15$ GeV were selected and the contribution of the muons/electrons was removed from the $E^{miss}_T$ calculation to mimic $Z\rightarrow \nu \nu$.  The event selection criteria for this $Z \gamma \gamma \rightarrow LL \gamma \gamma$ control region was
+\begin{itemize}
+	\item HardMET > 100 GeV
+	\item 2 looseID photons with $p_T$ > 30 GeV
+	\item 2 like-flavored leptons with $p_T$ > 30 GeV
+	\subitem 2 mediumID muons or
+	\subitem 2 electons (looseID photons with a pixel seed).
+\end{itemize}
+The relationship
+\begin{equation}
+	N_{Z\rightarrow \nu \nu} = \frac{b_{Z\rightarrow \nu \nu}}{b_{Z\rightarrow ee}+b_{Z\rightarrow \mu \mu}}(N_{Z\rightarrow ee}+N_{Z\rightarrow \mu \mu})
+	\label{equation:zggtonunugg}
+\end{equation}
+gives an estimation for the number of $Z \gamma \gamma \rightarrow \nu \nu \gamma \gamma$ events expected given the number of $Z \gamma \gamma \rightarrow LL \gamma \gamma$ events observed in data where $N_{Z\rightarrow ee}$ and $N_{Z\rightarrow \mu \mu}$ are the number of data events passing the aforementioned selection criteria and $b_{Z\rightarrow \nu \nu}$, $b_{Z\rightarrow \mu \mu}$, and $b_{Z\rightarrow ee}$ are the branching ratios.  The results are summarized in Table \ref{table:ZGGtonunuGG}.
+
+\begin{table}[h]
+	\centering
+	\caption{Summary of $Z \gamma \gamma \rightarrow \nu \nu \gamma \gamma$ model validation}
+	\begin{tabular}{l|l|l|l}
+		\hline
+		Year & Data-driven estimation & MC estimation & $\frac{data-driven}{MC}$ \\
+		\hline
+		\hline
+		2016 & 30.2 +12.1 -9.0 & 33.8 $\pm$0.31 & 0.893 +0.358 -0.267 \\
+		\hline
+		2017 & - & - & - \\
+		\hline
+		2018 & - & - & - \\
+		\hline
+	\end{tabular}
+	\label{table:ZGGtonunuGG}
+\end{table}
