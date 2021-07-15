@@ -1,60 +1,61 @@
-\contentsline {chapter}{\numberline {1.}The Standard Model of Particle Physics}{7}%
-\contentsline {section}{\numberline {1.1}The Standard Model}{7}%
-\contentsline {section}{\numberline {1.2}Electroweak Symmetry Breaking}{8}%
-\contentsline {section}{\numberline {1.3}Problems with the SM}{13}%
-\contentsline {chapter}{\numberline {2.}Supersymmetry}{15}%
-\contentsline {chapter}{\numberline {3.}The Large Hadron Collider}{16}%
-\contentsline {section}{\numberline {3.1}Introduction}{16}%
-\contentsline {section}{\numberline {3.2}Injection Complex}{16}%
-\contentsline {section}{\numberline {3.3}Tunnel and Magnets}{17}%
-\contentsline {section}{\numberline {3.4}Luminosity}{17}%
-\contentsline {chapter}{\numberline {4.}Compact Muon Solenoid}{24}%
-\contentsline {section}{\numberline {4.1}Introduction}{24}%
-\contentsline {section}{\numberline {4.2}Coordinate System}{25}%
-\contentsline {section}{\numberline {4.3}Tracker}{26}%
-\contentsline {subsection}{\numberline {4.3.1}Pixel Detector}{27}%
-\contentsline {subsection}{\numberline {4.3.2}Strip Detector}{28}%
-\contentsline {section}{\numberline {4.4}Electromagnetic Calorimeter}{29}%
-\contentsline {subsection}{\numberline {4.4.1}Crystals}{29}%
-\contentsline {subsection}{\numberline {4.4.2}Barrel and Endcaps}{30}%
-\contentsline {subsection}{\numberline {4.4.3}Preshower layer}{31}%
-\contentsline {subsection}{\numberline {4.4.4}Performance}{31}%
-\contentsline {section}{\numberline {4.5}Hadronic Calorimeter}{32}%
-\contentsline {section}{\numberline {4.6}Superconducting Solenoid}{33}%
-\contentsline {section}{\numberline {4.7}Muon System}{34}%
-\contentsline {chapter}{\numberline {5.}MIP Timing Detector (MTD)}{38}%
-\contentsline {section}{\numberline {5.1}Introduction}{38}%
-\contentsline {section}{\numberline {5.2}Barrel Timing Layer}{40}%
-\contentsline {subsection}{\numberline {5.2.1}LYSO:Ce crystals}{41}%
-\contentsline {subsection}{\numberline {5.2.2}SiPMs}{41}%
-\contentsline {subsection}{\numberline {5.2.3}Glue qualification}{41}%
-\contentsline {chapter}{\numberline {6.}CMS Trigger System}{43}%
-\contentsline {section}{\numberline {6.1}L1 trigger}{43}%
-\contentsline {subsection}{\numberline {6.1.1}Calorimeter trigger}{43}%
-\contentsline {subsection}{\numberline {6.1.2}Muon trigger}{45}%
-\contentsline {subsection}{\numberline {6.1.3}Global Trigger}{45}%
-\contentsline {section}{\numberline {6.2}High Level Trigger}{45}%
-\contentsline {section}{\numberline {6.3}Trigger efficiency}{46}%
-\contentsline {chapter}{\numberline {7.}CMS Particle and Event Reconstruction}{47}%
-\contentsline {section}{\numberline {7.1}Tracks}{47}%
-\contentsline {section}{\numberline {7.2}Calorimeter clusters}{48}%
-\contentsline {section}{\numberline {7.3}Object identification}{48}%
-\contentsline {subsection}{\numberline {7.3.1}Muons}{48}%
-\contentsline {subsection}{\numberline {7.3.2}Electrons}{49}%
-\contentsline {subsection}{\numberline {7.3.3}Photons}{50}%
-\contentsline {subsection}{\numberline {7.3.4}Jets}{51}%
-\contentsline {section}{\numberline {7.4}Missing transverse momentum}{51}%
-\contentsline {chapter}{\numberline {8.}Data Analysis}{52}%
-\contentsline {section}{\numberline {8.1}Overview}{52}%
-\contentsline {section}{\numberline {8.2}Data}{52}%
-\contentsline {section}{\numberline {8.3}Monte Carlo samples}{53}%
-\contentsline {section}{\numberline {8.4}Object definitions}{53}%
-\contentsline {subsection}{\numberline {8.4.1}Photons}{54}%
-\contentsline {subsection}{\numberline {8.4.2}Electrons}{55}%
-\contentsline {subsection}{\numberline {8.4.3}Muons}{55}%
-\contentsline {section}{\numberline {8.5}Backgrounds}{55}%
-\contentsline {subsection}{\numberline {8.5.1}Instrumental background}{55}%
-\contentsline {subsubsection}{Rebalance and smear}{56}%
-\contentsline {subsubsection}{Multivariate discriminant}{56}%
-\contentsline {subsection}{\numberline {8.5.2}Electroweak background}{57}%
-\contentsline {subsection}{\numberline {8.5.3}Irreducible background}{57}%
+\contentsline {chapter}{\numberline {1.}The Standard Model of Particle Physics}{8}{}%
+\contentsline {section}{\numberline {1.1}The Standard Model}{8}{}%
+\contentsline {section}{\numberline {1.2}Electroweak Symmetry Breaking}{9}{}%
+\contentsline {section}{\numberline {1.3}Problems with the SM}{14}{}%
+\contentsline {chapter}{\numberline {2.}Supersymmetry}{16}{}%
+\contentsline {chapter}{\numberline {3.}The Large Hadron Collider}{17}{}%
+\contentsline {section}{\numberline {3.1}Introduction}{17}{}%
+\contentsline {section}{\numberline {3.2}Injection Complex}{17}{}%
+\contentsline {section}{\numberline {3.3}Tunnel and Magnets}{18}{}%
+\contentsline {section}{\numberline {3.4}Luminosity}{18}{}%
+\contentsline {chapter}{\numberline {4.}Compact Muon Solenoid}{24}{}%
+\contentsline {section}{\numberline {4.1}Introduction}{24}{}%
+\contentsline {section}{\numberline {4.2}Coordinate System}{25}{}%
+\contentsline {section}{\numberline {4.3}Tracker}{26}{}%
+\contentsline {subsection}{\numberline {4.3.1}Pixel Detector}{27}{}%
+\contentsline {subsection}{\numberline {4.3.2}Strip Detector}{28}{}%
+\contentsline {section}{\numberline {4.4}Electromagnetic Calorimeter}{29}{}%
+\contentsline {subsection}{\numberline {4.4.1}Crystals}{29}{}%
+\contentsline {subsection}{\numberline {4.4.2}Barrel and Endcaps}{30}{}%
+\contentsline {subsection}{\numberline {4.4.3}Preshower layer}{31}{}%
+\contentsline {subsection}{\numberline {4.4.4}Performance}{31}{}%
+\contentsline {section}{\numberline {4.5}Hadronic Calorimeter}{32}{}%
+\contentsline {section}{\numberline {4.6}Superconducting Solenoid}{33}{}%
+\contentsline {section}{\numberline {4.7}Muon System}{34}{}%
+\contentsline {chapter}{\numberline {5.}MIP Timing Detector (MTD)}{37}{}%
+\contentsline {section}{\numberline {5.1}Introduction}{37}{}%
+\contentsline {section}{\numberline {5.2}Barrel Timing Layer}{39}{}%
+\contentsline {subsection}{\numberline {5.2.1}LYSO:Ce crystals}{43}{}%
+\contentsline {subsection}{\numberline {5.2.2}SiPMs}{46}{}%
+\contentsline {subsection}{\numberline {5.2.3}Glue qualification}{47}{}%
+\contentsline {subsection}{\numberline {5.2.4}Performance at test beam}{49}{}%
+\contentsline {chapter}{\numberline {6.}CMS Trigger System}{53}{}%
+\contentsline {section}{\numberline {6.1}L1 trigger}{53}{}%
+\contentsline {subsection}{\numberline {6.1.1}Calorimeter trigger}{53}{}%
+\contentsline {subsection}{\numberline {6.1.2}Muon trigger}{55}{}%
+\contentsline {subsection}{\numberline {6.1.3}Global Trigger}{55}{}%
+\contentsline {section}{\numberline {6.2}High Level Trigger}{55}{}%
+\contentsline {section}{\numberline {6.3}Trigger efficiency}{56}{}%
+\contentsline {chapter}{\numberline {7.}CMS Particle and Event Reconstruction}{57}{}%
+\contentsline {section}{\numberline {7.1}Tracks}{57}{}%
+\contentsline {section}{\numberline {7.2}Calorimeter clusters}{58}{}%
+\contentsline {section}{\numberline {7.3}Object identification}{58}{}%
+\contentsline {subsection}{\numberline {7.3.1}Muons}{58}{}%
+\contentsline {subsection}{\numberline {7.3.2}Electrons}{59}{}%
+\contentsline {subsection}{\numberline {7.3.3}Photons}{60}{}%
+\contentsline {subsection}{\numberline {7.3.4}Jets}{61}{}%
+\contentsline {section}{\numberline {7.4}Missing transverse momentum}{61}{}%
+\contentsline {chapter}{\numberline {8.}Data Analysis}{62}{}%
+\contentsline {section}{\numberline {8.1}Overview}{62}{}%
+\contentsline {section}{\numberline {8.2}Data}{62}{}%
+\contentsline {section}{\numberline {8.3}Monte Carlo samples}{63}{}%
+\contentsline {section}{\numberline {8.4}Object definitions}{63}{}%
+\contentsline {subsection}{\numberline {8.4.1}Photons}{64}{}%
+\contentsline {subsection}{\numberline {8.4.2}Electrons}{65}{}%
+\contentsline {subsection}{\numberline {8.4.3}Muons}{65}{}%
+\contentsline {section}{\numberline {8.5}Backgrounds}{65}{}%
+\contentsline {subsection}{\numberline {8.5.1}Instrumental background}{65}{}%
+\contentsline {subsubsection}{Rebalance and smear}{66}{}%
+\contentsline {subsubsection}{Multivariate discriminant}{66}{}%
+\contentsline {subsection}{\numberline {8.5.2}Electroweak background}{67}{}%
+\contentsline {subsection}{\numberline {8.5.3}Irreducible background}{67}{}%

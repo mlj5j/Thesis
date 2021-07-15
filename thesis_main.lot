@@ -1,15 +1,17 @@
 \addvspace {10pt}
-\contentsline {table}{\numberline {1.1}{\ignorespaces Boson fields in the SM}}{8}%
-\contentsline {table}{\numberline {1.2}{\ignorespaces Fermions in the SM. The first two numbers listed in the third column give the supermultiplet representation under $SU(3)_C$ and $SU(2)_L$ respectively. A \textbf {1} means that it is not charged under that group and therefore will not couple to the associated force. A \textbf {3} as the first number means that it has color charge and couples to the strong force. A \textbf {2} for the second number means that it has weak isospin and couples to the weak force. The third number gives the value of the weak isospin. Adjoint representation is specified by the presence of a bar over the number.}}{9}%
+\contentsline {table}{\numberline {1.1}{\ignorespaces Boson fields in the SM\relax }}{9}{}%
+\contentsline {table}{\numberline {1.2}{\ignorespaces Fermions in the SM. The first two numbers listed in the third column give the supermultiplet representation under $SU(3)_C$ and $SU(2)_L$ respectively. A \textbf {1} means that it is not charged under that group and therefore will not couple to the associated force. A \textbf {3} as the first number means that it has color charge and couples to the strong force. A \textbf {2} for the second number means that it has weak isospin and couples to the weak force. The third number gives the value of the weak isospin. Adjoint representation is specified by the presence of a bar over the number.\relax }}{10}{}%
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {4.1}{\ignorespaces Summary of signals expected for each particle type in each sub-detector.}}{24}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Summary of signals expected for each particle type in each sub-detector.\relax }}{24}{}%
+\addvspace {10pt}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Predicted radiation doses and fluences at different location of the BTL after an integrated luminosity of 3000 fb$^{-1}$. The two far right columns include a safety margin of 1.5.\relax }}{40}{}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Summary of crystal and slant thicknesses in different $\eta $ regions.\relax }}{41}{}%
+\addvspace {10pt}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Primary HLT\relax }}{56}{}%
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {6.1}{\ignorespaces Primary HLT}}{46}%
-\addvspace {10pt}
-\addvspace {10pt}
-\contentsline {table}{\numberline {8.1}{\ignorespaces Data Samples}}{53}%
-\contentsline {table}{\numberline {8.2}{\ignorespaces Summary of loose ID photons cuts}}{54}%
-\contentsline {table}{\numberline {8.3}{\ignorespaces Summary of $Z \gamma \gamma \rightarrow \nu \nu \gamma \gamma $ model validation}}{58}%
+\contentsline {table}{\numberline {8.1}{\ignorespaces Data Samples\relax }}{63}{}%
+\contentsline {table}{\numberline {8.2}{\ignorespaces Summary of loose ID photons cuts\relax }}{64}{}%
+\contentsline {table}{\numberline {8.3}{\ignorespaces Summary of $Z \gamma \gamma \rightarrow \nu \nu \gamma \gamma $ model validation\relax }}{68}{}%

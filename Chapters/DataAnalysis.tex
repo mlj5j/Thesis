@@ -111,7 +111,7 @@ All of the isolation variables listed above are corrected in order to remove pil
 
 
 \subsection{Electrons}
-As mentioned earlier, the clustering algorithm doesn't differentiate between showers from photons and those from electrons.  In this analysis an electron is defined as an object that passes all of the photon requirements except for the PSV.  Inverting the pixel seed requirement while using the same ID criteria insures that we have orthogonal selections while minimizing the bias potentially introduced by using control regions with electrons to model diphoton signal regions. 
+As mentioned earlier, the clustering algorithm doesn't differentiate between showers from photons and those from electrons.  In this analysis an electron is defined as an object that passes all of the photon requirements except for the PSV.  Inverting the pixel seed requirement while using the same ID criteria ensures that we have orthogonal selections while minimizing the bias potentially introduced by using control regions with electrons to model diphoton signal regions. 
 
 
 \subsection{Muons}
@@ -127,10 +127,12 @@ The sources of background in this analysis can be grouped into three categories.
 \end{figure}
 
 \subsection{Instrumental background}
-The instrumental background is the contribution from events with spurious $E^{miss}_T$ due to mismeasured hadronic activity.  Since most of this background is comprised of QCD events, it is commonly referred to as the "QCD background" and those terms are used interchangeably in this thesis.  Modeling of this background was done using the Rebalance and Smear technique while a multivariate discriminant was constructed to improve the efficiency of identifying events with fake $E^{miss}_T$.
+The instrumental background is the contribution from events with spurious $E^{miss}_T$ due to mismeasured hadronic activity.  The vast majority of interactions produced from proton-proton collisions at the LHC are hadronically rich QCD events.  Aside from some very rare final states with heavy-flavor jets, these events do not include neutrinos, which are the only stable particles in the SM that pass through the CMS detector unobserved, and therefore exhibit little or no $E^{miss}_T$ at the parton level.  However, the measurements of final-state particles are made using the tracker and calorimeters which have finite energy and momentum resolution.  These limitations propagate into the calculation of $E^{miss}_T$ leading to an inequality between the real, parton level $E^{miss}_T$ in an event and the measured $E^{miss}_T$.  Since most of this background is comprised of QCD events, it is commonly referred to as the "QCD background" and those terms are used interchangeably in this thesis.  Modeling of this background was done using the Rebalance and Smear technique while a multivariate discriminant was constructed to improve the efficiency of identifying events with fake $E^{miss}_T$.
 
 \subsubsection{Rebalance and smear}
-The rebalance and smear method is used to model the spurious $E^{miss}_T$ background.  Coming soon....
+The rebalance and smear method is used to model the spurious $E^{miss}_T$ background.  The general idea is to rebalance the collection of measured jets such that it reproduces what is seen at the parton level and then smear the rebalanced jets in a way consistent with the known jet energy resolutions to return the rebalanced event to a more detector-like event.
+
+Coming soon....
 \subsubsection{Multivariate discriminant}
 A boosted decision tree (BDT) was used to develop a discriminating variable for identifying events with real $E^{miss}_T$.  The variables used are listed below.  All energy and momentum variables were normalized to the scalar sum of all of the $p_T$ in the event $S_T = \sum_{\gamma,jets} |\vec{p}_{T_i}|$ in order to encourage the BDT to focus more on how the energy and momentum was distributed in an event rather than simply the scale of the energy or momentum.  
 
