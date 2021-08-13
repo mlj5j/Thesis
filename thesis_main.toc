@@ -53,9 +53,10 @@
 \contentsline {subsection}{\numberline {8.4.1}Photons}{64}{}%
 \contentsline {subsection}{\numberline {8.4.2}Electrons}{65}{}%
 \contentsline {subsection}{\numberline {8.4.3}Muons}{65}{}%
+\contentsline {subsection}{\numberline {8.4.4}Jets}{65}{}%
 \contentsline {section}{\numberline {8.5}Backgrounds}{65}{}%
-\contentsline {subsection}{\numberline {8.5.1}Instrumental background}{65}{}%
+\contentsline {subsection}{\numberline {8.5.1}Instrumental background}{66}{}%
 \contentsline {subsubsection}{Rebalance and smear}{66}{}%
-\contentsline {subsubsection}{Multivariate discriminant}{66}{}%
-\contentsline {subsection}{\numberline {8.5.2}Electroweak background}{67}{}%
-\contentsline {subsection}{\numberline {8.5.3}Irreducible background}{67}{}%
+\contentsline {subsubsection}{Multivariate discriminant}{67}{}%
+\contentsline {subsection}{\numberline {8.5.2}Electroweak background}{69}{}%
+\contentsline {subsection}{\numberline {8.5.3}Irreducible background}{69}{}%

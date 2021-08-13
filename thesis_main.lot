@@ -14,4 +14,5 @@
 \addvspace {10pt}
 \contentsline {table}{\numberline {8.1}{\ignorespaces Data Samples\relax }}{63}{}%
 \contentsline {table}{\numberline {8.2}{\ignorespaces Summary of loose ID photons cuts\relax }}{64}{}%
-\contentsline {table}{\numberline {8.3}{\ignorespaces Summary of $Z \gamma \gamma \rightarrow \nu \nu \gamma \gamma $ model validation\relax }}{68}{}%
+\contentsline {table}{\numberline {8.3}{\ignorespaces List of MC samples used for training and testing BDT\relax }}{68}{}%
+\contentsline {table}{\numberline {8.4}{\ignorespaces Summary of $Z \gamma \gamma \rightarrow \nu \nu \gamma \gamma $ model validation\relax }}{70}{}%

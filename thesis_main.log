@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.6) (format=lualatex 2021.6.23)  29 JUN 2021 09:44
+This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.6) (format=lualatex 2021.6.23)  12 AUG 2021 20:40
  restricted system commands enabled.
 **thesis_main.tex
 (./thesis_main.tex
@@ -229,28 +229,28 @@ LaTeX Warning: Unused global option(s):
 (./thesis_main.aux)
 \openout1 = thesis_main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-2.
+3.
 
 ("C:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/ts1cmr.fd"
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 ("C:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/mkii/supp-pd
 f.mkii"
@@ -731,27 +731,118 @@ Overfull \hbox (92.52742pt too wide) in paragraph at lines 93--109
 <Figures/FakeMET.png, id=558, 188.57953pt x 146.79843pt>
 File: Figures/FakeMET.png Graphic file (type png)
 <use Figures/FakeMET.png>
-Package luatex.def Info: Figures/FakeMET.png  used on input line 124.
+Package luatex.def Info: Figures/FakeMET.png  used on input line 127.
 (luatex.def)             Requested size: 180.0pt x 140.1185pt.
- [65] [66<./Figures/FakeMET.png>] [67]) (./thesis_main.bbl [68] [69
+ [65] [66<./Figures/FakeMET.png>]
+<Figures/OldLimits_gluino_withmassband.png, id=566, 1186.05609pt x 1137.8761pt>
 
-]
-[70]) [71] (./thesis_main.aux)
+File: Figures/OldLimits_gluino_withmassband.png Graphic file (type png)
+<use Figures/OldLimits_gluino_withmassband.png>
+Package luatex.def Info: Figures/OldLimits_gluino_withmassband.png  used on inp
+ut line 145.
+(luatex.def)             Requested size: 251.9989pt x 241.75641pt.
+<Figures/OldLimit_squark_withmassband.png, id=567, 1186.05609pt x 1137.8761pt>
+File: Figures/OldLimit_squark_withmassband.png Graphic file (type png)
+<use Figures/OldLimit_squark_withmassband.png>
+Package luatex.def Info: Figures/OldLimit_squark_withmassband.png  used on inpu
+t line 149.
+(luatex.def)             Requested size: 251.9989pt x 241.75641pt.
+
+
+LaTeX Warning: Float too large for page by 33.11258pt on input line 152.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (47.01039pt too wide) in paragraph at lines 165--185
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[67]
+<Figures/BDTvar1.png, id=571, 945.1561pt x 367.7489pt>
+File: Figures/BDTvar1.png Graphic file (type png)
+<use Figures/BDTvar1.png>
+Package luatex.def Info: Figures/BDTvar1.png  used on input line 204.
+(luatex.def)             Requested size: 611.9989pt x 238.12491pt.
+
+
+LaTeX Warning: Float too large for page by 92.59866pt on input line 207.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[68]
+<Figures/BDT_response.png, id=576, 425.71547pt x 335.00156pt>
+File: Figures/BDT_response.png Graphic file (type png)
+<use Figures/BDT_response.png>
+Package luatex.def Info: Figures/BDT_response.png  used on input line 214.
+(luatex.def)             Requested size: 360.0pt x 283.30605pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 219.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 219.
+
+<Figures/T5Wg_bdtcuts.png, id=577, 604.50844pt x 361.72641pt>
+File: Figures/T5Wg_bdtcuts.png Graphic file (type png)
+<use Figures/T5Wg_bdtcuts.png>
+Package luatex.def Info: Figures/T5Wg_bdtcuts.png  used on input line 223.
+(luatex.def)             Requested size: 540.0pt x 323.1277pt.
+
+LaTeX Warning: Float too large for page by 20.59976pt on input line 226.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/T6Wg_bdtcuts.png, id=578, 621.82312pt x 362.47922pt>
+File: Figures/T6Wg_bdtcuts.png Graphic file (type png)
+<use Figures/T6Wg_bdtcuts.png>
+Package luatex.def Info: Figures/T6Wg_bdtcuts.png  used on input line 229.
+(luatex.def)             Requested size: 540.0pt x 314.78467pt.
+
+LaTeX Warning: Float too large for page by 20.59976pt on input line 232.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/BDT_Gjets.png, id=579, 1098.1025pt x 877.2775pt>
+File: Figures/BDT_Gjets.png Graphic file (type png)
+<use Figures/BDT_Gjets.png>
+Package luatex.def Info: Figures/BDT_Gjets.png  used on input line 236.
+(luatex.def)             Requested size: 251.9989pt x 201.31445pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[69]) (./thesis_main.bbl [70] [71<./Figures/OldLimits_gluino_withmassband.png><.
+/Figures/OldLimit_squark_withmassband.png>] [72<./Figures/BDTvar1.png>]
+[73<./Figures/BDT_response.png>] [74<./Figures/T5Wg_bdtcuts.png>] [75<./Figures/
+T6Wg_bdtcuts.png>] [76<./Figures/BDT_Gjets.png>] [77
+
+] [78]) [79]
+(./thesis_main.aux)
 
 LaTeX Warning: There were undefined references.
 
 )
 
 Here is how much of LuaTeX's memory you used:
- 4865 strings out of 478055
+ 5012 strings out of 478055
  100000,460012 words of node,token memory allocated
  725 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 60 attribute, 57 glue_spec
 , 60 attribute_list, 1 write nodes
-   avail lists: 1:1,2:1064,3:344,4:37,5:490,6:62,7:8640,8:38,9:771,10:24,11:641
- 24745 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:1064,3:344,4:37,5:522,6:64,7:8640,8:38,9:771,10:24,11:641
+ 24829 multiletter control sequences out of 65536+600000
  61 fonts using 5977303 bytes
- 69i,17n,76p,1857b,549s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,17n,76p,1857b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
 <//?/c:/users/matt/appdata/local/programs/miktex 2.9/fonts/opentype/public/lm/lm
 mono10-regular.otf><//?/c:/users/matt/appdata/local/programs/miktex 2.9/fonts/op
 entype/public/lm/lmroman10-italic.otf><//?/c:/users/matt/appdata/local/programs/
@@ -777,9 +868,9 @@ pe1/public/amsfonts/cm/cmr8.pfb><C:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Matt/AppData/Local/Programs
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Matt/AppData/Loca
 l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on thesis_main.pdf (71 pages, 18176532 bytes).
+Output written on thesis_main.pdf (79 pages, 19194151 bytes).
 
-PDF statistics: 675 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 712 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -108,7 +108,7 @@ All of the isolation variables listed above are corrected in order to remove pil
 	\label{table:looseIDPhotonreq}
 \end{table}
 
-
+\label{section:photondefinition}
 
 \subsection{Electrons}
 As mentioned earlier, the clustering algorithm doesn't differentiate between showers from photons and those from electrons.  In this analysis an electron is defined as an object that passes all of the photon requirements except for the PSV.  Inverting the pixel seed requirement while using the same ID criteria ensures that we have orthogonal selections while minimizing the bias potentially introduced by using control regions with electrons to model diphoton signal regions. 
@@ -116,6 +116,9 @@ As mentioned earlier, the clustering algorithm doesn't differentiate between sho
 
 \subsection{Muons}
 
+\subsection{Jets}
+Jets are reconstructed using the anti-k$_T$ algorithm described in Chapter 7 within a cone having radius $R = 0.4$.  The nature of this reconstruction also labels the previously mentioned objects (photons, electrons, and muons) as jets so these need to be removed from the jet collection.  This process is called "cleaning" the jets. 
+\label{section:jetdefinition}
 \section{Backgrounds}
 The sources of background in this analysis can be grouped into three categories.  In order of decreasing contribution they are mismeasured hadronic activity, electrons misidentified as photons, and standard model processes having final states with neutrinos and two photons.  In events with multiple jets, limitations on the jet energy resolution can give rise to an apparent imbalance in $p_T$ as is shown in Figure \ref{fig:fakemet}.  Such events are usually from quantum chromodynamics (QCD) processes.  In these cases jets can be misidentified as photons or there can be real photons being produced.  In both cases the result is the appearance of two photons accompanied by $E^{miss}_T$ which mimics our signal.  Given the large cross-section for QCD, this is the most significant background in this analysis.  The next background, resulting from the misidentification of electrons as photons, comes from electroweak (EWK) processes, in particular $W\gamma$ and $W + jets$ events where $W \rightarrow e\nu$.  Here the neutrino contributes real $E^{miss}_T$ while the fake photon allows this event to fulfill the diphoton requirement.  The final background is from $Z\gamma \gamma \rightarrow \nu \nu \gamma \gamma$ events, which exactly mimic our signal, and is modeled using simulation as it is irreducible.
 
@@ -134,7 +137,54 @@ The rebalance and smear method is used to model the spurious $E^{miss}_T$ backgr
 
 Coming soon....
 \subsubsection{Multivariate discriminant}
-A boosted decision tree (BDT) was used to develop a discriminating variable for identifying events with real $E^{miss}_T$.  The variables used are listed below.  All energy and momentum variables were normalized to the scalar sum of all of the $p_T$ in the event $S_T = \sum_{\gamma,jets} |\vec{p}_{T_i}|$ in order to encourage the BDT to focus more on how the energy and momentum was distributed in an event rather than simply the scale of the energy or momentum.  
+A boosted decision tree (BDT) was used to develop a discriminating variable for identifying events with real $E^{miss}_T$.  Training and testing of the BDT was performed in ROOT using the Toolkit for MultiVariate Analysis (TMVA).  The signal samples used for both training and testing are comprised of a combination of different mass points from the T5Wg and T6Wg MC samples.  The mass points used were chosen to represent a wide range of mass differences between gluino/squark and neutralino masses.  This was done by using the bands of gluino/squark masses shown in Figure \ref{fig:massbands}.   
+\begin{figure}[h]
+	\centering
+	\subfloat[Cross-section upper limits with 95\% confidence level for gluino pair production][Cross-section upper limits for gluino pair production]{
+		\includegraphics[width=0.7\textwidth]{Figures/OldLimits_gluino_withmassband}
+		\label{fig:gluinomassband}}
+	\qquad
+	\subfloat[Cross-section upper limits with 95\% confidence level for squark pair production][Cross-section upper limits for squark pair production]{
+		\includegraphics[width=0.7\textwidth]{Figures/OldLimit_squark_withmassband}
+		\label{fig:squarkmassband}}
+	\caption{The 95\% confidence level upper limits on the pair production cross sections for gluinos (\ref{fig:gluinomassband})and squarks (\ref{fig:squarkmassband})as a function of gluino/squark and neutralino masses as reported in \cite{CMS:OldSUSYpaper}.  The shaded vertical bands show the mass bands used in the BDT training.}
+	\label{fig:massbands}
+\end{figure}
+In order to minimize any bias in the BDT response to  model-dependent parameters like the difference between gluino/squark and neutralino masses, the training events used from each mass point were weighted by a factor one over the number events generated for that particular model.  This ensures that each mass point in the mass band is equally represented in the training sample for the BDT.  The location of the mass bands were chosen to be near the edge of the exclusion region to target the phase space not yet ruled out by previous analyses.  The background samples use for training and testing of the BDT were GJets MC samples that had been Rebalanced and Smeared to increase statistics. These simulate Standard Model processes resulting in final states containing jets and at least one photon which is the source of the fake $E^{miss}_T$ background.  The full list of MC samples used in the BDT training can be seen in Table \ref{table:TrainingSamples}.  For events from these samples to be included in the training or testing of the BDT, they were required to have
+\begin{itemize}
+	\item At least two photons without associated pixel seeds as described in Section \ref{section:photondefinition}.
+	\item At least one of those photons is in the EB ($|\eta|<1.44$)
+	\item Both photons within the range of tracker acceptance ($|\eta|<2.4$)
+	\item At least two jets as described in Section \ref{section:jetdefinition}.
+	\item Hard $E^{miss}_T>130$ GeV
+\end{itemize}
+
+\begin{table}[h]
+	\centering
+	\caption{List of MC samples used for training and testing BDT}
+	\begin{tabular}{|c|}
+		\hline
+		\textbf{Signal Samples} \\  
+		\hline
+		SMS-T5Wg\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8\\
+		\hline
+		SMS-T6Wg\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8\\
+		\hline
+		\textbf{Background Sample} \\ 
+		\hline
+		GJets\_DR-0p4\_HT-100To200\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 \\
+		\hline
+		GJets\_DR-0p4\_HT-200To400\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 \\
+		\hline
+		GJets\_DR-0p4\_HT-400To600\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 \\
+		\hline
+		GJets\_DR-0p4\_HT-600ToInf\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 \\
+		\hline
+	\end{tabular}
+	\label{table:TrainingSamples}
+\end{table}
+
+ The input variables used by the BDT are listed below.  All energy and momentum variables were normalized to the scalar sum of all of the $p_T$ in the event $S_T = \sum_{\gamma,jets} |\vec{p}_{T_i}|$ in order to encourage the BDT to focus more on how the energy and momentum was distributed in an event rather than simply the scale of the energy or momentum.  
 
 \begin{itemize}
 	\item $S_{T_{jets}} = \sum_{jets}|\vec{p}_T|$
@@ -149,7 +199,57 @@ A boosted decision tree (BDT) was used to develop a discriminating variable for 
 	\item Add the delta R stuff...
 \end{itemize}
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1.7\linewidth, angle=90]{Figures/BDTvar1}
+	\caption[BDT input variables]{Input variables for the BDT}
+	\label{fig:bdtvar1}
+\end{figure}
 
+
+Events in both the signal and background samples are randomly split into either a test or training categories.  A substantial difference between the test and training distributions of the BDT response implies that the BDT is not drawing reliable conclusions as to whether an event is signal-like or background-like.  A grid search over different combinations of hyperparameters (the maximum depth of a tree and the number of trees) was performed to maximize separation between the signal and background BDT response distributions while maintaining good agreement between the training and test samples.  Using 200 trees with a maximum depth of 4 was found to be the optimal choice as increasing either or both of those parameters resulted in over-training with minimal gains in separation of signal and background. The comparison of BDT scores between signal and background events is shown in Figure \ref{fig:bdtresponse}.  The training and test samples show good agreement while there is good separation between signal and background.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1.0\linewidth]{Figures/BDT_response}
+	\caption[BDT training and testing results]{BDT score distributions for signal (blue) and background (red) events.  The shaded area shows the distribution of events in the test samples while the dots represent events in the training samples.}
+	\label{fig:bdtresponse}
+\end{figure}
+
+Using the BDT we created one control region (low BDT score) and two signal regions (medium and high BDT scores) by defining two BDT score thresholds.  The low threshold corresponds to the minimum BDT score with at least 90\% acceptance of every signal model or mass point in signal MC samples.  Figures \ref{fig:t5wgbdtcuts} and \ref{fig:t6wgbdtcuts} show the BDT cuts that resulted in 90\% acceptance at each mass point for the T5GG and T6GG models respectively.  In both models the value of this BDT cut is always greater than $-0.13$ so this was chosen as the value separating the low-BDT control region and the medium-BDT signal region.  The threshold for the high-BDT region is chosen such that 90\% of the fake $E^{miss}_T$ background from the GJets MC is excluded.  The BDT response for Rebalanced and Smeared events in this sample is shown in Figure \ref{fig:bdtgjets} where 90\% of the events have a score less than $0.03$.  This puts the threshold for the high-BDT signal region at a BDT score of $0.03$.  With these three regions we have a very background-pure control region ($BDT \leq -0.13$) and two signal regions, one very pure in signal ($BDT\textgreater 0.03$) and one intermediate ($-0.13 \textless BDT \leq 0.03$), which combined have at least 90\% acceptance for all mass points.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1.5\linewidth,angle=90]{Figures/T5Wg_bdtcuts}
+	\caption[BDT cut values on T5GG models resulting in 90\% signal acceptance.]{BDT cut values on T5GG models resulting in 90\% signal acceptance.}
+	\label{fig:t5wgbdtcuts}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1.5\linewidth, angle=90]{Figures/T6Wg_bdtcuts}
+	\caption[BDT cut values on T6GG models resulting in 90\% signal acceptance.]{BDT cut values on T6GG models resulting in 90\% signal acceptance.}
+	\label{fig:t6wgbdtcuts}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/BDT_Gjets}
+	\caption[BDT response to Rebalance and Smear events in GJets MC]{This is the BDT score distribution for Rebalance and Smear events from the GJets MC samples. Requiring a BDT score above 0.03 removes 90\% of this background.}
+	\label{fig:bdtgjets}
+\end{figure}
+
+%\begin{figure}[h]
+%	\centering
+%	\subfloat[T6GG mass grid with medium BDT cut values][T6GG mass grid with medium BDT cut values]{
+%		\includegraphics[width=1.1\textwidth]{Figures/T5Wg_bdtcuts}
+%		\label{fig:T5bdtcuts}}
+%	\qquad
+%	\subfloat[T6GG mass grid with medium BDT cut values][T6GG mass grid with medium BDT cut values]{
+%		\includegraphics[width=1.1\textwidth]{Figures/T6Wg_bdtcuts}
+%		\label{fig:T6bdtcuts}}
+%	\caption{The mass grids for showing the minimum value of the BDT cut at each mass point that would give 90\% signal acceptance.}
+%	\label{fig:bdtcuts}
+%\end{figure}
 
 \subsection{Electroweak background}
 The electroweak background is dominated by events with $W \rightarrow e \nu$ where the electron is misidentified as a photon.  Unlike the QCD background these events have  real $E^{miss}_T$ due to the presence of a neutrino.  The key to estimating this background is determining the rate at which electrons get incorrectly labeled as photons in the signal region.  This is done using a tag-and-probe method where the tag is an electron (a loose ID photon that fails the PSV) and the probe is categorized as either a photon or an electron.  The result is an electron-electron region ($ee$) and an electron-photon region ($e\gamma$) that are selected from the data.    As both of these regions contain $Z\rightarrow ee$ decays, fits are applied in each of the samples to the invariant mass spectra $m_{ee}$ and $m_{e\gamma}$.  The integrals of these fits are calculated over the range of the Z mass peak to give the number of events in each category.  
@@ -162,7 +262,6 @@ The electroweak background is dominated by events with $W \rightarrow e \nu$ whe
 \subsection{Irreducible background}
 The irreducible $Z \gamma \gamma \rightarrow \nu \nu \gamma \gamma$ background produces two photons and has inherent $E^{miss}_T$ via the neutrinos.  There is no easy way to separate these events from our signal so it is estimated using MC simulation.  The modeling of this background was tested using $Z\gamma \gamma \rightarrow \mu \mu \gamma \gamma$ and $Z\gamma \gamma \rightarrow ee \gamma \gamma$ events in data.  Di-muon events with $|m_{\mu \mu} - m_Z|<15$ GeV and di-electron events with $|m_{ee}-m_Z|<15$ GeV were selected and the contribution of the muons/electrons was removed from the $E^{miss}_T$ calculation to mimic $Z\rightarrow \nu \nu$.  The event selection criteria for this $Z \gamma \gamma \rightarrow LL \gamma \gamma$ control region was
 \begin{itemize}
-	\item HardMET > 100 GeV
 	\item 2 looseID photons with $p_T$ > 30 GeV
 	\item 2 like-flavored leptons with $p_T$ > 30 GeV
 	\subitem 2 mediumID muons or

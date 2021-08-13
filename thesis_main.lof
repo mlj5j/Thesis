@@ -52,3 +52,11 @@
 \addvspace {10pt}
 \contentsline {figure}{\numberline {8.1}{\ignorespaces Two examples of GGM supersymmetry breaking processes resulting in final states conaining two photons and missing transverse momentum. The T5gg model (left) shows gluinos produced from $p-p$ collisions which subsequently result in two neutralinos, each decaying to a photon and a gravitino. The T6gg model (right) shows squarks produced from $p-p$ collisions following a similar decay chain.\relax }}{62}{}%
 \contentsline {figure}{\numberline {8.2}{\ignorespaces Mismeasurement of Jet3 results in an inbalance in the events transverse momentum.\relax }}{66}{}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces The 95\% confidence level upper limits on the pair production cross sections for gluinos (8.3a\hbox {})and squarks (8.3b\hbox {})as a function of gluino/squark and neutralino masses as reported in \cite {CMS:OldSUSYpaper}. The shaded vertical bands show the mass bands used in the BDT training.\relax }}{71}{}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces Cross-section upper limits with 95\% confidence level for gluino pair production}}{71}{}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces Cross-section upper limits with 95\% confidence level for squark pair production}}{71}{}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces BDT input variables}}{72}{}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces BDT training and testing results}}{73}{}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces BDT cut values on T5GG models resulting in 90\% signal acceptance.}}{74}{}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces BDT cut values on T6GG models resulting in 90\% signal acceptance.}}{75}{}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces BDT response to Rebalance and Smear events in GJets MC}}{76}{}%
