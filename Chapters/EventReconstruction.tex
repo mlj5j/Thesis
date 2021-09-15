@@ -25,6 +25,8 @@ Muons are the easiest particle to identify, so they are the first objects recons
 	\item Global muons:  Stand-alone muons that coincide with a track from the inner tracker.
 \end{itemize}
 After a muon is reconstructed it is given an identification or ID based on observables such as the $\chi^2$ of the track fit, how many hits were recorded per track, or how well the tracker and stand-alone tracks matched.  These IDs represent different working points (loose, medium, and tight) which correspond to increasing purity but decreasing efficiency as you move from loose toward tight.  
+\label{section:muondefinitions}
+
 \subsection{Electrons}
 The next objects reconstructed in the CMS are electrons.  Bremsstrahlung in the tracker layers causes substantial energy loss and changes in momentum which requires the use of a dedicated tracking algorithm.  In place of the Kalman filtering technique, a Gausian-sum filter (GSF) algorithm is used.  This algorithm uses a weighted sum of Gaussian PDFs which does a better job of modeling the Bremsstrahlung effects than the Kalman filtering technique which uses a single Gaussian PDF.  
 
@@ -53,19 +55,41 @@ When quarks or gluons are produced they hadronize to make cone-shaped, collimate
 	d_{ij} &=& min(k_{T_i}^{2p},k_{T_j}^{2p})\frac{\Delta R_{ij}^2}{R^2} \\
 	d_{iB} &=& k_{T_i}^{2p}
 \end{eqnarray}
-where $d_{ij}$ is the distance between objects $i$ and $j$ and $d_{iB}$ is the distance between object $i$ and the beam $B$.  The transverse momentum of the object is $k_T$.  The parameter $p$ is set either -1, 0, or +1 to specify whether the anti-$k_T$, inclusive Cambridge/Aachen, or inclusive $k_T$ algorithm is used, respectively.  The value of $\Delta R_{ij}^2$ is defined as $(\eta_i-\eta_j)^2+(\phi_i-\phi_j)^2$ and $R$ is the distance parameter that defines the radius of the jet.
+where $d_{ij}$ is the distance between objects $i$ and $j$ and $d_{iB}$ is the distance between object $i$ and the beam $B$.  The transverse momentum of the object is $k_T$.  The parameter $p$ is set as either -1, 0, or +1 to specify whether the anti-$k_T$, Cambridge/Aachen, or $k_T$ algorithm is used, respectively.  The difference between these three algorithms is which object pairs to combine first.  The Cambridge/Aachen algorithm clusters starts by clustering particles with the smallest angles between their 4-vectors.  The $k_T$ algorithm clusters soft particles first.  And the anti-$k_T$ algorithm clusters hard particles first. A comparison of these algorithms in Figure \ref{fig:jetclusteringalgorithms} shows that both the $k_T$ and Cambridge/Aachen algorithms result in irregular clustering of partons while the anti-$k_T$ algorithm results in more regular, circular jet shapes.  The value of $\Delta R_{ij}^2$ is defined as $(\eta_i-\eta_j)^2+(\phi_i-\phi_j)^2$ and $R$ is the distance parameter that defines the radius or cone size of the jet.
 
-his analysis uses jets reconstructed from PF candidates using the anti-$k_T$ algorithm with $R= 0.4$, also known as AK4PFJets or just PFJets. The algorithm goes through the following steps:
+This analysis uses jets reconstructed from PF candidates using the anti-$k_T$ algorithm with the cone size set to $R= 0.4$, also known as AK4PFJets or just PFJets. The algorithm goes through the following steps:
 \begin{enumerate}
 	\item The smallest values of $d_{ij}$ and $d_{iB}$ are computed for all objects in the event.
 	\item Objects $i$ and $j$ are merged into a single object if $d_{ij}<d_{iB}$.  
 	\item Object $i$ is labeled as a jet and removed from the list if $d_{iB}<d_{ij}$. 
+	\item This is repeated until there are no more objects.
 \end{enumerate}
 
-Note for next time:  
-Now talk about infrared and collinear safe.  Use Allie's thesis for guide.
-Look at "recent thesis" for ECAL noise on 2017 data.
-Should also do JEC and JER in here. 
+\begin{figure}[h]
+	\centering
+	\subfloat[$k_T$ jet clustering algorithm.][$k_T$ jet clustering algorithm.]{
+		\includegraphics[width=0.6\textwidth]{Figures/kTalgorithm}
+		\label{fig:kTalgorithm}}
+	\qquad
+	\subfloat[Cambridge/Aachen jet clustering algorithm][Cambridge/Aachen jet clustering algorithm]{
+		\includegraphics[width=0.6\textwidth]{Figures/CamAachalgorithm}
+		\label{fig:camaachalgorithm}}
+	\quad
+	\subfloat[Anti-$k_T$ jet clustering algorithm][Anti-$k_T$ jet clustering algorithm]{
+		\includegraphics[width=0.6\textwidth]{Figures/antikTalgorithm}
+		\label{fig:antiktalgorithm}}
+	\caption{Comparison of the $k_T$, Cambridge/Aachen, and anti-$k_T$ jet clustering algorithms with the distance parameter set to $R$ = 1.  This is a sample parton-level event upon which each algorithm was applied.  Of the three, the anti-$k_T$ algorithm gives the most regularly shaped jets. Reprint from \cite{Cacciari:2008gp}}
+	\label{fig:jetclusteringalgorithms}
+\end{figure}
+
+After clustering, a series of jet energy corrections (JEC) are applited to the jets in order to improve calibration and energy resolution.
+
+Still working on this.
+\label{section:jetalgorithm}
+%Note for next time:  
+%Now talk about infrared and collinear safe.  Use Allie's thesis for guide.
+%Look at "recent thesis" for ECAL noise on 2017 data.
+%Should also do JEC and JER in here. 
 
 
 \section{Missing transverse momentum}

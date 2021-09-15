@@ -1,0 +1,295 @@
+\begin{thebibliography}{10}
+
+\bibitem{CERN-LHCC-97-033}
+{\em {The CMS electromagnetic calorimeter project: Technical Design Report}}.
+\newblock Technical design report. CMS. CERN, Geneva, 1997.
+\newblock URL: \url{https://cds.cern.ch/record/349375}.
+
+\bibitem{CERN-LHCC-97-031}
+{\em {The CMS hadron calorimeter project: Technical Design Report}}.
+\newblock Technical design report. CMS. CERN, Geneva, 1997.
+\newblock URL: \url{https://cds.cern.ch/record/357153}.
+
+\bibitem{L1Triggerfigure:2013yva}
+{CMS Technical Design Report for the Level-1 Trigger Upgrade}.
+\newblock 6 2013.
+
+\bibitem{Abdullin:2011zz}
+S.~Abdullin, P.~Azzi, F.~Beaudette, P.~Janot, and A.~Perrotta.
+\newblock {The fast simulation of the CMS detector at LHC}.
+\newblock {\em J. Phys. Conf. Ser.}, 331:032049, 2011.
+\newblock URL {https://doi.org/10.1088/1742-6596/331/3/032049}
+  {\path{doi:10.1088/1742-6596/331/3/032049}}.
+
+\bibitem{Abdullin:2009zz}
+S.~Abdullin et~al.
+\newblock {The CMS barrel calorimeter response to particle beams from 2-GeV/c
+  to 350-GeV/c}.
+\newblock {\em Eur. Phys. J. C}, 60:359--373, 2009.
+\newblock [Erratum: Eur.Phys.J.C 61, 353--356 (2009)].
+\newblock URL {https://doi.org/10.1140/epjc/s10052-009-0959-5}
+  {\path{doi:10.1140/epjc/s10052-009-0959-5}}.
+
+\bibitem{Ellis:2011}
+L.~Alvarez-Gaume and J.~Ellis.
+\newblock {Eyes on a prize particle}.
+\newblock {\em Nature Phys}, 7:2--3, 2011.
+\newblock URL {https://doi.org/10.1038/nphys1874}
+  {\path{doi:10.1038/nphys1874}}.
+
+\bibitem{Alwall:2014hca}
+J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
+  H.~S. Shao, T.~Stelzer, P.~Torrielli, and M.~Zaro.
+\newblock {The automated computation of tree-level and next-to-leading order
+  differential cross sections, and their matching to parton shower
+  simulations}.
+\newblock {\em JHEP}, 07:079, 2014.
+\newblock URL {http://arxiv.org/abs/1405.0301} {\path{arXiv:1405.0301}},
+  URL {https://doi.org/10.1007/JHEP07(2014)079}
+  {\path{doi:10.1007/JHEP07(2014)079}}.
+
+\bibitem{Apollinari:2017cqg}
+G.~Apollinari, O.~Brüning, T.~Nakamoto, and Lucio Rossi.
+\newblock {High Luminosity Large Hadron Collider HL-LHC}.
+\newblock {\em CERN Yellow Rep.}, (5):1--19, 2015.
+\newblock URL {http://arxiv.org/abs/1705.08830} {\path{arXiv:1705.08830}},
+  URL {https://doi.org/10.5170/CERN-2015-005.1}
+  {\path{doi:10.5170/CERN-2015-005.1}}.
+
+\bibitem{Baird:1017689}
+S~Baird.
+\newblock {Accelerators for pedestrians; rev. version}.
+\newblock Technical Report AB-Note-2007-014. CERN-AB-Note-2007-014.
+  PS-OP-Note-95-17-Rev-2. CERN-PS-OP-Note-95-17-Rev-2, CERN, Geneva, Feb 2007.
+\newblock URL: \url{https://cds.cern.ch/record/1017689}.
+
+\bibitem{Barney:2628641}
+David Barney.
+\newblock {CMS Slice}.
+\newblock Feb 2015.
+\newblock URL: \url{https://cds.cern.ch/record/2628641}.
+
+\bibitem{Borschensky:2014cia}
+Christoph Borschensky, Michael Kr\"amer, Anna Kulesza, Michelangelo Mangano,
+  Sanjay Padhi, Tilman Plehn, and Xavier Portell.
+\newblock {Squark and gluino production cross sections in pp collisions at
+  $\sqrt{s}$ = 13, 14, 33 and 100 TeV}.
+\newblock {\em Eur. Phys. J. C}, 74(12):3174, 2014.
+\newblock URL {http://arxiv.org/abs/1407.5066} {\path{arXiv:1407.5066}},
+  URL {https://doi.org/10.1140/epjc/s10052-014-3174-y}
+  {\path{doi:10.1140/epjc/s10052-014-3174-y}}.
+
+\bibitem{Cadamuro:2017slr}
+L.~Cadamuro.
+\newblock {The CMS Level-1 trigger system for LHC Run II}.
+\newblock {\em JINST}, 12(03):C03021, 2017.
+\newblock URL {https://doi.org/10.1088/1748-0221/12/03/C03021}
+  {\path{doi:10.1088/1748-0221/12/03/C03021}}.
+
+\bibitem{dipole}
+Jean-Luc Caron.
+\newblock Cross section of lhc dipole.. dipole lhc: coupe transversale.
+\newblock "AC Collection. Legacy of AC. Pictures from 1992 to 2002.", May 1998.
+\newblock URL: \url{https://cds.cern.ch/record/841539}.
+
+\bibitem{Chatrchyan:2009si}
+S~Chatrchyan et~al.
+\newblock {Precise Mapping of the Magnetic Field in the CMS Barrel Yoke using
+  Cosmic Rays}.
+\newblock {\em JINST}, 5:T03021, 2010.
+\newblock URL {http://arxiv.org/abs/0910.5530} {\path{arXiv:0910.5530}},
+  URL {https://doi.org/10.1088/1748-0221/5/03/T03021}
+  {\path{doi:10.1088/1748-0221/5/03/T03021}}.
+
+\bibitem{PhotonSF}
+CMS Collaboration.
+\newblock {EGM ID recipes Run II}, note =.
+
+\bibitem{Dominguez:1481838}
+CMS Collaboration.
+\newblock {CMS Technical Design Report for the Pixel Detector Upgrade}.
+\newblock Technical Report CERN-LHCC-2012-016. CMS-TDR-11, Sep 2012.
+\newblock Additional contacts: Jeffrey Spalding, Fermilab,
+  Jeffrey.Spalding@cern.ch Didier Contardo, Universite Claude Bernard-Lyon I,
+  didier.claude.contardo@cern.ch.
+\newblock URL: \url{https://cds.cern.ch/record/1481838}.
+
+\bibitem{Chatrchyan:1704291}
+CMS Collaboration.
+\newblock {Description and performance of track and primary-vertex
+  reconstruction with the CMS tracker}.
+\newblock {\em JINST}, 9(CMS-TRK-11-001. CERN-PH-EP-2014-070.
+  CMS-TRK-11-001):P10009. 80 p, May 2014.
+\newblock Comments: Replaced with published version. Added journal reference
+  and DOI.
+\newblock URL: \url{https://cds.cern.ch/record/1704291}, URL
+  {https://doi.org/10.1088/1748-0221/9/10/P10009}
+  {\path{doi:10.1088/1748-0221/9/10/P10009}}.
+
+\bibitem{Collaboration_2008}
+The~CMS Collaboration.
+\newblock The {CMS} experiment at the {CERN} {LHC}.
+\newblock {\em Journal of Instrumentation}, 3(08):S08004--S08004, aug 2008.
+\newblock URL: \url{https://doi.org/10.1088%2F1748-0221%2F3%2F08%2Fs08004},
+  URL {https://doi.org/10.1088/1748-0221/3/08/s08004}
+  {\path{doi:10.1088/1748-0221/3/08/s08004}}.
+
+\bibitem{muon_collaboration_2013}
+The~CMS collaboration.
+\newblock {The performance of the CMS muon detector in proton-proton collisions
+  at √s=7 TeV at the LHC}.
+\newblock {\em Journal of Instrumentation}, 8(11):P11002--P11002, nov 2013.
+\newblock URL {https://doi.org/10.1088/1748-0221/8/11/p11002}
+  {\path{doi:10.1088/1748-0221/8/11/p11002}}.
+
+\bibitem{DeMelis:2063307}
+Cinzia De~Melis.
+\newblock {Timeline for the LHC and High-Luminosity LHC. Frise chronologique du
+  LHC et du LHC haute luminosité}.
+\newblock Oct 2015.
+\newblock General Photo.
+\newblock URL: \url{https://cds.cern.ch/record/2063307}.
+
+\bibitem{Evans_2008}
+Lyndon Evans and Philip Bryant.
+\newblock {LHC} machine.
+\newblock {\em Journal of Instrumentation}, 3(08):S08001--S08001, aug 2008.
+\newblock URL: \url{https://doi.org/10.1088%2F1748-0221%2F3%2F08%2Fs08001},
+  URL {https://doi.org/10.1088/1748-0221/3/08/s08001}
+  {\path{doi:10.1088/1748-0221/3/08/s08001}}.
+
+\bibitem{Kalmantracking:1987fm}
+R.~Fruhwirth.
+\newblock {Application of Kalman filtering to track and vertex fitting}.
+\newblock {\em Nucl. Instrum. Meth. A}, 262:444--450, 1987.
+\newblock URL {https://doi.org/10.1016/0168-9002(87)90887-4}
+  {\path{doi:10.1016/0168-9002(87)90887-4}}.
+
+\bibitem{GellMann:1964nj}
+Murray Gell-Mann.
+\newblock {A Schematic Model of Baryons and Mesons}.
+\newblock {\em Phys. Lett.}, 8:214--215, 1964.
+\newblock URL {https://doi.org/10.1016/S0031-9163(64)92001-3}
+  {\path{doi:10.1016/S0031-9163(64)92001-3}}.
+
+\bibitem{Goldstone:1961eq}
+J.~Goldstone.
+\newblock {Field Theories with Superconductor Solutions}.
+\newblock {\em Nuovo Cim.}, 19:154--164, 1961.
+\newblock URL {https://doi.org/10.1007/BF02812722}
+  {\path{doi:10.1007/BF02812722}}.
+
+\bibitem{Gundacker:2018tlh}
+S.~Gundacker, R.~M. Turtos, E.~Auffray, and P.~Lecoq.
+\newblock {Precise rise and decay time measurements of inorganic scintillators
+  by means of X-ray and 511 keV excitation}.
+\newblock {\em Nucl. Instrum. Meth. A}, 891:42--52, 2018.
+\newblock URL {https://doi.org/10.1016/j.nima.2018.02.074}
+  {\path{doi:10.1016/j.nima.2018.02.074}}.
+
+\bibitem{Higgs:1964pj}
+Peter~W. Higgs.
+\newblock {Broken Symmetries and the Masses of Gauge Bosons}.
+\newblock {\em Phys. Rev. Lett.}, 13:508--509, 1964.
+\newblock URL {https://doi.org/10.1103/PhysRevLett.13.508}
+  {\path{doi:10.1103/PhysRevLett.13.508}}.
+
+\bibitem{Iiyama:2015nem}
+Yutaro Iiyama.
+\newblock {\em {Search for Supersymmetry in pp Collisions at $\sqrt{s}$ = 8 TeV
+  with a Photon, Lepton, and Missing Transverse Energy}}.
+\newblock PhD thesis, Carnegie Mellon U., 2 2015.
+\newblock URL {https://doi.org/10.1007/978-3-319-58661-8}
+  {\path{doi:10.1007/978-3-319-58661-8}}.
+
+\bibitem{Junk:1999kv}
+Thomas Junk.
+\newblock {Confidence level computation for combining searches with small
+  statistics}.
+\newblock {\em Nucl. Instrum. Meth. A}, 434:435--443, 1999.
+\newblock URL {http://arxiv.org/abs/hep-ex/9902006}
+  {\path{arXiv:hep-ex/9902006}}, URL
+  {https://doi.org/10.1016/S0168-9002(99)00498-2}
+  {\path{doi:10.1016/S0168-9002(99)00498-2}}.
+
+\bibitem{Read:2002hq}
+Alexander~L. Read.
+\newblock {Presentation of search results: The CL(s) technique}.
+\newblock {\em J. Phys. G}, 28:2693--2704, 2002.
+\newblock URL {https://doi.org/10.1088/0954-3899/28/10/313}
+  {\path{doi:10.1088/0954-3899/28/10/313}}.
+
+\bibitem{Electrontracking:2715343}
+Jonas Rembser.
+\newblock {CMS Electron and Photon Performance at 13 TeV}.
+\newblock {\em J. Phys.: Conf. Ser.}, 1162(1):012008. 8 p, 2019.
+\newblock URL: \url{https://cds.cern.ch/record/2715343}, URL
+  {https://doi.org/10.1088/1742-6596/1162/1/012008}
+  {\path{doi:10.1088/1742-6596/1162/1/012008}}.
+
+\bibitem{Sakuma_2014}
+Tai Sakuma and Thomas McCauley.
+\newblock Detector and event visualization with {SketchUp} at the {CMS}
+  experiment.
+\newblock {\em Journal of Physics: Conference Series}, 513(2):022032, jun 2014.
+\newblock URL: \url{https://doi.org/10.1088%2F1742-6596%2F513%2F2%2F022032},
+  \href {https://doi.org/10.1088/1742-6596/513/2/022032}
+  {\path{doi:10.1088/1742-6596/513/2/022032}}.
+
+\bibitem{CMS:OldSUSYpaper}
+Albert~M Sirunyan et~al.
+\newblock {Search for supersymmetry in final states with photons and missing
+  transverse momentum in proton-proton collisions at 13 TeV}.
+\newblock {\em JHEP}, 06:143, 2019.
+\newblock \href {http://arxiv.org/abs/1903.07070} {\path{arXiv:1903.07070}},
+  \href {https://doi.org/10.1007/JHEP06(2019)143}
+  {\path{doi:10.1007/JHEP06(2019)143}}.
+
+\bibitem{Sirunyan_2018}
+A.M. Sirunyan et~al.
+\newblock {Performance of the CMS muon detector and muon reconstruction with
+  proton-proton collisions at √s=13 TeV}.
+\newblock {\em Journal of Instrumentation}, 13(06):P06015–P06015, jun 2018.
+\newblock URL: \url{http://dx.doi.org/10.1088/1748-0221/13/06/P06015}, \href
+  {https://doi.org/10.1088/1748-0221/13/06/p06015}
+  {\path{doi:10.1088/1748-0221/13/06/p06015}}.
+
+\bibitem{Sjostrand:2007gs}
+Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
+\newblock {A Brief Introduction to PYTHIA 8.1}.
+\newblock {\em Comput. Phys. Commun.}, 178:852--867, 2008.
+\newblock \href {http://arxiv.org/abs/0710.3820} {\path{arXiv:0710.3820}},
+  \href {https://doi.org/10.1016/j.cpc.2008.01.036}
+  {\path{doi:10.1016/j.cpc.2008.01.036}}.
+
+\bibitem{Weinberg:2004kv}
+Steven Weinberg.
+\newblock {The Making of the standard model}.
+\newblock {\em Eur. Phys. J. C}, 34:5--13, 2004.
+\newblock \href {http://arxiv.org/abs/hep-ph/0401010}
+  {\path{arXiv:hep-ph/0401010}}, \href
+  {https://doi.org/10.1140/epjc/s2004-01761-1}
+  {\path{doi:10.1140/epjc/s2004-01761-1}}.
+
+\bibitem{Wittmann_2016}
+J.~Wittmann, B.~Arnold, H.~Bergauer, M.~Jeitler, T.~Matsushita, D.~Rabady,
+  B.~Rahbaran, and C.-E. Wulz.
+\newblock The upgrade of the {CMS} global trigger.
+\newblock {\em Journal of Instrumentation}, 11(02):C02029--C02029, feb 2016.
+\newblock \href {https://doi.org/10.1088/1748-0221/11/02/c02029}
+  {\path{doi:10.1088/1748-0221/11/02/c02029}}.
+
+\bibitem{Yang:1954ek}
+Chen-Ning Yang and Robert~L. Mills.
+\newblock {Conservation of Isotopic Spin and Isotopic Gauge Invariance}.
+\newblock {\em Phys. Rev.}, 96:191--195, 1954.
+\newblock \href {https://doi.org/10.1103/PhysRev.96.191}
+  {\path{doi:10.1103/PhysRev.96.191}}.
+
+\bibitem{Zweig:1964jf}
+G.~Zweig.
+\newblock {\em {An SU(3) model for strong interaction symmetry and its
+  breaking. Version 2}}.
+\newblock 2 1964.
+
+\end{thebibliography}

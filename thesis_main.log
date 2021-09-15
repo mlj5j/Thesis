@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.6) (format=lualatex 2021.6.23)  12 AUG 2021 20:40
+This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.6) (format=lualatex 2021.6.23)  13 SEP 2021 22:11
  restricted system commands enabled.
 **thesis_main.tex
 (./thesis_main.tex
@@ -216,6 +216,10 @@ File: caption-thesis.sto 2020/08/22 v2.0 Adaption of the caption package to the
 \sf@top=\skip58
 \sf@bottom=\skip59
 )
+("C:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9/tex/latex/setspace/setspace.s
+ty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
 ("C:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9/tex/latex/l3backend/l3backend
 -luatex.def"
 File: l3backend-luatex.def 2021-05-07 L3 backend support: PDF output (LuaTeX)
@@ -229,28 +233,28 @@ LaTeX Warning: Unused global option(s):
 (./thesis_main.aux)
 \openout1 = thesis_main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-3.
+4.
 
 ("C:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/ts1cmr.fd"
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 ("C:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/mkii/supp-pd
 f.mkii"
@@ -286,66 +290,71 @@ Package caption Info: End \AtBeginDocument code.
 {C:/Users/Matt/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (./thesis_main.toc [2
 
-])
+] [3] [4])
 \tf@toc=\write3
 
 \openout3 = thesis_main.toc
- [3] (./thesis_main.lof
+ [5] (./thesis_main.lof
 Overfull \hbox (23.96176pt too wide) in paragraph at lines 14--14
  \TU/lmr/m/n/10.95 Tracker In-ner Disks (TID), and Tracker End-caps (TEC). Repri
 nted 
  []
 
-[4
+[6
 
-]
-Overfull \hbox (0.69301pt too wide) in paragraph at lines 44--44
- [][] []\TU/lmr/m/n/10.95 Trans-mis-sion curves for both NOA-61 (Fig-ure 5.14a[
+] [7] [8] [9]
+Overfull \hbox (0.69301pt too wide) in paragraph at lines 75--75
+ [][] []\TU/lmr/m/n/10.95 Trans-mis-sion curves for both NOA-61 (Fig-ure 9.14a[
 ] and RTV- 
  []
 
-[5])
+)
 \tf@lof=\write4
 
 \openout4 = thesis_main.lof
- [6] (./thesis_main.lot)
+ [10] [11] (./thesis_main.lot [12
+
+])
 \tf@lot=\write5
 
 \openout5 = thesis_main.lot
- (./Chapters/StandardModel.tex [7
-
-]
+ (./Chapters/StandardModel.tex [13]
 Chapter 1.
-[8
+[14
 
 ]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 Overfull \hbox (62.41507pt too wide) in paragraph at lines 62--129
  [][] 
  []
 
-[9] [10] [11] [12]
-<Figures/higgspotential.png, id=54, 563.10374pt x 355.3275pt>
+[15] [16] [17] [18] [19] [20]
+<Figures/higgspotential.png, id=78, 563.10374pt x 355.3275pt>
 File: Figures/higgspotential.png Graphic file (type png)
 <use Figures/higgspotential.png>
 Package luatex.def Info: Figures/higgspotential.png  used on input line 268.
 (luatex.def)             Requested size: 251.9989pt x 159.01755pt.
- [13<./Figures/higgspotential.png>]
-<Figures/SMcontent.png, id=60, 426.84468pt x 287.95078pt>
-File: Figures/SMcontent.png Graphic file (type png)
-<use Figures/SMcontent.png>
-Package luatex.def Info: Figures/SMcontent.png  used on input line 302.
-(luatex.def)             Requested size: 360.0pt x 242.87439pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./Chapters/SUSY.tex [14] [15<./Figures/SMcontent.png>]
+[21] [22<./Figures/higgspotential.png>] [23] [24]
+<Figures/SMcontent.png, id=95, 426.84468pt x 287.95078pt>
+File: Figures/SMcontent.png Graphic file (type png)
+<use Figures/SMcontent.png>
+Package luatex.def Info: Figures/SMcontent.png  used on input line 372.
+(luatex.def)             Requested size: 360.0pt x 242.87439pt.
+) (./Chapters/SUSY.tex
+[25<./Figures/SMcontent.png>] [26]
 Chapter 2.
-) (./Chapters/LHC.tex [16
+) (./Chapters/LHC.tex [27
 
 ]
 Chapter 3.
-<Figures/LHC_IPs.png, id=71, 681.54625pt x 685.56125pt>
+<Figures/LHC_IPs.png, id=106, 681.54625pt x 685.56125pt>
 File: Figures/LHC_IPs.png Graphic file (type png)
 <use Figures/LHC_IPs.png>
 Package luatex.def Info: Figures/LHC_IPs.png  used on input line 8.
@@ -353,10 +362,10 @@ Package luatex.def Info: Figures/LHC_IPs.png  used on input line 8.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17
+[28
 
 ]
-<Figures/LHC_sketch1.png, id=75, 3362.4822pt x 2625.3282pt>
+<Figures/LHC_sketch1.png, id=110, 3362.4822pt x 2625.3282pt>
 File: Figures/LHC_sketch1.png Graphic file (type png)
 <use Figures/LHC_sketch1.png>
 Package luatex.def Info: Figures/LHC_sketch1.png  used on input line 19.
@@ -365,7 +374,7 @@ Package luatex.def Info: Figures/LHC_sketch1.png  used on input line 19.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/RFbucket.jpg, id=76, 280.04625pt x 174.6525pt>
+<Figures/RFbucket.jpg, id=111, 280.04625pt x 174.6525pt>
 File: Figures/RFbucket.jpg Graphic file (type jpg)
 <use Figures/RFbucket.jpg>
 Package luatex.def Info: Figures/RFbucket.jpg  used on input line 26.
@@ -373,16 +382,18 @@ Package luatex.def Info: Figures/RFbucket.jpg  used on input line 26.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/LHCdipole.jpg, id=77, 782.17218pt x 572.89032pt>
+[29]
+<Figures/LHCdipole.jpg, id=115, 782.17218pt x 572.89032pt>
 File: Figures/LHCdipole.jpg Graphic file (type jpg)
 <use Figures/LHCdipole.jpg>
 Package luatex.def Info: Figures/LHCdipole.jpg  used on input line 39.
 (luatex.def)             Requested size: 360.0pt x 263.6726pt.
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[18]
-<Figures/Int_lumi_run2.pdf, id=81, 578.16pt x 433.62pt>
+[30]
+<Figures/Int_lumi_run2.pdf, id=119, 578.16pt x 433.62pt>
 File: Figures/Int_lumi_run2.pdf Graphic file (type pdf)
 <use Figures/Int_lumi_run2.pdf>
 Package luatex.def Info: Figures/Int_lumi_run2.pdf  used on input line 63.
@@ -391,11 +402,11 @@ Package luatex.def Info: Figures/Int_lumi_run2.pdf  used on input line 63.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./Chapters/CMS.tex [19] [20<./Figures/LHC_IPs.png>] [21<./Figures/LHC_sketch1
-.png>] [22<./Figures/RFbucket.jpg><./Figures/LHCdipole.jpg>] [23<./Figures/Int_l
+) (./Chapters/CMS.tex [31] [32<./Figures/LHC_IPs.png>] [33<./Figures/LHC_sketch1
+.png>] [34<./Figures/RFbucket.jpg><./Figures/LHCdipole.jpg>] [35<./Figures/Int_l
 umi_run2.pdf>]
 Chapter 4.
-<Figures/cms_schematic.pdf, id=163, 2392.81453pt x 1690.44048pt>
+<Figures/cms_schematic.pdf, id=201, 2392.81453pt x 1690.44048pt>
 File: Figures/cms_schematic.pdf Graphic file (type pdf)
 <use Figures/cms_schematic.pdf>
 Package luatex.def Info: Figures/cms_schematic.pdf  used on input line 7.
@@ -403,10 +414,12 @@ Package luatex.def Info: Figures/cms_schematic.pdf  used on input line 7.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[36
 
+]
 warning  (file Figures/CMS_slice_white_colour_french_291016.pdf) (pdf inclusion)
 : PDF inclusion: found PDF version '1.6', but at most version '1.5' allowed
-<Figures/CMS_slice_white_colour_french_291016.pdf, id=164, 1024.82875pt x 627.6
+<Figures/CMS_slice_white_colour_french_291016.pdf, id=205, 1024.82875pt x 627.6
 1877pt>
 File: Figures/CMS_slice_white_colour_french_291016.pdf Graphic file (type pdf)
 <use Figures/CMS_slice_white_colour_french_291016.pdf>
@@ -416,10 +429,9 @@ Package luatex.def Info: Figures/CMS_slice_white_colour_french_291016.pdf  used
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24
-
-] [25<./Figures/cms_schematic.pdf>]
-<Figures/TrackerLayout_v2.png, id=197, 1366.50525pt x 642.60075pt>
+[37<./Figures/cms_schematic.pdf>] [38<./Figures/CMS_slice_white_colour_french_29
+1016.pdf>]
+<Figures/TrackerLayout_v2.png, id=412, 1366.50525pt x 642.60075pt>
 File: Figures/TrackerLayout_v2.png Graphic file (type png)
 <use Figures/TrackerLayout_v2.png>
 Package luatex.def Info: Figures/TrackerLayout_v2.png  used on input line 68.
@@ -428,21 +440,21 @@ Package luatex.def Info: Figures/TrackerLayout_v2.png  used on input line 68.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[26<./Figures/CMS_slice_white_colour_french_291016.pdf>] [27<./Figures/TrackerLa
-yout_v2.png>]
-<Figures/Tracker_sideview.png, id=380, 1112.35574pt x 563.706pt>
+[39] [40<./Figures/TrackerLayout_v2.png>]
+<Figures/Tracker_sideview.png, id=420, 1112.35574pt x 563.706pt>
 File: Figures/Tracker_sideview.png Graphic file (type png)
 <use Figures/Tracker_sideview.png>
 Package luatex.def Info: Figures/Tracker_sideview.png  used on input line 80.
 (luatex.def)             Requested size: 360.0pt x 182.43674pt.
- [28<./Figures/Tracker_sideview.png>] [29]
-<Figures/ECAL_crystals.png, id=388, 986.18437pt x 325.5914pt>
+ [41<./Figures/Tracker_sideview.png>]
+[42] [43]
+<Figures/ECAL_crystals.png, id=433, 986.18437pt x 325.5914pt>
 File: Figures/ECAL_crystals.png Graphic file (type png)
 <use Figures/ECAL_crystals.png>
 Package luatex.def Info: Figures/ECAL_crystals.png  used on input line 109.
 (luatex.def)             Requested size: 360.0pt x 118.85725pt.
- [30<./Figures/ECAL_crystals.png>]
-<Figures/ECAL_layout.png, id=394, 590.80725pt x 390.86024pt>
+ [44<./Figures/ECAL_crystals.png>] [45]
+<Figures/ECAL_layout.png, id=442, 590.80725pt x 390.86024pt>
 File: Figures/ECAL_layout.png Graphic file (type png)
 <use Figures/ECAL_layout.png>
 Package luatex.def Info: Figures/ECAL_layout.png  used on input line 126.
@@ -451,53 +463,336 @@ Package luatex.def Info: Figures/ECAL_layout.png  used on input line 126.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[31] [32<./Figures/ECAL_layout.png>]
-<Figures/hcal_longitudinal.png, id=403, 853.1875pt x 471.7625pt>
+[46] [47<./Figures/ECAL_layout.png>] [48]
+<Figures/hcal_longitudinal.png, id=453, 853.1875pt x 471.7625pt>
 File: Figures/hcal_longitudinal.png Graphic file (type png)
 <use Figures/hcal_longitudinal.png>
 Package luatex.def Info: Figures/hcal_longitudinal.png  used on input line 151.
 
 (luatex.def)             Requested size: 360.0pt x 199.0603pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/Solenoidmagnet.png, id=404, 458.83922pt x 245.41687pt>
+ [49<./Figures/hcal_longitudinal.png>]
+<Figures/Solenoidmagnet.png, id=458, 458.83922pt x 245.41687pt>
 File: Figures/Solenoidmagnet.png Graphic file (type png)
 <use Figures/Solenoidmagnet.png>
 Package luatex.def Info: Figures/Solenoidmagnet.png  used on input line 161.
 (luatex.def)             Requested size: 323.9978pt x 173.30351pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[33]
-<Figures/CMS-MUO-16-001_Figure_001.png, id=408, 2013.5225pt x 1319.93124pt>
+[50<./Figures/Solenoidmagnet.png>]
+<Figures/CMS-MUO-16-001_Figure_001.png, id=463, 2013.5225pt x 1319.93124pt>
 File: Figures/CMS-MUO-16-001_Figure_001.png Graphic file (type png)
 <use Figures/CMS-MUO-16-001_Figure_001.png>
 Package luatex.def Info: Figures/CMS-MUO-16-001_Figure_001.png  used on input l
 ine 174.
 (luatex.def)             Requested size: 360.0pt x 235.98627pt.
- [34<./Figures/hcal_longitudinal.png>]) (./Chapters/MTD.tex [35<./Figures/Soleno
-idmagnet.png>] [36<./Figures/CMS-MUO-16-001_Figure_001.png>]
+ [51] [52<./Figures/CMS-MUO-16-001_Figure_001.png>]) (./Chapters/TriggerSystem.
+tex [53]
 Chapter 5.
-<Figures/LHCTimeline.jpg, id=421, 1486.55376pt x 619.31375pt>
+[54
+
+]
+<Figures/L1Trigger.png, id=478, 384.31078pt x 279.29344pt>
+File: Figures/L1Trigger.png Graphic file (type png)
+<use Figures/L1Trigger.png>
+Package luatex.def Info: Figures/L1Trigger.png  used on input line 10.
+(luatex.def)             Requested size: 360.0pt x 261.64517pt.
+ [55<./Figures/L1Trigger.png>] [56] [57])
+(./Chapters/EventReconstruction.tex [58]
+Chapter 6.
+[59
+
+] [60] [61] [62]
+<Figures/electrontracking.png, id=505, 124.21407pt x 101.25328pt>
+File: Figures/electrontracking.png Graphic file (type png)
+<use Figures/electrontracking.png>
+Package luatex.def Info: Figures/electrontracking.png  used on input line 37.
+(luatex.def)             Requested size: 180.0pt x 146.73929pt.
+ [63<./Figures/electrontracking.png>] [64]
+Overfull \hbox (3.3255pt too wide) in paragraph at lines 60--61
+[]\TU/lmr/m/n/10.95 This anal-y-sis uses jets re-con-structed from PF can-di-dat
+es us-ing the anti-$\OML/cmm/m/it/10.95 k[]$
+ []
+
+[65]
+<Figures/kTalgorithm.png, id=516, 292.09125pt x 220.57407pt>
+File: Figures/kTalgorithm.png Graphic file (type png)
+<use Figures/kTalgorithm.png>
+Package luatex.def Info: Figures/kTalgorithm.png  used on input line 72.
+(luatex.def)             Requested size: 216.0022pt x 163.12128pt.
+<Figures/CamAachalgorithm.png, id=517, 293.22047pt x 215.30438pt>
+File: Figures/CamAachalgorithm.png Graphic file (type png)
+<use Figures/CamAachalgorithm.png>
+Package luatex.def Info: Figures/CamAachalgorithm.png  used on input line 76.
+(luatex.def)             Requested size: 216.0022pt x 158.60326pt.
+<Figures/antikTalgorithm.png, id=518, 294.72609pt x 212.66953pt>
+File: Figures/antikTalgorithm.png Graphic file (type png)
+<use Figures/antikTalgorithm.png>
+Package luatex.def Info: Figures/antikTalgorithm.png  used on input line 80.
+(luatex.def)             Requested size: 216.0022pt x 155.86401pt.
+
+
+LaTeX Warning: Float too large for page by 56.18831pt on input line 83.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./Chapters/DataAnalysis.tex [66] [67<./Figures/kTalgorithm.png><./Figures/Cam
+Aachalgorithm.png><./Figures/antikTalgorithm.png>]
+Chapter 7.
+<Figures/SUSYsignals.png, id=528, 427.9739pt x 129.48375pt>
+File: Figures/SUSYsignals.png Graphic file (type png)
+<use Figures/SUSYsignals.png>
+Package luatex.def Info: Figures/SUSYsignals.png  used on input line 11.
+(luatex.def)             Requested size: 323.9978pt x 98.02536pt.
+[68
+
+<./Figures/SUSYsignals.png>]
+Overfull \hbox (2.17117pt too wide) in paragraph at lines 24--24
+[]\TU/lmtt/m/n/10.95 Cert_294927 306462_13TeV_EOY2017ReReco_Collisions17_JSON_v1
+.txt[] 
+ []
+
+[69]
+Overfull \hbox (0.63162pt too wide) in paragraph at lines 92--93
+[]\TU/lmr/m/n/10.95 The dis-tri-bu-tion of pileup (PU) in-ter-ac-tions pro-duced
+ in sim-u-lated events
+ []
+
+[70]
+Overfull \hbox (92.52742pt too wide) in paragraph at lines 115--131
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[71]
+<Figures/LoosePhotonSF_2016.png, id=544, 516.80579pt x 327.09703pt>
+File: Figures/LoosePhotonSF_2016.png Graphic file (type png)
+<use Figures/LoosePhotonSF_2016.png>
+Package luatex.def Info: Figures/LoosePhotonSF_2016.png  used on input line 141
+.
+(luatex.def)             Requested size: 323.9978pt x 205.07399pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/LoosePhotonSF_2017.png, id=545, 566.115pt x 352.31625pt>
+File: Figures/LoosePhotonSF_2017.png Graphic file (type png)
+<use Figures/LoosePhotonSF_2017.png>
+Package luatex.def Info: Figures/LoosePhotonSF_2017.png  used on input line 148
+.
+(luatex.def)             Requested size: 323.9978pt x 201.63948pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/LoosePhotonSF_2018.png, id=546, 559.7161pt x 354.9511pt>
+File: Figures/LoosePhotonSF_2018.png Graphic file (type png)
+<use Figures/LoosePhotonSF_2018.png>
+Package luatex.def Info: Figures/LoosePhotonSF_2018.png  used on input line 155
+.
+(luatex.def)             Requested size: 323.9978pt x 205.4764pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[72] [73<./Figures/LoosePhotonSF_2016.png>] [74<./Figures/LoosePhotonSF_2017.png
+>] [75<./Figures/LoosePhotonSF_2018.png>] [76]
+<Figures/FakeMET.png, id=565, 188.57953pt x 146.79843pt>
+File: Figures/FakeMET.png Graphic file (type png)
+<use Figures/FakeMET.png>
+Package luatex.def Info: Figures/FakeMET.png  used on input line 221.
+(luatex.def)             Requested size: 180.0pt x 140.1185pt.
+ [77] [78<./Figures/FakeMET.png>]
+<Figures/decisiontree.png, id=573, 366.9961pt x 306.77109pt>
+File: Figures/decisiontree.png Graphic file (type png)
+<use Figures/decisiontree.png>
+Package luatex.def Info: Figures/decisiontree.png  used on input line 241.
+(luatex.def)             Requested size: 360.0pt x 300.94255pt.
+ [79]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[80] [81<./Figures/decisiontree.png>]
+<Figures/OldLimits_gluino_withmassband.png, id=585, 1186.05609pt x 1137.8761pt>
+
+File: Figures/OldLimits_gluino_withmassband.png Graphic file (type png)
+<use Figures/OldLimits_gluino_withmassband.png>
+Package luatex.def Info: Figures/OldLimits_gluino_withmassband.png  used on inp
+ut line 261.
+(luatex.def)             Requested size: 251.9989pt x 241.75641pt.
+<Figures/OldLimit_squark_withmassband.png, id=586, 1186.05609pt x 1137.8761pt>
+File: Figures/OldLimit_squark_withmassband.png Graphic file (type png)
+<use Figures/OldLimit_squark_withmassband.png>
+Package luatex.def Info: Figures/OldLimit_squark_withmassband.png  used on inpu
+t line 265.
+(luatex.def)             Requested size: 251.9989pt x 241.75641pt.
+
+
+LaTeX Warning: Float too large for page by 33.11258pt on input line 268.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[82]
+Overfull \hbox (47.01039pt too wide) in paragraph at lines 281--301
+ [][] 
+ []
+
+[83]
+<Figures/BDTvar1.png, id=593, 945.1561pt x 367.7489pt>
+File: Figures/BDTvar1.png Graphic file (type png)
+<use Figures/BDTvar1.png>
+Package luatex.def Info: Figures/BDTvar1.png  used on input line 320.
+(luatex.def)             Requested size: 612.00784pt x 270.72147pt.
+
+
+LaTeX Warning: Float too large for page by 104.6076pt on input line 323.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/BDTvar2.png, id=594, 940.63922pt x 368.1253pt>
+File: Figures/BDTvar2.png Graphic file (type png)
+<use Figures/BDTvar2.png>
+Package luatex.def Info: Figures/BDTvar2.png  used on input line 327.
+(luatex.def)             Requested size: 611.99673pt x 270.7177pt.
+
+LaTeX Warning: Float too large for page by 104.5965pt on input line 330.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/BDTvar3.png, id=595, 946.28531pt x 181.80421pt>
+File: Figures/BDTvar3.png Graphic file (type png)
+<use Figures/BDTvar3.png>
+Package luatex.def Info: Figures/BDTvar3.png  used on input line 334.
+(luatex.def)             Requested size: 612.01707pt x 162.42662pt.
+
+LaTeX Warning: Float too large for page by 104.61684pt on input line 337.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[84]
+<Figures/BDT_response.png, id=600, 425.71547pt x 335.00156pt>
+File: Figures/BDT_response.png Graphic file (type png)
+<use Figures/BDT_response.png>
+Package luatex.def Info: Figures/BDT_response.png  used on input line 343.
+(luatex.def)             Requested size: 360.0pt x 283.30605pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 348.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 348.
+
+<Figures/T5Wg_bdtcuts.png, id=601, 604.50844pt x 361.72641pt>
+File: Figures/T5Wg_bdtcuts.png Graphic file (type png)
+<use Figures/T5Wg_bdtcuts.png>
+Package luatex.def Info: Figures/T5Wg_bdtcuts.png  used on input line 352.
+(luatex.def)             Requested size: 540.0pt x 323.1277pt.
+
+LaTeX Warning: Float too large for page by 20.59976pt on input line 355.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/T6Wg_bdtcuts.png, id=602, 621.82312pt x 362.47922pt>
+File: Figures/T6Wg_bdtcuts.png Graphic file (type png)
+<use Figures/T6Wg_bdtcuts.png>
+Package luatex.def Info: Figures/T6Wg_bdtcuts.png  used on input line 358.
+(luatex.def)             Requested size: 540.0pt x 314.78467pt.
+
+LaTeX Warning: Float too large for page by 20.59976pt on input line 361.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/BDT_Gjets.png, id=603, 1098.1025pt x 877.2775pt>
+File: Figures/BDT_Gjets.png Graphic file (type png)
+<use Figures/BDT_Gjets.png>
+Package luatex.def Info: Figures/BDT_Gjets.png  used on input line 365.
+(luatex.def)             Requested size: 251.9989pt x 201.31445pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[85] [86]
+<Figures/ZGGtonunuGG_2016_fullmass.png, id=610, 312.04079pt x 288.3272pt>
+File: Figures/ZGGtonunuGG_2016_fullmass.png Graphic file (type png)
+<use Figures/ZGGtonunuGG_2016_fullmass.png>
+Package luatex.def Info: Figures/ZGGtonunuGG_2016_fullmass.png  used on input l
+ine 405.
+(luatex.def)             Requested size: 251.9989pt x 232.85301pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./Chapters/ResultsAndInterpretations.tex [87] [88<./Figures/OldLimits_gluino_
+withmassband.png><./Figures/OldLimit_squark_withmassband.png>] [89<./Figures/BDT
+var1.png>] [90<./Figures/BDTvar2.png>] [91<./Figures/BDTvar3.png>] [92<./Figures
+/BDT_response.png>] [93<./Figures/T5Wg_bdtcuts.png>] [94<./Figures/T6Wg_bdtcuts.
+png>] [95<./Figures/BDT_Gjets.png><./Figures/ZGGtonunuGG_2016_fullmass.png>]
+Chapter 8.
+[96
+
+]
+<Figures/gluinoxsec.png, id=651, 379.04109pt x 259.3439pt>
+File: Figures/gluinoxsec.png Graphic file (type png)
+<use Figures/gluinoxsec.png>
+Package luatex.def Info: Figures/gluinoxsec.png  used on input line 13.
+(luatex.def)             Requested size: 323.9978pt x 221.68593pt.
+<Figures/squarkxsec.png, id=652, 374.52422pt x 258.9675pt>
+File: Figures/squarkxsec.png Graphic file (type png)
+<use Figures/squarkxsec.png>
+Package luatex.def Info: Figures/squarkxsec.png  used on input line 20.
+(luatex.def)             Requested size: 323.9978pt x 224.0433pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[97<./Figures/gluinoxsec.png>] [98<./Figures/squarkxsec.png>] [99]
+<Figures/T5WgJul20XSEC.png, id=664, 598.235pt x 574.145pt>
+File: Figures/T5WgJul20XSEC.png Graphic file (type png)
+<use Figures/T5WgJul20XSEC.png>
+Package luatex.def Info: Figures/T5WgJul20XSEC.png  used on input line 60.
+(luatex.def)             Requested size: 323.9978pt x 310.95355pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/T6WgJul20XSEC.png, id=665, 598.235pt x 574.145pt>
+File: Figures/T6WgJul20XSEC.png Graphic file (type png)
+<use Figures/T6WgJul20XSEC.png>
+Package luatex.def Info: Figures/T6WgJul20XSEC.png  used on input line 67.
+(luatex.def)             Requested size: 323.9978pt x 310.95355pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./Chapters/MTD.tex [100] [101<./Figures/T5WgJul20XSEC.png>] [102<./Figures/T6
+WgJul20XSEC.png>]
+Chapter 9.
+<Figures/LHCTimeline.jpg, id=676, 1486.55376pt x 619.31375pt>
 File: Figures/LHCTimeline.jpg Graphic file (type jpg)
 <use Figures/LHCTimeline.jpg>
 Package luatex.def Info: Figures/LHCTimeline.jpg  used on input line 8.
 (luatex.def)             Requested size: 360.0pt x 149.98022pt.
 
-LaTeX Warning: Reference `fig:mtdpileup' on page 37 undefined on input line 13.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-[37
+LaTeX Warning: Reference `fig:mtdpileup' on page 103 undefined on input line 13
+.
 
-<./Figures/LHCTimeline.jpg>]
-<Figures/MDT_pileup.png, id=425, 348.92859pt x 193.0964pt>
+[103
+
+] [104<./Figures/LHCTimeline.jpg>]
+<Figures/MDT_pileup.png, id=683, 348.92859pt x 193.0964pt>
 File: Figures/MDT_pileup.png Graphic file (type png)
 <use Figures/MDT_pileup.png>
 Package luatex.def Info: Figures/MDT_pileup.png  used on input line 19.
 (luatex.def)             Requested size: 360.0pt x 199.23328pt.
-<Figures/MTD_overview.png, id=426, 563.10374pt x 396.35577pt>
+<Figures/MTD_overview.png, id=684, 563.10374pt x 396.35577pt>
 File: Figures/MTD_overview.png Graphic file (type png)
 <use Figures/MTD_overview.png>
 Package luatex.def Info: Figures/MTD_overview.png  used on input line 26.
@@ -506,7 +801,7 @@ Package luatex.def Info: Figures/MTD_overview.png  used on input line 26.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[38<./Figures/MDT_pileup.png>]
+[105<./Figures/MDT_pileup.png>]
 Overfull \hbox (22.86746pt too wide) in paragraph at lines 41--55
  [][] 
  []
@@ -514,23 +809,26 @@ Overfull \hbox (22.86746pt too wide) in paragraph at lines 41--55
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[39<./Figures/MTD_overview.png>] [40]
-<Figures/crystalslantthickness.png, id=439, 379.04109pt x 229.98422pt>
+[106<./Figures/MTD_overview.png>] [107]
+<Figures/crystalslantthickness.png, id=697, 379.04109pt x 229.98422pt>
 File: Figures/crystalslantthickness.png Graphic file (type png)
 <use Figures/crystalslantthickness.png>
 Package luatex.def Info: Figures/crystalslantthickness.png  used on input line 
 79.
 (luatex.def)             Requested size: 360.0pt x 218.43462pt.
-<Figures/BTL_overview.png, id=440, 561.22173pt x 242.02922pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/BTL_overview.png, id=698, 561.22173pt x 242.02922pt>
 File: Figures/BTL_overview.png Graphic file (type png)
 <use Figures/BTL_overview.png>
 Package luatex.def Info: Figures/BTL_overview.png  used on input line 88.
 (luatex.def)             Requested size: 360.0pt x 155.249pt.
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/BTL_readoutunit.png, id=441, 490.83376pt x 304.13625pt>
+<Figures/BTL_readoutunit.png, id=699, 490.83376pt x 304.13625pt>
 File: Figures/BTL_readoutunit.png Graphic file (type png)
 <use Figures/BTL_readoutunit.png>
 Package luatex.def Info: Figures/BTL_readoutunit.png  used on input line 96.
@@ -538,71 +836,73 @@ Package luatex.def Info: Figures/BTL_readoutunit.png  used on input line 96.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[41<./Figures/crystalslantthickness.png>]
+[108]
 
 Package caption Warning: \label without proper reference on input line 124.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `table:timeres' on page 42 undefined on input line 106
-.
+LaTeX Warning: Reference `table:timeres' on page 109 undefined on input line 10
+6.
 
-<Figures/btltimeres_evolution.png, id=447, 360.59718pt x 285.31593pt>
+<Figures/btltimeres_evolution.png, id=703, 360.59718pt x 285.31593pt>
 File: Figures/btltimeres_evolution.png Graphic file (type png)
 <use Figures/btltimeres_evolution.png>
 Package luatex.def Info: Figures/btltimeres_evolution.png  used on input line 1
 29.
 (luatex.def)             Requested size: 360.0pt x 284.84503pt.
-[42<./Figures/BTL_overview.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[43<./Figures/BTL_readoutunit.png>] [44<./Figures/btltimeres_evolution.png>]
-<Figures/LYSO_radiationhard.png, id=460, 361.35pt x 297.36093pt>
+[109<./Figures/crystalslantthickness.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[110<./Figures/BTL_overview.png>] [111<./Figures/BTL_readoutunit.png>] [112<./Fi
+gures/btltimeres_evolution.png>]
+<Figures/LYSO_radiationhard.png, id=721, 361.35pt x 297.36093pt>
 File: Figures/LYSO_radiationhard.png Graphic file (type png)
 <use Figures/LYSO_radiationhard.png>
 Package luatex.def Info: Figures/LYSO_radiationhard.png  used on input line 150
 .
 (luatex.def)             Requested size: 360.0pt x 296.25308pt.
-
-[45<./Figures/LYSO_radiationhard.png>]
-<Figures/lysoradhardtimeres.png, id=465, 352.31625pt x 303.00703pt>
+ [113<./Figures/LYSO_radiationhard.png>]
+<Figures/lysoradhardtimeres.png, id=726, 352.31625pt x 303.00703pt>
 File: Figures/lysoradhardtimeres.png Graphic file (type png)
 <use Figures/lysoradhardtimeres.png>
 Package luatex.def Info: Figures/lysoradhardtimeres.png  used on input line 159
 .
 (luatex.def)             Requested size: 360.0pt x 309.61789pt.
- [46<./Figures/lysoradhardtimeres.png>]
-<Figures/Caesium-137_Gamma_Ray_Spectrum-en.png, id=470, 376.78265pt x 309.78235
+
+[114<./Figures/lysoradhardtimeres.png>]
+<Figures/Caesium-137_Gamma_Ray_Spectrum-en.png, id=731, 376.78265pt x 309.78235
 pt>
 File: Figures/Caesium-137_Gamma_Ray_Spectrum-en.png Graphic file (type png)
 <use Figures/Caesium-137_Gamma_Ray_Spectrum-en.png>
 Package luatex.def Info: Figures/Caesium-137_Gamma_Ray_Spectrum-en.png  used on
  input line 171.
 (luatex.def)             Requested size: 251.9989pt x 207.18439pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/teflonmold.png, id=471, 261.97874pt x 195.73125pt>
+ [115]
+<Figures/teflonmold.png, id=735, 261.97874pt x 195.73125pt>
 File: Figures/teflonmold.png Graphic file (type png)
 <use Figures/teflonmold.png>
 Package luatex.def Info: Figures/teflonmold.png  used on input line 181.
 (luatex.def)             Requested size: 143.9978pt x 107.5868pt.
-<Figures/glueslugs.jpg, id=472, 4047.12pt x 3035.34pt>
+<Figures/glueslugs.jpg, id=736, 4047.12pt x 3035.34pt>
 File: Figures/glueslugs.jpg Graphic file (type jpg)
 <use Figures/glueslugs.jpg>
 Package luatex.def Info: Figures/glueslugs.jpg  used on input line 185.
 (luatex.def)             Requested size: 143.9978pt x 107.96143pt.
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/noa61.png, id=473, 200.24812pt x 126.4725pt>
+<Figures/noa61.png, id=737, 200.24812pt x 126.4725pt>
 File: Figures/noa61.png Graphic file (type png)
 <use Figures/noa61.png>
 Package luatex.def Info: Figures/noa61.png  used on input line 194.
 (luatex.def)             Requested size: 143.9978pt x 90.95012pt.
-<Figures/rtvglue.png, id=474, 204.765pt x 116.68594pt>
+<Figures/rtvglue.png, id=738, 204.765pt x 116.68594pt>
 File: Figures/rtvglue.png Graphic file (type png)
 <use Figures/rtvglue.png>
 Package luatex.def Info: Figures/rtvglue.png  used on input line 198.
@@ -612,17 +912,17 @@ Underfull \hbox (badness 3000) in paragraph at lines 198--198
 [][]|\TU/lmr/m/n/10 RTV-3145 ir-ra-di-ated to 7.9
  []
 
-<Figures/epotek.png, id=475, 220.57407pt x 199.49532pt>
+<Figures/epotek.png, id=739, 220.57407pt x 199.49532pt>
 File: Figures/epotek.png Graphic file (type png)
 <use Figures/epotek.png>
 Package luatex.def Info: Figures/epotek.png  used on input line 202.
 (luatex.def)             Requested size: 143.9978pt x 130.24269pt.
-<Figures/polytec.png, id=476, 239.39438pt x 195.73125pt>
+<Figures/polytec.png, id=740, 239.39438pt x 195.73125pt>
 File: Figures/polytec.png Graphic file (type png)
 <use Figures/polytec.png>
 Package luatex.def Info: Figures/polytec.png  used on input line 206.
 (luatex.def)             Requested size: 143.9978pt x 117.73532pt.
-<Figures/bc600.png, id=477, 210.7875pt x 189.70876pt>
+<Figures/bc600.png, id=741, 210.7875pt x 189.70876pt>
 File: Figures/bc600.png Graphic file (type png)
 <use Figures/bc600.png>
 Package luatex.def Info: Figures/bc600.png  used on input line 210.
@@ -630,7 +930,7 @@ Package luatex.def Info: Figures/bc600.png  used on input line 210.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/quartzslidewithholder.png, id=478, 217.93922pt x 194.60204pt>
+<Figures/quartzslidewithholder.png, id=742, 217.93922pt x 194.60204pt>
 File: Figures/quartzslidewithholder.png Graphic file (type png)
 <use Figures/quartzslidewithholder.png>
 Package luatex.def Info: Figures/quartzslidewithholder.png  used on input line 
@@ -641,7 +941,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--220
 [][]|\TU/lmr/m/n/10 Glue sam-ple be-tween two
  []
 
-<Figures/photospec.png, id=479, 357.96234pt x 229.2314pt>
+<Figures/photospec.png, id=743, 357.96234pt x 229.2314pt>
 File: Figures/photospec.png Graphic file (type png)
 <use Figures/photospec.png>
 Package luatex.def Info: Figures/photospec.png  used on input line 224.
@@ -651,198 +951,56 @@ Underfull \hbox (badness 7221) in paragraph at lines 224--224
 [][]|\TU/lmr/m/n/10 Glue sam-ple po-si-tioned in
  []
 
-[47]
+[116<./Figures/Caesium-137_Gamma_Ray_Spectrum-en.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/noatransmission.png, id=483, 211.54031pt x 185.94469pt>
+[117<./Figures/teflonmold.png><./Figures/glueslugs.jpg>]
+<Figures/noatransmission.png, id=752, 211.54031pt x 185.94469pt>
 File: Figures/noatransmission.png Graphic file (type png)
 <use Figures/noatransmission.png>
 Package luatex.def Info: Figures/noatransmission.png  used on input line 234.
 (luatex.def)             Requested size: 180.0pt x 158.22678pt.
-<Figures/rtvtransmission.png, id=484, 213.04594pt x 187.82672pt>
+<Figures/rtvtransmission.png, id=753, 213.04594pt x 187.82672pt>
 File: Figures/rtvtransmission.png Graphic file (type png)
 <use Figures/rtvtransmission.png>
 Package luatex.def Info: Figures/rtvtransmission.png  used on input line 238.
 (luatex.def)             Requested size: 180.0pt x 158.70193pt.
-<Figures/transmissionat420.png, id=485, 213.79875pt x 217.5628pt>
+<Figures/transmissionat420.png, id=754, 213.79875pt x 217.5628pt>
 File: Figures/transmissionat420.png Graphic file (type png)
 <use Figures/transmissionat420.png>
 Package luatex.def Info: Figures/transmissionat420.png  used on input line 242.
 
 (luatex.def)             Requested size: 180.0pt x 183.16978pt.
 
+
 LaTeX Warning: Float too large for page by 114.69826pt on input line 245.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[48<./Figures/Caesium-137_Gamma_Ray_Spectrum-en.png>])
-(./Chapters/TriggerSystem.tex [49<./Figures/teflonmold.png><./Figures/glueslugs.
-jpg>] [50<./Figures/noa61.png><./Figures/rtvglue.png><./Figures/epotek.png><./Fi
-gures/polytec.png><./Figures/bc600.png>] [51<./Figures/quartzslidewithholder.png
-><./Figures/photospec.png>] [52<./Figures/noatransmission.png><./Figures/rtvtran
-smission.png><./Figures/transmissionat420.png>]
-Chapter 6.
-<Figures/L1Trigger.png, id=514, 384.31078pt x 279.29344pt>
-File: Figures/L1Trigger.png Graphic file (type png)
-<use Figures/L1Trigger.png>
-Package luatex.def Info: Figures/L1Trigger.png  used on input line 10.
-(luatex.def)             Requested size: 360.0pt x 261.64517pt.
-[53
+[118]) (./thesis_main.bbl [119] [120<./Figures/noa61.png><./Figures/rtvglue.png>
+<./Figures/epotek.png><./Figures/polytec.png><./Figures/bc600.png>] [121<./Figur
+es/quartzslidewithholder.png><./Figures/photospec.png>] [122<./Figures/noatransm
+ission.png><./Figures/rtvtransmission.png><./Figures/transmissionat420.png>] [1
+23
 
-] [54<./Figures/L1Trigger.png>] [55]) (./Chapters/EventReconstruction.tex
-[56]
-Chapter 7.
-[57
-
-] [58]
-<Figures/electrontracking.png, id=534, 124.21407pt x 101.25328pt>
-File: Figures/electrontracking.png Graphic file (type png)
-<use Figures/electrontracking.png>
-Package luatex.def Info: Figures/electrontracking.png  used on input line 35.
-(luatex.def)             Requested size: 180.0pt x 146.73929pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[59] [60<./Figures/electrontracking.png>]) (./Chapters/DataAnalysis.tex
-[61]
-Chapter 8.
-<Figures/SUSYsignals.png, id=546, 427.9739pt x 129.48375pt>
-File: Figures/SUSYsignals.png Graphic file (type png)
-<use Figures/SUSYsignals.png>
-Package luatex.def Info: Figures/SUSYsignals.png  used on input line 11.
-(luatex.def)             Requested size: 323.9978pt x 98.02536pt.
-[62
-
-<./Figures/SUSYsignals.png>]
-Overfull \hbox (2.17117pt too wide) in paragraph at lines 24--24
-[]\TU/lmtt/m/n/10.95 Cert_294927 306462_13TeV_EOY2017ReReco_Collisions17_JSON_v1
-.txt[] 
- []
-
-[63]
-Overfull \hbox (92.52742pt too wide) in paragraph at lines 93--109
- [][] 
- []
-
-[64]
-<Figures/FakeMET.png, id=558, 188.57953pt x 146.79843pt>
-File: Figures/FakeMET.png Graphic file (type png)
-<use Figures/FakeMET.png>
-Package luatex.def Info: Figures/FakeMET.png  used on input line 127.
-(luatex.def)             Requested size: 180.0pt x 140.1185pt.
- [65] [66<./Figures/FakeMET.png>]
-<Figures/OldLimits_gluino_withmassband.png, id=566, 1186.05609pt x 1137.8761pt>
-
-File: Figures/OldLimits_gluino_withmassband.png Graphic file (type png)
-<use Figures/OldLimits_gluino_withmassband.png>
-Package luatex.def Info: Figures/OldLimits_gluino_withmassband.png  used on inp
-ut line 145.
-(luatex.def)             Requested size: 251.9989pt x 241.75641pt.
-<Figures/OldLimit_squark_withmassband.png, id=567, 1186.05609pt x 1137.8761pt>
-File: Figures/OldLimit_squark_withmassband.png Graphic file (type png)
-<use Figures/OldLimit_squark_withmassband.png>
-Package luatex.def Info: Figures/OldLimit_squark_withmassband.png  used on inpu
-t line 149.
-(luatex.def)             Requested size: 251.9989pt x 241.75641pt.
-
-
-LaTeX Warning: Float too large for page by 33.11258pt on input line 152.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (47.01039pt too wide) in paragraph at lines 165--185
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[67]
-<Figures/BDTvar1.png, id=571, 945.1561pt x 367.7489pt>
-File: Figures/BDTvar1.png Graphic file (type png)
-<use Figures/BDTvar1.png>
-Package luatex.def Info: Figures/BDTvar1.png  used on input line 204.
-(luatex.def)             Requested size: 611.9989pt x 238.12491pt.
-
-
-LaTeX Warning: Float too large for page by 92.59866pt on input line 207.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[68]
-<Figures/BDT_response.png, id=576, 425.71547pt x 335.00156pt>
-File: Figures/BDT_response.png Graphic file (type png)
-<use Figures/BDT_response.png>
-Package luatex.def Info: Figures/BDT_response.png  used on input line 214.
-(luatex.def)             Requested size: 360.0pt x 283.30605pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Command \textgreater invalid in math mode on input line 219.
-
-
-LaTeX Warning: Command \textless invalid in math mode on input line 219.
-
-<Figures/T5Wg_bdtcuts.png, id=577, 604.50844pt x 361.72641pt>
-File: Figures/T5Wg_bdtcuts.png Graphic file (type png)
-<use Figures/T5Wg_bdtcuts.png>
-Package luatex.def Info: Figures/T5Wg_bdtcuts.png  used on input line 223.
-(luatex.def)             Requested size: 540.0pt x 323.1277pt.
-
-LaTeX Warning: Float too large for page by 20.59976pt on input line 226.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/T6Wg_bdtcuts.png, id=578, 621.82312pt x 362.47922pt>
-File: Figures/T6Wg_bdtcuts.png Graphic file (type png)
-<use Figures/T6Wg_bdtcuts.png>
-Package luatex.def Info: Figures/T6Wg_bdtcuts.png  used on input line 229.
-(luatex.def)             Requested size: 540.0pt x 314.78467pt.
-
-LaTeX Warning: Float too large for page by 20.59976pt on input line 232.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/BDT_Gjets.png, id=579, 1098.1025pt x 877.2775pt>
-File: Figures/BDT_Gjets.png Graphic file (type png)
-<use Figures/BDT_Gjets.png>
-Package luatex.def Info: Figures/BDT_Gjets.png  used on input line 236.
-(luatex.def)             Requested size: 251.9989pt x 201.31445pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[69]) (./thesis_main.bbl [70] [71<./Figures/OldLimits_gluino_withmassband.png><.
-/Figures/OldLimit_squark_withmassband.png>] [72<./Figures/BDTvar1.png>]
-[73<./Figures/BDT_response.png>] [74<./Figures/T5Wg_bdtcuts.png>] [75<./Figures/
-T6Wg_bdtcuts.png>] [76<./Figures/BDT_Gjets.png>] [77
-
-] [78]) [79]
-(./thesis_main.aux)
+] [124] [125] [126]) [127] (./thesis_main.aux)
 
 LaTeX Warning: There were undefined references.
 
 )
 
 Here is how much of LuaTeX's memory you used:
- 5012 strings out of 478055
+ 5358 strings out of 478055
  100000,460012 words of node,token memory allocated
- 725 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 60 attribute, 57 glue_spec
-, 60 attribute_list, 1 write nodes
-   avail lists: 1:1,2:1064,3:344,4:37,5:522,6:64,7:8640,8:38,9:771,10:24,11:641
- 24829 multiletter control sequences out of 65536+600000
- 61 fonts using 5977303 bytes
- 69i,17n,76p,1857b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 849 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 91 attribute, 57 glue_spec
+, 91 attribute_list, 1 write nodes
+   avail lists: 1:1,2:923,3:270,4:40,5:403,6:51,7:6542,8:49,9:636,10:24,11:391
+ 25033 multiletter control sequences out of 65536+600000
+ 62 fonts using 6108991 bytes
+ 69i,17n,76p,1857b,563s stack positions out of 5000i,500n,10000p,200000b,80000s
 <//?/c:/users/matt/appdata/local/programs/miktex 2.9/fonts/opentype/public/lm/lm
 mono10-regular.otf><//?/c:/users/matt/appdata/local/programs/miktex 2.9/fonts/op
 entype/public/lm/lmroman10-italic.otf><//?/c:/users/matt/appdata/local/programs/
@@ -866,11 +1024,12 @@ s/cm/cmr6.pfb><C:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmr7.pfb><C:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmr8.pfb><C:/Users/Matt/AppData/Local/Programs/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Matt/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Matt/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on thesis_main.pdf (79 pages, 19194151 bytes).
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Matt/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Matt/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on thesis_main.pdf (127 pages, 20602529 bytes).
 
-PDF statistics: 712 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 893 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

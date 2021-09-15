@@ -5,6 +5,12 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 Database file #1: myref.bib
+Warning--entry type for "PhotonSF" isn't style-file defined
+--line 546 of file myref.bib
+I was expecting a `,' or a `}'---line 549 of file myref.bib
+ :  note = "
+ :          https://twiki.cern.ch/twiki/bin/viewauth/CMS/EgammaIDRecipesRun2#Photon_efficiencies_and_scale_fa"
+I'm skipping whatever remains of this entry
 Warning--to sort, need author, editor, or key in CERN-LHCC-97-031
 Warning--to sort, need author or key in L1Triggerfigure:2013yva
 Warning--to sort, need author, editor, or key in CERN-LHCC-97-033
@@ -16,48 +22,49 @@ Warning--there's a number but no volume in Apollinari:2017cqg
 Warning--empty journal in Barney:2628641
 Warning--empty institution in Dominguez:1481838
 Warning--empty journal in DeMelis:2063307
+Warning--empty journal in Hocker:2007ht
 Warning--can't use both author and editor fields in Zweig:1964jf
 Warning--empty chapter and pages in Zweig:1964jf
 Warning--empty publisher in Zweig:1964jf
-You've used 31 entries,
+You've used 41 entries,
             2118 wiz_defined-function locations,
-            715 strings with 9154 characters,
-and the built_in function-call counts, 9035 in all, are:
-= -- 917
-> -- 315
+            775 strings with 10766 characters,
+and the built_in function-call counts, 12414 in all, are:
+= -- 1234
+> -- 517
 < -- 2
-+ -- 131
-- -- 98
-* -- 664
-:= -- 1532
-add.period$ -- 96
-call.type$ -- 31
-change.case$ -- 134
++ -- 211
+- -- 168
+* -- 921
+:= -- 2127
+add.period$ -- 125
+call.type$ -- 41
+change.case$ -- 197
 chr.to.int$ -- 0
-cite$ -- 45
-duplicate$ -- 333
-empty$ -- 759
-format.name$ -- 98
-if$ -- 1842
+cite$ -- 56
+duplicate$ -- 438
+empty$ -- 996
+format.name$ -- 168
+if$ -- 2512
 int.to.chr$ -- 0
-int.to.str$ -- 31
-missing$ -- 28
-newline$ -- 159
-num.names$ -- 56
-pop$ -- 102
+int.to.str$ -- 41
+missing$ -- 37
+newline$ -- 208
+num.names$ -- 76
+pop$ -- 155
 preamble$ -- 1
-purify$ -- 107
+purify$ -- 160
 quote$ -- 0
-skip$ -- 215
+skip$ -- 292
 stack$ -- 0
-substring$ -- 716
-swap$ -- 28
+substring$ -- 913
+swap$ -- 37
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 118
-warning$ -- 14
-while$ -- 90
-width$ -- 33
-write$ -- 338
-(There were 14 warnings)
+type$ -- 158
+warning$ -- 15
+while$ -- 121
+width$ -- 43
+write$ -- 442
+(There was 1 error message)

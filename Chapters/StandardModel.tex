@@ -286,6 +286,76 @@ The $v^2$ terms give the $W$ and $Z$ boson masses and the $h^2$ term gives the m
 \end{eqnarray}
 while the photon remains massless.
 
+Charged leptons and quarks also acquire mass through Yukawa interactions via the Higgs mechanism.  For leptons the Yukawa interaction has the form of 
+\begin{equation}
+	\mathcal{L}_{Yukawa} = -G_e[\bar{e_R}\phi^\dagger\ell_L + \bar{\ell_L}\phi e_R]
+\end{equation}
+where 
+\begin{equation}
+	\ell_L = 
+	\left(
+	\begin{array}{c}
+		\nu_{eL} \\
+		e_L
+	\end{array}
+	\right)
+\end{equation}
+and $G_e$ is an arbitrary coupling parameter.  Note that this is the Yukawa term for the electron doublet.  The muon and tau doublets would have the same form.  Then using the unitary gauge version of $\phi$ we get 
+\begin{eqnarray}
+	\mathcal{L}_{Yukawa} = -\frac{G_e}{\sqrt{2}}(v + h)(\bar{e_L}e_R + \bar{e_R}e_L) \\
+	= -\frac{G_ev}{\sqrt{2}}(\bar{e}e) -\frac{G_e}{\sqrt{2}}(h\bar{e}e)
+\end{eqnarray}
+where the electron mass is given by 
+\begin{equation}
+	m_e = \frac{G_ev}{\sqrt{2}}.
+\end{equation}
+Repeating the process for the second and third lepton generations gives the muon and tau masses as
+\begin{equation}
+	m_\mu = \frac{G_\mu v}{\sqrt{2}}, m_\tau = \frac{G_\tau v}{\sqrt{2}}
+\end{equation}
+Since there are no $\nu_R$ fields in the SM, neutrinos are not able to acquire mass the way charged leptons do.  
+
+In order to generate quark masses for both the up and down-type quarks it's necessary to use $\phi$, which has $Y$ = 1, and the conjugate multiplet which is given by
+\begin{equation}
+	\tilde{\phi} = \left(
+	\begin{array}{c}
+	\phi^{0^*} \\
+	-\phi^-
+	\end{array}
+	\right)
+\end{equation}
+and has $Y$ = -1.  The conjugate multiplet then, similar to $\phi$, breaks to 
+\begin{equation}
+	\tilde{\phi} \rightarrow \left(
+	\begin{array}{c}
+		v + h \\
+		0
+	\end{array}
+	\right)
+\end{equation}
+The Yukawa term for the first generation quarks has the form
+\begin{equation}
+	\mathcal{L}_{Yukawa} = -G_d\bar{q_L}\phi d_R - G_u\bar{q_L}\tilde{\phi}u_R + h.c.
+\end{equation}
+where $G_d$ and $G_u$ are arbitrary coupling parameters and 
+\begin{equation}
+	q_L = \left(
+	\begin{array}{c}
+		u_L \\
+		d_L
+	\end{array}
+	\right).
+\end{equation}
+Applying the broken $phi$ and $\tilde{\phi}$ gives us
+\begin{equation}
+	\mathcal{L}_{Yukawa} = -(m_d \bar{d}d + m_u\bar{u}u)(1 + \frac{h}{v})
+\end{equation}
+where the mass eigenstates are 
+\begin{equation}
+	m_q = \frac{G_qv}{\sqrt{2}}.
+\end{equation}
+
+It's worth noting that for each of these masses there is an arbitrary coupling parameter ($G_q$, $G_e$, $G_\mu$, and $G_\tau$).  This means that the values of the fermion masses are not predicted by SM, but these parameters are tuned to reflect observation.
 %We can write the Lagrangian for the weak interaction as
 %\begin{equation}
 %	\mathcal{L}_{QED} = \bar{\psi}(i\gamma^\mu D_\mu -m)\psi - Tr\frac{1}{8}W_{\mu \nu}W^{\mu \nu}
