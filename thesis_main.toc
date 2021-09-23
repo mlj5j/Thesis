@@ -37,33 +37,34 @@
 \contentsline {subsection}{\numberline {6.3.2}Electrons}{62}{}%
 \contentsline {subsection}{\numberline {6.3.3}Photons}{63}{}%
 \contentsline {subsection}{\numberline {6.3.4}Jets}{65}{}%
-\contentsline {section}{\numberline {6.4}Missing transverse momentum}{66}{}%
-\contentsline {chapter}{\numberline {7.}Data Analysis}{68}{}%
-\contentsline {section}{\numberline {7.1}Overview}{68}{}%
-\contentsline {section}{\numberline {7.2}Data}{69}{}%
-\contentsline {section}{\numberline {7.3}Monte Carlo samples}{70}{}%
-\contentsline {section}{\numberline {7.4}Object definitions}{70}{}%
-\contentsline {subsection}{\numberline {7.4.1}Photons}{70}{}%
-\contentsline {subsection}{\numberline {7.4.2}Electrons}{73}{}%
-\contentsline {subsection}{\numberline {7.4.3}Muons}{73}{}%
-\contentsline {subsection}{\numberline {7.4.4}Jets}{75}{}%
-\contentsline {section}{\numberline {7.5}Event selection}{76}{}%
-\contentsline {section}{\numberline {7.6}Backgrounds}{77}{}%
-\contentsline {subsection}{\numberline {7.6.1}Instrumental background}{78}{}%
-\contentsline {subsubsection}{Rebalance and Smear}{79}{}%
-\contentsline {subsubsection}{Multivariate discriminant}{80}{}%
-\contentsline {subsection}{\numberline {7.6.2}Electroweak background}{86}{}%
-\contentsline {subsection}{\numberline {7.6.3}Irreducible background}{86}{}%
-\contentsline {section}{\numberline {7.7}Signal and control regions}{87}{}%
-\contentsline {chapter}{\numberline {8.}Results and Interpretations}{96}{}%
-\contentsline {section}{\numberline {8.1}Observation vs Predicted}{96}{}%
-\contentsline {section}{\numberline {8.2}Simplified models}{96}{}%
-\contentsline {section}{\numberline {8.3}Statistical analysis}{97}{}%
-\contentsline {section}{\numberline {8.4}Limits for T5gg and T6gg}{100}{}%
-\contentsline {chapter}{\numberline {9.}Future Improvements: MIP Timing Detector (MTD)}{103}{}%
-\contentsline {section}{\numberline {9.1}Introduction}{103}{}%
-\contentsline {section}{\numberline {9.2}Barrel Timing Layer}{105}{}%
-\contentsline {subsection}{\numberline {9.2.1}LYSO:Ce crystals}{110}{}%
-\contentsline {subsection}{\numberline {9.2.2}SiPMs}{115}{}%
-\contentsline {subsection}{\numberline {9.2.3}Glue qualification}{115}{}%
-\contentsline {subsection}{\numberline {9.2.4}Performance at test beam}{119}{}%
+\contentsline {section}{\numberline {6.4}Missing transverse momentum}{67}{}%
+\contentsline {section}{\numberline {6.5}Pileup mitigation}{68}{}%
+\contentsline {chapter}{\numberline {7.}Data Analysis}{73}{}%
+\contentsline {section}{\numberline {7.1}Overview}{73}{}%
+\contentsline {section}{\numberline {7.2}Data}{74}{}%
+\contentsline {section}{\numberline {7.3}Monte Carlo samples}{75}{}%
+\contentsline {section}{\numberline {7.4}Object definitions}{75}{}%
+\contentsline {subsection}{\numberline {7.4.1}Photons}{76}{}%
+\contentsline {subsection}{\numberline {7.4.2}Electrons}{78}{}%
+\contentsline {subsection}{\numberline {7.4.3}Muons}{79}{}%
+\contentsline {subsection}{\numberline {7.4.4}Jets}{81}{}%
+\contentsline {section}{\numberline {7.5}Event selection}{81}{}%
+\contentsline {section}{\numberline {7.6}Backgrounds}{82}{}%
+\contentsline {subsection}{\numberline {7.6.1}Instrumental background}{83}{}%
+\contentsline {subsubsection}{Rebalance and Smear}{84}{}%
+\contentsline {subsubsection}{Multivariate discriminant}{87}{}%
+\contentsline {subsection}{\numberline {7.6.2}Electroweak background}{94}{}%
+\contentsline {subsection}{\numberline {7.6.3}Irreducible background}{95}{}%
+\contentsline {section}{\numberline {7.7}Signal and control regions}{96}{}%
+\contentsline {chapter}{\numberline {8.}Results and Interpretations}{112}{}%
+\contentsline {section}{\numberline {8.1}Observation vs Predicted}{112}{}%
+\contentsline {section}{\numberline {8.2}Simplified models}{112}{}%
+\contentsline {section}{\numberline {8.3}Statistical analysis}{113}{}%
+\contentsline {section}{\numberline {8.4}Limits for T5gg and T6gg}{116}{}%
+\contentsline {chapter}{\numberline {9.}Future Improvements: MIP Timing Detector (MTD)}{119}{}%
+\contentsline {section}{\numberline {9.1}Introduction}{119}{}%
+\contentsline {section}{\numberline {9.2}Barrel Timing Layer}{121}{}%
+\contentsline {subsection}{\numberline {9.2.1}LYSO:Ce crystals}{126}{}%
+\contentsline {subsection}{\numberline {9.2.2}SiPMs}{131}{}%
+\contentsline {subsection}{\numberline {9.2.3}Glue qualification}{131}{}%
+\contentsline {subsection}{\numberline {9.2.4}Performance at test beam}{135}{}%

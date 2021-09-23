@@ -1,4 +1,5 @@
 \chapter{CMS Particle and Event Reconstruction}
+
 After an event is chosen to be stored by the trigger system, the output from all of the sub-detectors is saved and recorded to disk as "RAW" data.  These data contain information about the response of each sub-detector, such as tracker hits and energy deposition in the calorimeters.  As was mentioned in Chapter 4, shown in Table \ref{table:subdetsignals} and Figure \ref{fig:cmsslicewhitecolourfrench291016}, the CMS was designed such that each type of particle resulting from the $pp$ collisions at the IP would leave a distinct signature in the sub-detectors.  This allows for the information to be reconstructed into lists of physics object candidates such as photons, electrons, muons, etc and quantities such as missing transverse momentum.  The particle flow (PF) algorithm performs this reconstruction by first building tracks and calorimeter clusters.  These two elements are the inputs to the reconstruction of the aforementioned physics object candidates using a "link" algorithm.
 
 \section{Tracks}
@@ -82,15 +83,68 @@ This analysis uses jets reconstructed from PF candidates using the anti-$k_T$ al
 	\label{fig:jetclusteringalgorithms}
 \end{figure}
 
-After clustering, a series of jet energy corrections (JEC) are applited to the jets in order to improve calibration and energy resolution.
+After clustering, a series of jet energy corrections (JEC) are sequentially applied to the jets in order to improve calibration and energy resolution. We define the jet $p_T$ response as 
+\begin{equation}
+	\mathcal{R} = \frac{p_{T}}{p_T^{gen}}
+\end{equation}
+where $p_T$ is the measured or reconstructed transverse momentum of a jet and $p_T^{gen}$ is the generator-level value.  Ideally the distribution of $\mathcal{R}$ would have $\langle \mathcal{R} \rangle = 1$, but this is not the case which is where the JEC come in.  The first stage of the correction process is a flat correction to remove pileup contributions from the measured jet energy.  A description of what pileup is and the mitigation process is available in Section \ref{section:pucorrection}.  The next correction is a detector response correction derived from simulation in bins of $\eta$ and $p_T$ which is derived by comparing the measured and generator-level $p_T$ in each bin.  Next is a residual correction for differences between data and detector simulation.  This step exploits momentum conservation in the transverse plain by using dijet, $Z\rightarrow \mu \mu$+jet, and $\gamma$+jet data events to derive correction factors.  The result can be summarized as
+\begin{eqnarray}
+	\vec{p}_{corr} &=& C \cdot p_T^{raw} \\
+	 &=& C_{PU}(p_T^{raw},\eta)\cdot C_{sim}(p_T', \eta) \cdot C_{res}(p_T'', \eta) \cdot \vec{p}_{raw}
+	 \label{equation:JEC}
+\end{eqnarray}
+where each of correction is applied sequentially such that $p_T'$ is the transverse momentum after application of $C_{PU}$ and $p_T''$ is after the all subsequent correction have been applied.  Once the JEC has been applied the mean of the jet response distribution should be very close to 1 and the width gives the jet energy resolution (JER).
 
-Still working on this.
+
 \label{section:jetalgorithm}
-%Note for next time:  
-%Now talk about infrared and collinear safe.  Use Allie's thesis for guide.
-%Look at "recent thesis" for ECAL noise on 2017 data.
-%Should also do JEC and JER in here. 
-
-
 \section{Missing transverse momentum}
 
+The missing transverse momentum $\vec{p_T}$ is defined as the negative vector sum of transverse momentum over all PF objects and can be written as
+\begin{equation}
+	\vec{p_T}^{miss} = -\sum_{i}\vec{p_{Ti}}.
+\end{equation}
+We call the magnitude of this quantity the missing transverse energy $E_T^{miss}$.  For reasons described in Section \ref{section:RandS} a similar variable called the Hard $E_T^{miss}$ is used in which only objects with $p_T > 30$ GeV are used so we have 
+\begin{equation}
+	Hard E_T^{miss} = |-\sum_{i}\vec{p_{Ti}}\cdot \Theta(30 -p_{Ti})|
+\end{equation}
+where the $p_T$ is measured in units of GeV and $\Theta$ is a Heaviside function.
+
+\label{section:MET}
+
+\section{Pileup mitigation}
+
+Multiple interactions occurring in each bunch crossing is referred to as pileup (PU) and can affect reconstruction performance.  The number of PU interaction, $\mu$, is simply the number of of interactions in a bunch crossing.  It's calculated using Equation \ref{equation:PUcalc} where $L_{inst}$ is the instantaneous luminosity, $\sigma_{in}^{pp}$ is the total proton-proton inelastic cross section, and $f_{rev}$ is the LHC orbit frequency.  
+\begin{equation}
+	\mu = L_{inst}\frac{\sigma_{in}^{pp}}{f_{rev}}
+	\label{equation:PUcalc}
+\end{equation}
+Figures \ref{fig:pileuppp201669200}, \ref{fig:pileuppp201769200}, and \ref{fig:pileuppp201869200} show the distributions of PU interactions during each year of datataking used in this analysis.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{Figures/pileup_pp_2016_69200}
+	\caption[Pileup distribution for 2016.]{Pileup distribution for 2016}
+	\label{fig:pileuppp201669200}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{Figures/pileup_pp_2017_69200}
+	\caption[Pileup distribution for 2017]{Pileup distribution for 2017.}
+	\label{fig:pileuppp201769200}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{Figures/pileup_pp_2018_69200}
+	\caption[Pileup distribution for 2018]{Pileup distribution for 2018.}
+	\label{fig:pileuppp201869200}
+\end{figure}
+
+When analyzing an \textit{event} we are looking at a single hard-scatter vertex in a bunch crossing.  In order to do this, the PF algorithm must mitigate effects associated with additional PU vertices.  Charged particles have track information from the silicon tracker and can be removed if they are associated with one of the additional PU vertices on an object-by-object basis, but this is not the case for neutral particles such as photons and neutral hadrons.  These effects are instead removed from the event on average.  Particular care must be taken to correct isolation variables, which take sum energy deposited within a  specified cone of a target object.  For example, an isolation variable for photons would sum the energy deposited from different object types (like charged hadrons, neutral hadrons, etc) in the vicinity of a target photon.  For isolation variables the PU corrections are given by $\rho A_{eff}$ where $\rho$ is the event-specific energy density per unit area in $\eta \times \phi$ and $A_{eff}$ is an effective area specific to the type of isolation.  The corrected isolation variable would then be given by
+\begin{equation}
+	I_{corrected} = max(I - \rho A_{eff}, 0) 
+\end{equation}
+, with $I$ being the uncorrected isolation, and is referred to as the $\rho$-corrected isolation.
+\label{section:pucorrection}
+%For example, the effect on photon isolation is mitigated using the average $p_T$ density $\rho$, and is referred to as the $\rho$-corrected isolation.  The $p_T$ of all of the PF candidates in a fixed grid in $\phi$ and $\eta$ are summed and then divided by the are in $\eta \times \phi$.  The average contribution of PU to the isolation variable would be $\rho$ multiplied by an effective area $A_{eff}$ for photons.
+
+
+%Instead of calculating $\mu$ for each individual bunch crossing it is calculated in blocks of luminosity called lumi-sections,which are about 23.3 seconds long, as an average value.  

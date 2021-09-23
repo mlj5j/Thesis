@@ -125,6 +125,13 @@ Cinzia De~Melis.
 \newblock Oct 2015.
 \newblock General Photo.
 
+\bibitem{DHondt:2006iej}
+J.~D'Hondt, S.~Lowette, O.~L. Buchmuller, S.~Cucciarelli, F.~P. Schilling,
+  M.~Spiropulu, S.~Paktinat~Mehdiabadi, D.~Benedetti, and L.~Pape.
+\newblock {Fitting of event topologies with external kinematic constraints in
+  CMS}.
+\newblock 1 2006.
+
 \bibitem{Evans_2008}
 Lyndon Evans and Philip Bryant.
 \newblock {LHC} machine.
@@ -139,6 +146,12 @@ R.~Fruhwirth.
 Murray Gell-Mann.
 \newblock {A Schematic Model of Baryons and Mesons}.
 \newblock {\em Phys. Lett.}, 8:214--215, 1964.
+
+\bibitem{Goebel:2015kca}
+Kristin Goebel.
+\newblock {\em {Probing supersymmetry based on precise jet measurements at the
+  CMS experiment}}.
+\newblock PhD thesis, U. Hamburg, Dept. Phys., 2015.
 
 \bibitem{Goldstone:1961eq}
 J.~Goldstone.
@@ -188,6 +201,12 @@ Tai Sakuma and Thomas McCauley.
 \newblock Detector and event visualization with {SketchUp} at the {CMS}
   experiment.
 \newblock {\em Journal of Physics: Conference Series}, 513(2):022032, jun 2014.
+
+\bibitem{RandS:2017abv}
+Albert~M Sirunyan et~al.
+\newblock {Search for supersymmetry in multijet events with missing transverse
+  momentum in proton-proton collisions at 13 TeV}.
+\newblock {\em Phys. Rev. D}, 96(3):032003, 2017.
 
 \bibitem{CMS:OldSUSYpaper}
 Albert~M Sirunyan et~al.

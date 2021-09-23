@@ -22,49 +22,50 @@ Warning--there's a number but no volume in Apollinari:2017cqg
 Warning--empty journal in Barney:2628641
 Warning--empty institution in Dominguez:1481838
 Warning--empty journal in DeMelis:2063307
+Warning--empty journal in DHondt:2006iej
 Warning--empty journal in Hocker:2007ht
 Warning--can't use both author and editor fields in Zweig:1964jf
 Warning--empty chapter and pages in Zweig:1964jf
 Warning--empty publisher in Zweig:1964jf
-You've used 41 entries,
+You've used 44 entries,
             2118 wiz_defined-function locations,
-            775 strings with 10766 characters,
-and the built_in function-call counts, 12414 in all, are:
-= -- 1234
-> -- 517
+            790 strings with 11342 characters,
+and the built_in function-call counts, 13377 in all, are:
+= -- 1321
+> -- 585
 < -- 2
-+ -- 211
-- -- 168
-* -- 921
-:= -- 2127
-add.period$ -- 125
-call.type$ -- 41
-change.case$ -- 197
++ -- 238
+- -- 192
+* -- 996
+:= -- 2306
+add.period$ -- 134
+call.type$ -- 44
+change.case$ -- 216
 chr.to.int$ -- 0
-cite$ -- 56
-duplicate$ -- 438
-empty$ -- 996
-format.name$ -- 168
-if$ -- 2512
+cite$ -- 60
+duplicate$ -- 468
+empty$ -- 1053
+format.name$ -- 192
+if$ -- 2696
 int.to.chr$ -- 0
-int.to.str$ -- 41
-missing$ -- 37
-newline$ -- 208
-num.names$ -- 76
-pop$ -- 155
+int.to.str$ -- 44
+missing$ -- 39
+newline$ -- 223
+num.names$ -- 82
+pop$ -- 174
 preamble$ -- 1
-purify$ -- 160
+purify$ -- 177
 quote$ -- 0
-skip$ -- 292
+skip$ -- 314
 stack$ -- 0
-substring$ -- 913
-swap$ -- 37
+substring$ -- 946
+swap$ -- 39
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 158
-warning$ -- 15
-while$ -- 121
-width$ -- 43
-write$ -- 442
+type$ -- 170
+warning$ -- 16
+while$ -- 128
+width$ -- 46
+write$ -- 473
 (There was 1 error message)

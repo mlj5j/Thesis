@@ -38,7 +38,7 @@ Combining all of the search regions we can make a likelihood function $\mathcal{
 \end{equation} 
 We then get the best fit values for $\mu$ and $\theta$, which will be represented by $\hat{\mu}$ and $\hat{\theta}$, by maximizing $\mathcal{L}$.  The test statistic $t_\mu$ is then used to quantify the compatibility of a given value of signal strength $\mu$ with the observed data.  That test statistic is defined as
 \begin{equation}
-	t_\mu = -2\ln \frac{\mathcal{L}(n|\mu, \tilde{\theta})}{n|\mathcal{L}(\hat{\mu}, \hat{\theta})} = -2\ln \frac{\mathcal{L}_\mu}{\mathcal{L}_{max}}
+	t_\mu = -2\ln \frac{\mathcal{L}(n|\mu, \tilde{\theta})}{\mathcal{L}(n|\hat{\mu}, \hat{\theta})} = -2\ln \frac{\mathcal{L}_\mu}{\mathcal{L}_{max}}
 \end{equation}
 where $\tilde{\theta}$ is the nuisance parameter set with values that maximize $\mathcal{L}$ for a given value of $\mu$.  The ratio inside the natural log is essentially the maximum likelihood with fixed $\mu$ divided by the maximum likelihood.  The best fit values for these nuisance parameters $\hat{\theta}_\mu$ are then used to generate toy MC pseudo-data in order to construct probability distributions for the background-only case, where we set $\mu=0$, and the signal+background case.  This gives the p-values for each hypothesis in terms of the a comparison between the value of test statistic resulting from the MC generated pseudo-data ($t_\mu$) and the one resulting from observed data ($t_\mu^{obs}$) as follows:
 \begin{eqnarray}
@@ -50,22 +50,20 @@ Using the CL$_s$ method, as described in \cite{Junk:1999kv} and \cite{Read:2002h
 	CL_s(\mu) = \frac{p_\mu}{1-p_0}.
 \end{equation}
 
-By adjusting $\mu$ until $CL_s = 0.05$ we get an upper limit on the signal strength $\mu^{95\%CL}$ for a particular model with a 95\% Confidence Level.  We would then say that any model for which $CL_s \leq 0.05$ is excluded.  The cross section upper limit for model would then be the product of $\mu^{95\%CL}$ and the expected cross section of that model.
+By adjusting $\mu$ until $CL_s = 0.05$ we get an upper limit on the signal strength $\mu^{95\%CL}$ for a particular model with a 95\% Confidence Level.  We would then say that any model for which $CL_s \leq 0.05$ is excluded.  The cross section upper limit for model would then be the product of $\mu^{95\%CL}$ and the expected cross section of that model.  This process yields the observed cross section upper limit as it uses real observed data being plugged into the test statistic $t_\mu$.  If instead we use background prediction we would get the expected cross section upper limits.  Essentially, the expected upper limit is what we expect the find if there is no signal present, i.e. the background-only hypothesis is true.
 
 \section{Limits for T5gg and T6gg}
-The upper limits placed on production cross sections and the exclusion contours are shown in Figures \ref{fig:t5wgjul20xsec} and \ref{fig:t6wgjul20xsec} for the T5gg and T6gg simplified models respectively.  The signal models in which the 95\% CL upper limit on production cross section is less than the theoretical cross section are considered to be excluded.  These excluded signal models are to the left of the exclusion contour.
-
+The upper limits placed on production cross sections and the exclusion contours are shown in Figures \ref{fig:t5wgjul20xsec} and \ref{fig:t6wgjul20xsec} for the T5gg and T6gg simplified models respectively.  The signal models in which the 95\% CL upper limit on production cross section is less than the theoretical cross section are considered to be excluded.  These excluded signal models are to the left of the exclusion contour.  As discussed in the previous section, the expected limit exclusion contour tells us what the region of phase space we can expect to exclude if there is no signal present and everything we observe is processed consistent with the Standard Model.  The observed limit exclusion contour tells us what region of phase space is excluded given the data that we observed.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\linewidth]{Figures/T5WgJul20XSEC}
-	\caption[Cross section limits for T5gg simplified model.]{Cross section limits for T5gg simplified model.}
+	\caption[Cross section limits for T5gg simplified model.]{Cross section limits for T5gg simplified model.  The expected limit (black) is set by assuming that the observed data is consistent with the background-only model.  Observed data in from the signal regions is not used in the calculation of the expected limit.  The observed limit (red) is set using observed data from the signal regions.}
 	\label{fig:t5wgjul20xsec}
 \end{figure}
-
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\linewidth]{Figures/T6WgJul20XSEC}
-	\caption[Cross section upper limits for T6gg simplified model.]{Cross section upper limits for T6gg simplified model.}
+	\caption[Cross section upper limits for T6gg simplified model.]{Cross section upper limits for T6gg simplified model.The expected limit (black) is set by assuming that the observed data is consistent with the background-only model.  Observed data in from the signal regions is not used in the calculation of the expected limit.  The observed limit (red) is set using observed data from the signal regions.}
 	\label{fig:t6wgjul20xsec}
 \end{figure}
 

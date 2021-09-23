@@ -64,9 +64,6 @@ This analysis was performed using 137 fb$^{-1}$ of data collected from the CMS d
 	\label{table:DataSamples}
 \end{table}
 
-
-
-
 \section{Monte Carlo samples}
 Monte Carlo (MC) simulation were used to validate performance of the analysis on backgrounds, model background contributions, constructing a multivariate discriminant, and determining signal efficiencies.   The MC samples used for this analysis are listed in Table \ref{table:MCSamples}.
 \begin{table}
@@ -89,9 +86,8 @@ Monte Carlo (MC) simulation were used to validate performance of the analysis on
 	\label{table:MCSamples}
 \end{table}
 
-The distribution of pileup (PU) interactions produced in simulated events differs from data.  Since the presence of these interactions affects many aspects of reconstruction, it's important for the PU to be properly simulated.  To correct for these differences between MC and data the simulated events are reweighted so that the PU profile in MC matches the profile in data.  
+The distribution of pileup (PU) interactions produced in simulated events differs from data.  Since the presence of additional PU interactions affects many aspects of reconstruction, it's important for the PU to be properly simulated.  To correct for these differences between MC and data the simulated events are reweighted so that the PU profile in MC matches the profile in data.  In MC the PU is number of simulated vertices in an event while the PU in data is calculated by the method discussed in Section \ref{section:pucorrection}.  
   
-
 
 \section{Object definitions}
 The object candidates that are identified by the reconstruction algorithms are subject to further scrutiny in order to achieve optimal purities in the offline analysis.  
@@ -101,13 +97,13 @@ Photons are required to have $p_T>80$ GeV and meet the criteria prescribed by lo
 
 \begin{itemize}
 	\item H/E - The ratio of the energy deposited in the HCAL tower that is directly behind the ECAL supercluster associated with the photon to the energy deposited in the ECAL supercluster.
-	\item $\sigma_{i\eta i\eta}$ - The log-fractional weighted width of a shower in $i\eta$-space.  This variable is used to describe the shower shape.
+	\item $\sigma_{i\eta i\eta}$ - The log-fractional weighted width of a shower in $i\eta$-space.  This variable is used to describe the shower shape or more specifically it provides a measure of the spread of the shower in the $\eta$-direction.  The log-fractional weight is the log of the ratio of energy deposited in a specific ECAL crystal versus the energy deposited in the associated $5\times 5$ supercluster.
 	\item Particle Flow Charged Isolation - Sum of the $p_T$ of charged hadrons associated with the primary vertex within a cone of $0.02 < \Delta R < 0.3$ of the supercluster.
 	\item Particle Flow Neutral Isolation - Sum of the $p_T$ of neutral hadrons associated with the primary vertex within a cone of $\Delta R < 0.3$ of the supercluster.
 	\item Particle Flow Photon Isolation - Sum of the $p_T$ of photons within a cone of $\Delta R < 0.3$ of the supercluster.
 \end{itemize}
 
-All of the isolation variables listed above are corrected in order to remove pileup.  Table \ref{table:looseIDPhotonreq} gives a summary of the pileup-corrected requirements for a loose ID photon.  The loose ID working point has an efficiency (background rejection) of $90.08\%$ ($86.25\%$) in the barrel and $90.65\%$ ($76.72\%$) in the end caps.  In addition to the $p_T$ and loose ID requirements, a photon must also pass a pixel seed veto (PSV).  This means that there is no pixel seed matched to the photon.
+All of the isolation variables listed above are corrected in order to remove pileup as described in Section \ref{section:pucorrection}.  Table \ref{table:looseIDPhotonreq} gives a summary of the pileup-corrected requirements for a loose ID photon.  The loose ID working point has an efficiency (background rejection) of $90.08\%$ ($86.25\%$) in the barrel and $90.65\%$ ($76.72\%$) in the end caps.  In addition to the $p_T$ and loose ID requirements, a photon must also pass a pixel seed veto (PSV).  This means that there is no pixel seed in the tracker matched to the photon.
 
 \begin{table}[h]
 	\centering
@@ -135,24 +131,21 @@ Photon ID efficiencies differ between data and MC, so when using a photon ID in 
 	N_{obs} = N_{gen}\cdot \epsilon_{MC}\cdot SF =  N_{gen}\cdot \epsilon_{MC}\cdot \frac{\epsilon_{data}}{\epsilon_{MC}} = N_{gen}\cdot \epsilon_{data}.
 \end{equation}
 Since this analysis requires two loose ID photons, the scale factor $SF$ is given by the product of scale factors for each of the two loose photons, $SF = SF_{\gamma1}\cdot SF_{\gamma2}$.  The scale factors for each year are shown in Figures \ref{fig:loosephotonsf2016}, \ref{fig:loosephotonsf2017}, and \ref{fig:loosephotonsf2018} in bins of photon $p_T$ and $\eta$ \cite{PhotonSF}.
-
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.9\linewidth]{Figures/LoosePhotonSF_2016}
+	\includegraphics[width=1.0\linewidth]{Figures/LoosePhotonSF_2016}
 	\caption[Scale factors for 2016 loose photon ID.]{The loose photon ID scale factors for 2016 in bins of photon $p_T$ and $\eta$}
 	\label{fig:loosephotonsf2016}
 \end{figure}
-
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.9\linewidth]{Figures/LoosePhotonSF_2017}
+	\includegraphics[width=1.0\linewidth]{Figures/LoosePhotonSF_2017}
 	\caption[Scale factors fo 2017 loose photon ID.]{The loose photon ID scale factors for 2017 in bins of photon $p_T$ and $\eta$.}
 	\label{fig:loosephotonsf2017}
 \end{figure}
-
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.9\linewidth]{Figures/LoosePhotonSF_2018}
+	\includegraphics[width=1.0\linewidth]{Figures/LoosePhotonSF_2018}
 	\caption[Scale factors for 2018 loose photon ID.]{The loose photon ID scale factors for 2018 in bins of photon $p_T$ and $\eta$.}
 	\label{fig:loosephotonsf2018}
 \end{figure}
@@ -161,7 +154,7 @@ Since this analysis requires two loose ID photons, the scale factor $SF$ is give
 \label{section:photondefinition}
 
 \subsection{Electrons}
-As mentioned earlier, the clustering algorithm doesn't differentiate between showers from photons and those from electrons.  In this analysis an electron is defined as an object that passes all of the photon requirements except for the PSV.  Inverting the pixel seed requirement while using the same ID criteria ensures that we have orthogonal selections while minimizing the bias potentially introduced by using control regions with electrons to model diphoton signal regions. 
+As mentioned earlier, the clustering algorithm doesn't differentiate between showers from photons and those from electrons.  In this analysis an electron is defined as an object that passes all of the photon requirements except for the PSV.  Inverting the pixel seed requirement while using the same ID criteria ensures that we have orthogonal selections while minimizing the bias potentially introduced by using control regions with electrons to model diphoton signal regions.  This essentially allows us to group photons and electrons together to be treated as electromagnetic objects and then splitting those objects into photon and electron objects depending on whether or not there is a pixel seed associated with it.
 
 
 \subsection{Muons}
@@ -231,9 +224,49 @@ The instrumental background is the contribution from events with spurious $E^{mi
 
 %Coming soon....
 
-To estimate the QCD background, the Rebalance and Smear method is used.  This method makes use of a jet energy response model of the CMS detector and a prior probability distribution function of the particle-level Hard $E_T^{miss}$ in QCD events.  A seed sample is obtained by selecting real events from data according the baseline selection but removing the requirement on the Hard $E_T^{miss}$.  Each event in the seed sample is unfolded to produce a pseudo generator-level QCD event, or \textit{rebalanced} event.  The unfolding is carried out by rescaling the energy of each jet to a configuration that maximizes a posterior density based that is based on the jet response model.  This procedure is referred to as the \textit{rebalance} step.  The \textit{smear} step then smears the energies of all of the rebalanced jets in the event according to a random sampling of jet energy response.  This method has been developed in the context of QCD background estimation for several previous SUSY searches in the all-hadronic channel.  It has been developed here to accommodate the presence of photons and other particles in the event who's energy is the event is measured more accurately than that of jets.  This was done by fixing the 4-vectors of all of these particles during both the rebalance and smear steps so that only the jet energies are allowed to float in the maximization.
+%To estimate the QCD background, the Rebalance and Smear method is used.  This method makes use of a jet energy response model of the CMS detector and a prior probability distribution function of the particle-level Hard $E_T^{miss}$ in QCD events.  A seed sample is obtained by selecting real events from data according the baseline selection but removing the requirement on the Hard $E_T^{miss}$.  Each event in the seed sample is unfolded to produce a pseudo generator-level QCD event, or \textit{rebalanced} event.  The unfolding is carried out by rescaling the energy of each jet to a configuration that maximizes a posterior density based that is based on the jet response model.  This procedure is referred to as the \textit{rebalance} step.  The \textit{smear} step then smears the energies of all of the rebalanced jets in the event according to a random sampling of jet energy response.  This method has been developed in the context of QCD background estimation for several previous SUSY searches in the all-hadronic channel.  It has been developed here to accommodate the presence of photons and other particles in the event who's energy is the event is measured more accurately than that of jets.  This was done by fixing the 4-vectors of all of these particles during both the rebalance and smear steps so that only the jet energies are allowed to float in the maximization.
 
 
+To estimate the QCD background, the Rebalance and Smear method is used.  The first step in this method is to \textit{rebalance} events such that the $E_T^{miss}$ is removed from the event to create a set of seed event.  In the second step all of the jets are \textit{smeared} with the full jet response function, which is obtained from the jet response discussed in Section \ref{section:jetalgorithm}.  This creates a set of seed events which are used in the second step to \textit{smear} all of the jets with the full jet response function to create events that model the detector response to multi-jet final states.  Figure This method has been developed in the context of QCD background estimation for several previous SUSY searches in the all-hadronic channel \cite{Goebel:2015kca}, \cite{RandS:2017abv}.  It has been developed here to accommodate the presence of photons and other particles in the event who's energy is measured more accurately than that of jets.  This was done by fixing the 4-vectors of all of these particles during both the rebalance and smear steps so that only the jet energies are allowed to float in the maximization.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1.0\linewidth]{Figures/RandScartoon}
+	\caption[Summary of the steps for the Rebalance and Smear method.]{Summary of the steps in the Rebalance and Smear method.  The diagram shown here is for an all-hadronic final state and therefore uses hadronic missing transverse energy $\cancel{H}_T$ which is synonymous with $E_T^{miss}$ in this case\cite{Goebel:2015kca}.}
+	\label{fig:randscartoon}
+\end{figure}
+
+The rebalancing in the first step is performed based on a kinematic fit \cite{DHondt:2006iej}, which is a least-square fit of the jet energies in the event while taking into account the jet response function.  When performing the fit, it is assumed that in each event the kinematic constraints of conservation momentum are fulfilled, i.e. the total $\vec{p_T}$ in the event is balanced.  Figure \ref{fig:rebalancedjetres} shows a comparison of the jet energy response $\mathcal{R} = \frac{p_T}{p_T^{gen}}$ between leading jets in QCD MC events having $E_T^{miss}>120$ GeV before and after rebalancing of the event.  We see that rebalancing has the effect of improving the jet energy resolution, which is the width of this distribution as discussed in \ref{section:jetalgorithm}, and also recovering some of the energy that was lost in the original jet reconstruction.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/RebalancedJetRes}
+	\caption[Jet energy response for leading jets in QCD MC before and after rebalancing.]{Energy response for the leading jet in QCD MC events with $E_T^{miss}>120$ GeV before and after being rebalanced. The original jet collection is shown shaded in red while the rebalanced collection is shaded in black. The jet energy response is defined as the ratio of the reconstructed jet $p_T$ and the generator-level jet $p_T$ as described in Section \ref{section:jetalgorithm}.  Rebalancing improves the jet energy resolution and recovers some of the energy that was lost in original reconstruction of the jet.}
+	\label{fig:rebalancedjetres}
+\end{figure}
+
+In the next step, the seed events obtained through rebalancing are smeared in order to simulate the expected detector-level measurement of each jet.  The smearing is done by scaling the $p_T$ of each jet by a random factor sampled from the full pre-rebalanced jet response distribution described in Section \ref{section:jetalgorithm}.  The smear step was performed 50 times on each seed event in order to probe more of the response distribution and improve prediction stability by decreasing the effect of statistical fluctuations.
+
+The result of this process is that we are able to take events from real data, rebalance them to closer to truth-level, and then use those rebalanced events as seeds to generate multiple detector-level events.  This method has been proven effective in all-hadronic final states, but in this case it is being used in the presence of two photons also in the final state.  As the photon $p_T$ values in the seed events are not smeared like the jets to create these new detector-level events, there is a danger that the photon $p_T$ spectrum could be distorted.  This was checked using simulated di-photon events from QCD MC requiring two loose ID photons and Hard $E_T^{miss}>120$ GeV.  The results in Figures \ref{fig:randspho1closure} and \ref{fig:randspho2closure} show that there is no significant distortion of either the leading or next-to-leading photon $p_T$ spectra.
+
+%\begin{figure}[h]
+%	\centering
+%	\includegraphics[width=0.9\linewidth]{Figures/RandSclosure}
+%	\caption[Closure test for RandS]{RandS closure test.}
+%	\label{fig:randsclosure}
+%\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{Figures/RandS_Pho1_closure}
+	\caption[Leading photon $p_T$ distrubutions for di-photon QCD MC events before and after Rebalance and Smear implimentation.]{This shows a comparison of the $p_t$ distribution for the leading photons in di-photon QCD MC events before and after being Ralanced and Smeared. These events were requireed to have two loose ID photons and Hard $E_T^{miss}>120$ GeV. The data points are taken directly from the QCD simulation while the blue shaded area shows the distribution after application of Rebalance and Smear. We see here that the Rebalance and Smear method causes no significant distortions to the leading photon $p_T$ spectrum in di-photon events.}
+	\label{fig:randspho1closure}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{Figures/RandS_Pho2_closure}
+	\caption[Next-to-leading photon $p_T$ distrubutions for di-photon QCD MC events before and after Rebalance and Smear implimentation.]{This shows a comparison of the $p_t$ distribution for the next-to-leading photons in di-photon QCD MC events before and after being Ralanced and Smeared. These events were requireed to have two loose ID photons and Hard $E_T^{miss}>120$ GeV. The data points are taken directly from the QCD simulation while the blue shaded area shows the distribution after application of Rebalance and Smear. We see here that the Rebalance and Smear method causes no significant distortions to the next-to-leading photon $p_T$ spectrum in di-photon events.}
+	\label{fig:randspho2closure}
+\end{figure}
+
+\label{section:RandS}
 \subsubsection{Multivariate discriminant}
 A boosted decision tree (BDT) was used to develop a discriminating variable for identifying events with real $E^{miss}_T$.  A decision tree is a classifier with a binary tree structure that recursively partitions data or samples into classifications of either signal or background.  Figure \ref{fig:decisiontree} shows an example schematic of a single decision tree.  Each splitting of the data takes place at a \textit{node}.  Each node uses a single input variable to make a decision regarding classification.  This process begins at a \textit{root} node and continues until the final node in the tree is reached, which is referred to as a \textit{leaf} node.  The number of layers of nodes is what we call the \textit{depth} of a tree.  \textit{Training} is the process of building or growing a tree.  The training process begins by setting an initial splitting criteria at a root node.  The root node splits the training data, which consists a set of background samples and a set of signal samples, into two subsets which each go to different node where this same process is repeated until the entire tree is built.  The splitting criteria at each node is determined by finding which variable and cut value on said variable results in the best separation between signal and background.  The amount of separation is quantified by a separation index known as the Gini Index, which is defined by $p(1-p)$ where is $p$ is the purity of the resulting subsets.  Once the entire tree is built, the leaf nodes are identified as either signal or background depending on whether the majority of the events they contain are from the signal or background training samples.
 \begin{figure}[h]
@@ -266,7 +299,7 @@ Training and testing of the BDT was performed in ROOT using the Toolkit for Mult
 	\caption{The 95\% confidence level upper limits on the pair production cross sections for gluinos (\ref{fig:gluinomassband})and squarks (\ref{fig:squarkmassband})as a function of gluino/squark and neutralino masses as reported in \cite{CMS:OldSUSYpaper}.  The shaded vertical bands show the mass bands used in the BDT training.}
 	\label{fig:massbands}
 \end{figure}
-In order to minimize any bias in the BDT response to  model-dependent parameters like the difference between gluino/squark and neutralino masses, the training events used from each mass point were weighted by a factor of one over the number events generated for that particular model.  This ensures that each mass point in the mass band is equally represented in the training sample for the BDT.  The location of the mass bands were chosen to be near the edge of the exclusion region to target the phase space not yet ruled out by previous analyses.  The background samples use for training and testing of the BDT were GJets MC samples that had been Rebalanced and Smeared to increase statistics. These simulate Standard Model processes resulting in final states containing jets and at least one photon which is the source of the fake $E^{miss}_T$ background.  The full list of MC samples used in the BDT training can be seen in Table \ref{table:TrainingSamples}.  For events from these samples to be included in the training or testing of the BDT, they were required to have
+In order to minimize any bias in the BDT response to  model-dependent parameters like the difference between gluino/squark and neutralino masses, the training events used from each mass point were weighted by a factor of one over the number events generated for that particular model.  This ensures that each mass point in the mass band is equally represented in the training sample for the BDT.  The location of the mass bands were chosen to be near the edge of the exclusion region to target the phase space not yet ruled out by previous analyses.  The background samples use for training and testing of the BDT were GJets MC samples that had been Rebalanced and Smeared to increase statistics. These simulate Standard Model processes resulting in final states containing jets and at least one photon which is the source of the fake $E^{miss}_T$ background.  The full list of MC samples used in the BDT training can be seen in Table \ref{table:TrainingSamples}.  As mentioned in Section \ref{section:pixelupgrade}, there was a substantial upgrade to the pixel detector in between 2016 and 2017 which separates Run 2 into Phase 0 (2016) and Phase 1 (2017 and 2018).  In order to remove any effects on the BDT due to different detector response before and after the upgrade, a separate BDT was trained and applied for each of these two phases.  For events from these samples to be included in the training or testing of the BDT, they were required to have
 \begin{itemize}
 	\item At least two photons without associated pixel seeds as described in Section \ref{section:photondefinition}.
 	\item At least one of those photons is in the EB ($|\eta|<1.44$)
@@ -306,7 +339,7 @@ In order to minimize any bias in the BDT response to  model-dependent parameters
 	\item $S_{T_{jets}} = \sum_{jets}|\vec{p}_T|$
 	\item $p_{T_{jets}} = \sum_{jets}\vec{p}_T$
 	\item $p_{T_{\gamma \gamma}} = \vec{p}_{T_{\gamma_1}} + \vec{p}_{T_{\gamma_2}}$
-	\item $HardE_T^{miss} = -\sum_{i}\vec{p}_{T_{i}}$
+	\item $Hard E_T^{miss} = |-\sum_{i}\vec{p_{Ti}}\cdot \Theta(30 -p_{Ti})|$
 	\item $\Delta \Phi_{\gamma \gamma} = \Delta \Phi (\vec{p}_{T_{\gamma_1}}, \vec{p}_{T_{\gamma_2}})$
 	\item $\Delta \Phi_{min} = min[\Delta \Phi (\vec{p}_{T_{HardE_T^{miss}}}, \vec{p}_{T_{jet_i}})]$
 	\item $\Delta \Phi_{1} = \Delta \Phi (\vec{p}_{T_{HardE_T^{miss}}}, \vec{p}_{T_{jet_1}})$
@@ -336,16 +369,54 @@ In order to minimize any bias in the BDT response to  model-dependent parameters
 	\label{fig:bdtvar3}
 \end{figure}
 
-Events in both the signal and background samples are randomly split into either a test or training categories.  A substantial difference between the test and training distributions of the BDT response implies that the BDT is not drawing reliable conclusions as to whether an event is signal-like or background-like.  A grid search over different combinations of hyperparameters (the maximum depth of a tree and the number of trees) was performed to maximize separation between the signal and background BDT response distributions while maintaining good agreement between the training and test samples.  Using 200 trees with a maximum depth of 4 was found to be the optimal choice as increasing either or both of those parameters resulted in over-training with minimal gains in separation of signal and background. The comparison of BDT scores between signal and background events is shown in Figure \ref{fig:bdtresponse}.  The training and test samples show good agreement while there is good separation between signal and background.
+Events in both the signal and background samples are randomly split into either a test or training categories.  A substantial difference between the test and training distributions of the BDT response implies that the BDT is not drawing reliable conclusions as to whether an event is signal-like or background-like.  A grid search over different combinations of hyperparameters (the maximum depth of a tree and the number of trees) was performed to maximize separation between the signal and background BDT response distributions while maintaining good agreement between the training and test samples.  Using 200 trees with a maximum depth of 4 was found to be the optimal choice as increasing either or both of those parameters resulted in over-training with minimal gains in separation of signal and background. The comparison of BDT scores between signal and background events is shown in Figures \ref{fig:phase0bdtresponse} and \ref{fig:phase1bdtresponse} for the Phase 0 and Phase 1 BDTs respectively.  Comparisons of training and test samples for Phase 0 are shown in Figures \ref{fig:phase0bdtbkgotcheck} (background) and \ref{fig:phase0bdtsignalotcheck} (signal).  The comparisons for Phase 1 are shown in Figures \ref{fig:phase1bdtbkgotcheck} (background) and \ref{fig:phase1bdtsignalotcheck} (signal). The training and test samples comparisons don't show any significant deviations while there is good separation between signal and background BDT responses.
+
+%\begin{figure}[h]
+%	\centering
+%	\includegraphics[width=1.0\linewidth]{Figures/BDT_response}
+%	\caption[BDT training and testing results]{BDT score distributions for signal (blue) and background (red) events.  The shaded area shows the distribution of events in the test samples while t%he dots represent events in the training samples.}
+%	\label{fig:bdtresponse}
+%\end{figure}
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=1.0\linewidth]{Figures/BDT_response}
-	\caption[BDT training and testing results]{BDT score distributions for signal (blue) and background (red) events.  The shaded area shows the distribution of events in the test samples while the dots represent events in the training samples.}
-	\label{fig:bdtresponse}
+	\includegraphics[width=0.9\linewidth]{Figures/Phase0BDT_bkgOTcheck}
+	\caption[Overtraining check for background samples in Phase 0 BDT.]{Overtraining check for background samples in Phase 0 BDT.  The BDT score distributions for the training (red) and testing (blue) samples are plotted on the same graph.}
+	\label{fig:phase0bdtbkgotcheck}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{Figures/Phase0BDT_signalOTcheck}
+	\caption[Overtraining check for signal samples in Phase 0 BDT.]{Overtraining check for signal samples in Phase 0 BDT.  The BDT score distributions for the training (red) and testing (blue) samples are plotted on the same graph.}
+	\label{fig:phase0bdtsignalotcheck}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{Figures/Phase1BDT_bkgOTcheck}
+	\caption[Overtraining check for background samples in Phase 1 BDT.]{Overtraining check for background samples in Phase 1 BDT.  The BDT score distributions for the training (red) and testing (blue) samples are plotted on the same graph.}
+	\label{fig:phase1bdtbkgotcheck}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{Figures/Phase1BDT_signalOTcheck}
+	\caption[Overtraining check for signal samples in Phase 1 BDT.]{Overtraining check for signal samples in Phase 1 BDT.  The BDT score distributions for the training (red) and testing (blue) samples are plotted on the same graph.}
+	\label{fig:phase1bdtsignalotcheck}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{Figures/Phase0BDTresponse}
+	\caption[Phase 0 BDT response for signal and background]{Phase 0 BDT response for signal (blue) and background (red)}
+	\label{fig:phase0bdtresponse}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{Figures/Phase1BDTresponse}
+	\caption[Phase 1 BDT response for signal and background]{Phase 1 BDT response for signal (blue) and background (red)}
+	\label{fig:phase1bdtresponse}
 \end{figure}
 
-Using the BDT we created one control region (low BDT score) and two signal regions (medium and high BDT scores) by defining two BDT score thresholds.  The low threshold corresponds to the minimum BDT score with at least 90\% acceptance of every signal model or mass point in signal MC samples.  Figures \ref{fig:t5wgbdtcuts} and \ref{fig:t6wgbdtcuts} show the BDT cuts that resulted in 90\% acceptance at each mass point for the T5gg and T6gg models respectively.  In both models the value of this BDT cut is always greater than $-0.13$ so this was chosen as the value separating the low-BDT control region and the medium-BDT signal region.  The threshold for the high-BDT region is chosen such that 90\% of the fake $E^{miss}_T$ background from the GJets MC is excluded.  The BDT response for Rebalanced and Smeared events in this sample is shown in Figure \ref{fig:bdtgjets} where 90\% of the events have a score less than $0.03$.  This puts the threshold for the high-BDT signal region at a BDT score of $0.03$.  With these three regions we have a very background-pure control region ($BDT \leq -0.13$) and two signal regions, one very pure in signal ($BDT\textgreater 0.03$) and one intermediate ($-0.13 \textless BDT \leq 0.03$), which combined have at least 90\% acceptance for all mass points.
+
+Using the BDT we created one control region (low BDT score) and two signal regions (medium and high BDT scores) by defining two BDT score thresholds.  The low threshold corresponds to the minimum BDT score with at least 90\% acceptance of every signal model or mass point in signal MC samples.  Figures \ref{fig:t5wgbdtcuts} and \ref{fig:t6wgbdtcuts} show the BDT cuts that resulted in 90\% acceptance at each mass point for the T5gg and T6gg models respectively.  In both models the value of this BDT cut is always greater than $-0.13$ so this was chosen as the value separating the low-BDT control region and the medium-BDT signal region.  The threshold for the high-BDT region is chosen such that 90\% of the fake $E^{miss}_T$ background from the GJets MC is excluded.  The BDT response for Rebalanced and Smeared events in this sample for each year is shown in Figures \ref{fig:bdtgjets}, \ref{fig:bdtgjets2017}, and \ref{fig:bdtgjets2018} where over 90\% of the events have a score less than $0.03$.  This puts the threshold for the high-BDT signal region at a BDT score of $0.03$.  With these three regions we have a very background-pure control region ($BDT \leq -0.13$) and two signal regions, one very pure in signal ($BDT\textgreater 0.03$) and one intermediate ($-0.13 \textless BDT \leq 0.03$), which combined have at least 90\% acceptance for all mass points.
 
 \begin{figure}[h]
 	\centering
@@ -359,14 +430,24 @@ Using the BDT we created one control region (low BDT score) and two signal regio
 	\caption[BDT cut values on T6gg models resulting in 90\% signal acceptance.]{BDT cut values on T6gg models resulting in 90\% signal acceptance.}
 	\label{fig:t6wgbdtcuts}
 \end{figure}
-
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.7\linewidth]{Figures/BDT_Gjets}
-	\caption[BDT response to Rebalance and Smear events in GJets MC]{This is the BDT score distribution for Rebalance and Smear events from the GJets MC samples. Requiring a BDT score above 0.03 removes 90\% of this background.}
+	\includegraphics[width=0.7\linewidth]{Figures/GJets_BDT_2016}
+	\caption[BDT response to Rebalance and Smear events in 2016 GJets MC]{This is the BDT score distribution for Rebalance and Smear events from the 2016 GJets MC samples. Requiring a BDT score above 0.03 removes 90\% of this background.}
 	\label{fig:bdtgjets}
 \end{figure}
-
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/GJets_BDT_2017}
+	\caption[BDT response to Rebalance and Smear events in 2017 GJets MC]{This is the BDT score distribution for Rebalance and Smear events from the 2017 GJets MC samples. Requiring a BDT score above 0.03 removes 90\% of this background.}
+	\label{fig:bdtgjets2017}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/GJets_BDT_2018}
+	\caption[BDT response to Rebalance and Smear events in 2018 GJets MC]{This is the BDT score distribution for Rebalance and Smear events from the 2018 GJets MC samples. Requiring a BDT score above 0.03 removes 90\% of this background.}
+	\label{fig:bdtgjets2018}
+\end{figure}
 %\begin{figure}[h]
 %	\centering
 %	\subfloat[T6GG mass grid with medium BDT cut values][T6GG mass grid with medium BDT cut values]{
@@ -424,7 +505,7 @@ The resulting dilepton invariant mass spectra for 2016 MC and data are shown in 
 	\caption{Summary of $Z \gamma \gamma \rightarrow \nu \nu \gamma \gamma$ model validation}
 	\begin{tabular}{|l|l|l|l|}
 		\hline
-		Year & Data Events & MC Events & $\frac{data}{MC}$ \\
+		Year & Data Events & MC Events & $R = \frac{data}{MC}$ \\
 		\hline
 		\hline
 		2016 & 10.0 +4.78 -3.05 & 10.54 $\pm$0.54 & 0.95 +0.46 -0.29 \\
