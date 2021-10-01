@@ -65,27 +65,26 @@ This analysis was performed using 137 fb$^{-1}$ of data collected from the CMS d
 \end{table}
 
 \section{Monte Carlo samples}
-Monte Carlo (MC) simulation were used to validate performance of the analysis on backgrounds, model background contributions, constructing a multivariate discriminant, and determining signal efficiencies.   The MC samples used for this analysis are listed in Table \ref{table:MCSamples}.
-\begin{table}
-	\centering
-	\caption{Table of MC samples used.}
-	\begin{tabular}{|l|l|}
-		\hline
-		Sample name & Purpose \\
-		\hline
-		\hline
-		GJets & Training MVA discriminate for QCD background \\
-		\hline
-		ZGGToNuNuGG & Prediction of irreducible $Z\gamma \gamma \rightarrow \nu \nu \gamma \gamma$ background \\
-		\hline
-		ZGGToLLGG & Renormalization of $Z\gamma \gamma \rightarrow \nu \nu \gamma \gamma$ background \\
-		\hline
-		TTJets & Testing EWK background prediction method\\
-		\hline
-	\end{tabular}
-	\label{table:MCSamples}
-\end{table}
-
+Monte Carlo (MC) simulation were used to validate performance of the analysis on backgrounds, model background contributions, constructing a multivariate discriminant, and determining signal efficiencies.   %The MC samples used for this analysis are listed in Table \ref{table:MCSamples}.
+%\begin{table}
+%	\centering
+%	\caption{Table of MC samples used.}
+%	\begin{tabular}{|l|l|}
+%		\hline
+%		Sample name & Purpose \\
+%		\hline
+%		\hline
+%		GJets & Training MVA discriminate for QCD background \\
+%		\hline
+%		ZGGToNuNuGG & Prediction of irreducible $Z\gamma \gamma \rightarrow \nu \nu \gamma \gamma$ background \\
+%		\hline
+%		ZGGToLLGG & Renormalization of $Z\gamma \gamma \rightarrow \nu \nu \gamma \gamma$ background \\
+%		\hline
+%		TTJets & Testing Rebalance and smear in di-electron control region \\
+%		\hline
+%	\end{tabular}
+%	\label{table:MCSamples}
+%\end{table}
 The distribution of pileup (PU) interactions produced in simulated events differs from data.  Since the presence of additional PU interactions affects many aspects of reconstruction, it's important for the PU to be properly simulated.  To correct for these differences between MC and data the simulated events are reweighted so that the PU profile in MC matches the profile in data.  In MC the PU is number of simulated vertices in an event while the PU in data is calculated by the method discussed in Section \ref{section:pucorrection}.  
   
 
@@ -94,7 +93,6 @@ The object candidates that are identified by the reconstruction algorithms are s
 
 \subsection{Photons}
 Photons are required to have $p_T>80$ GeV and meet the criteria prescribed by loose ID cuts derived by the $e/\gamma$ Physics Object Group (EGM POG).  The cut variables used to determine the photon ID are:
-
 \begin{itemize}
 	\item H/E - The ratio of the energy deposited in the HCAL tower that is directly behind the ECAL supercluster associated with the photon to the energy deposited in the ECAL supercluster.
 	\item $\sigma_{i\eta i\eta}$ - The log-fractional weighted width of a shower in $i\eta$-space.  This variable is used to describe the shower shape or more specifically it provides a measure of the spread of the shower in the $\eta$-direction.  The log-fractional weight is the log of the ratio of energy deposited in a specific ECAL crystal versus the energy deposited in the associated $5\times 5$ supercluster.
@@ -174,11 +172,7 @@ Muons are required to have $p_T > 30$ GeV, $|\eta|<2.4$, and pass the medium ID 
 The types of muons (global, tracker, and standalone) are those described in Chapter \ref{section:muondefinitions}.  The medium ID criteria results in an efficiency of > 98\% for muons with $p_T > 20$ GeV \cite{MuonIDPerf}.
 
 \subsection{Jets}
-Jets are reconstructed using the anti-k$_T$ algorithm described in Chapter \ref{section:jetalgorithm} within a cone having radius $R = 0.4$.  
-
-The nature of this reconstruction also labels the previously mentioned objects (photons, electrons, and muons) as jets so these need to be removed from the jet collection in order to leave us with only hadronic jets.  This process is called "cleaning" the jets. 
-
-Still working on this section...
+Jets are reconstructed using the anti-k$_T$ algorithm described in Chapter \ref{section:jetalgorithm} within a cone having radius $R = 0.4$.  The nature of this reconstruction also labels the previously mentioned objects (photons, electrons, and muons) as jets so these need to be removed from the jet collection in order to leave us with only hadronic jets.  This process is called "cleaning" the jets which consists of insuring that there are no isolated photon, electrons, or muons within the area of the jet cone.  It's important to point out that jets can have things like photons in them, but since those things would not pass the isolation criteria required to be reconstructed, that jet would remain as a hadronic jet.
 
 \label{section:jetdefinition}
 
@@ -207,7 +201,7 @@ The event filters mentioned above are designed to reject events with instrumenta
 \end{itemize}
 
 \section{Backgrounds}
-The sources of background in this analysis can be grouped into three categories.  In order of decreasing contribution they are mismeasured hadronic activity, electrons misidentified as photons, and standard model processes having final states with neutrinos and two photons.  In events with multiple jets, limitations on the jet energy resolution can give rise to an apparent imbalance in $p_T$ as is shown in Figure \ref{fig:fakemet}.  Such events are usually from quantum chromodynamics (QCD) processes.  In these cases jets can be misidentified as photons or there can be real photons being produced.  In both cases the result is the appearance of two photons accompanied by $E^{miss}_T$ which mimics our signal.  Given the large cross-section for QCD, this is the most significant background in this analysis.  The next background, resulting from the misidentification of electrons as photons, comes from electroweak (EWK) processes, in particular $W\gamma$ and $W + jets$ events where $W \rightarrow e\nu$.  Here the neutrino contributes real $E^{miss}_T$ while the fake photon allows this event to fulfill the diphoton requirement.  The final background is from $Z\gamma \gamma \rightarrow \nu \nu \gamma \gamma$ events, which exactly mimic our signal, and is modeled using simulation as it is irreducible.
+The sources of background in this analysis can be grouped into three categories.  In order of decreasing contribution they are mismeasured hadronic activity, electrons misidentified as photons, and standard model processes having final states with neutrinos and two photons.  In events with multiple jets, limitations on the jet energy resolution can give rise to an apparent imbalance in $p_T$ as is shown in Figure \ref{fig:fakemet}.  Such events are usually from quantum chromodynamics (QCD) processes.  In these cases jets can be misidentified as photons or there can be real photons being produced.  In both cases the result is the appearance of two photons accompanied by $E^{miss}_T$ which mimics our signal.  Given the large cross-section for QCD, this is the most significant background in this analysis.  The next background, resulting from the misidentification of electrons as photons, comes from electroweak (EWK) processes, in particular $W\gamma$ events where $W \rightarrow e\nu$.  Here the neutrino contributes real $E^{miss}_T$ while the fake photon allows this event to fulfill the diphoton requirement.  The final background is from $Z\gamma \gamma \rightarrow \nu \nu \gamma \gamma$ events, which exactly mimic our signal, and is modeled using simulation as it is irreducible.
 
 \begin{figure}
 	\centering
@@ -245,14 +239,14 @@ The rebalancing in the first step is performed based on a kinematic fit \cite{DH
 
 In the next step, the seed events obtained through rebalancing are smeared in order to simulate the expected detector-level measurement of each jet.  The smearing is done by scaling the $p_T$ of each jet by a random factor sampled from the full pre-rebalanced jet response distribution described in Section \ref{section:jetalgorithm}.  The smear step was performed 50 times on each seed event in order to probe more of the response distribution and improve prediction stability by decreasing the effect of statistical fluctuations.
 
-The result of this process is that we are able to take events from real data, rebalance them to closer to truth-level, and then use those rebalanced events as seeds to generate multiple detector-level events.  This method has been proven effective in all-hadronic final states, but in this case it is being used in the presence of two photons also in the final state.  As the photon $p_T$ values in the seed events are not smeared like the jets to create these new detector-level events, there is a danger that the photon $p_T$ spectrum could be distorted.  This was checked using simulated di-photon events from QCD MC requiring two loose ID photons and Hard $E_T^{miss}>120$ GeV.  The results in Figures \ref{fig:randspho1closure} and \ref{fig:randspho2closure} show that there is no significant distortion of either the leading or next-to-leading photon $p_T$ spectra.
+The result of this process is that we are able to take events from real data, rebalance them to closer to the true value, and then use those rebalanced events as seeds to generate multiple detector-level events.  Figure \ref{fig:randsclosure} shows that the Hard $E_T^{miss}$ spectrum before and after going through this process are in agreement.  This method has been proven effective in all-hadronic final states, but in this case it is being used in the presence of two photons also in the final state.  As the photon $p_T$ values in the seed events are not smeared like the jets to create these new detector-level events, there is a danger that the photon $p_T$ spectrum could be distorted.  This was checked using simulated di-photon events from QCD MC requiring two loose ID photons and Hard $E_T^{miss}>120$ GeV.  The results in Figures \ref{fig:randspho1closure} and \ref{fig:randspho2closure} show that there is no significant distortion of either the leading or next-to-leading photon $p_T$ spectra.
 
-%\begin{figure}[h]
-%	\centering
-%	\includegraphics[width=0.9\linewidth]{Figures/RandSclosure}
-%	\caption[Closure test for RandS]{RandS closure test.}
-%	\label{fig:randsclosure}
-%\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{Figures/RandSclosure}
+	\caption[Hard $E_T^{miss}$ distribution for QCD MC events before and after being Rebalanced and Smeared.]{This shows a comparison of the Hard $E_T^{miss}$ distribution for QCD MC events before and after being Rebalanced and Smeared.  The data points are taken directly from the QCD simulation while the blue shaded area shows the distribution after application of Rebalance and Smear.}
+	\label{fig:randsclosure}
+\end{figure}
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\linewidth]{Figures/RandS_Pho1_closure}
@@ -417,7 +411,7 @@ Events in both the signal and background samples are randomly split into either 
 
 
 Using the BDT we created one control region (low BDT score) and two signal regions (medium and high BDT scores) by defining two BDT score thresholds.  The low threshold corresponds to the minimum BDT score with at least 90\% acceptance of every signal model or mass point in signal MC samples.  Figures \ref{fig:t5wgbdtcuts} and \ref{fig:t6wgbdtcuts} show the BDT cuts that resulted in 90\% acceptance at each mass point for the T5gg and T6gg models respectively.  In both models the value of this BDT cut is always greater than $-0.13$ so this was chosen as the value separating the low-BDT control region and the medium-BDT signal region.  The threshold for the high-BDT region is chosen such that 90\% of the fake $E^{miss}_T$ background from the GJets MC is excluded.  The BDT response for Rebalanced and Smeared events in this sample for each year is shown in Figures \ref{fig:bdtgjets}, \ref{fig:bdtgjets2017}, and \ref{fig:bdtgjets2018} where over 90\% of the events have a score less than $0.03$.  This puts the threshold for the high-BDT signal region at a BDT score of $0.03$.  With these three regions we have a very background-pure control region ($BDT \leq -0.13$) and two signal regions, one very pure in signal ($BDT\textgreater 0.03$) and one intermediate ($-0.13 \textless BDT \leq 0.03$), which combined have at least 90\% acceptance for all mass points.
-
+\label{section:BDT}
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1.5\linewidth,angle=90]{Figures/T5Wg_bdtcuts}
@@ -462,8 +456,30 @@ Using the BDT we created one control region (low BDT score) and two signal regio
 %\end{figure}
 
 \subsection{Electroweak background}
-The electroweak background is dominated by events with $W \rightarrow e \nu$ where the electron is misidentified as a photon.  Unlike the QCD background these events have  real $E^{miss}_T$ due to the presence of a neutrino.  The key to estimating this background is determining the rate at which electrons get incorrectly labeled as photons in the signal region.  This is done using a tag-and-probe method where the tag is an electron (a loose ID photon that fails the PSV) and the probe is categorized as either a photon or an electron.  The result is an electron-electron region ($ee$) and an electron-photon region ($e\gamma$) that are selected from the data.    As both of these regions contain $Z\rightarrow ee$ decays, fits are applied in each of the samples to the invariant mass spectra $m_{ee}$ and $m_{e\gamma}$.  The integrals of these fits are calculated over the range of the Z mass peak to give the number of events in each category, $N_{e\gamma}$ and $N_{ee}$.  The ratio of the number of 
-
+The electroweak background is dominated by events with $W \rightarrow e \nu$ where the electron is misidentified as a photon.  Unlike the QCD background these events have  real $E^{miss}_T$ due to the presence of a neutrino.  The key to estimating this background is determining the rate at which electrons get incorrectly labeled as photons in the signal region.  This is done using a tag-and-probe method where the tag is an electron (a loose ID photon that fails the PSV) and the probe is categorized as either a photon or an electron.  The result is an electron-electron region ($ee$) and an electron-photon region ($e\gamma$) that are selected from the data.    As both of these regions contain $Z\rightarrow ee$ decays, fits are applied in each of the samples to the invariant mass spectra $m_{ee}$ and $m_{e\gamma}$ as seen in Figure \ref{fig:tagandprobefits}.  The integrals of these fits are calculated over the range of the Z mass peak to give the number of events in each category, $N_{e\gamma}$ and $N_{ee}$.  The rate that an electron fakes a photon is given by the ratio $N_{ee}/N_{e\gamma}$.  These values for each year are listed in Table \ref{table:fakerates}.  These fake rates are used to perform a data-driven estimation of the electroweak background by rescaling $e\gamma$ events in data by the rate at which electrons are falsely identified as photons.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1.0\linewidth]{Figures/tagandprobefits}
+	\caption[Tag and probe.]{Invariant mass spectrum for electron-electron events (left) and electron-photon events (right)}
+	\label{fig:tagandprobefits}
+\end{figure}
+\begin{table}[h]
+	\centering
+	\caption{Summary of the rate at which an electron fakes a photon.}
+	\begin{tabular}{|l|l|}
+		\hline
+		Year & Rate(e fakes $\gamma$)\\
+		\hline
+		\hline
+		2016 & 2.02\% \\
+		\hline
+		2017 & 4.52\% \\
+		\hline
+		2018 & 4.65\% \\
+		\hline
+	\end{tabular}
+	\label{table:fakerates}
+\end{table}
 
 %This is done using two control regions.  The first is double electron ($ee$) region.  As described before, the electrons are defined as loose ID photons that have a pixel seed match.  The second is the $e\gamma$ region which contains one electron and one photon.  The misidentification rate can be calculated by comparing the invariant mass peaks $m_{ee}$ and $m_{e\gamma}$.  
 
@@ -508,17 +524,31 @@ The resulting dilepton invariant mass spectra for 2016 MC and data are shown in 
 		Year & Data Events & MC Events & $R = \frac{data}{MC}$ \\
 		\hline
 		\hline
-		2016 & 10.0 +4.78 -3.05 & 10.54 $\pm$0.54 & 0.95 +0.46 -0.29 \\
+		2016 & $10.0^{+4.78}_{-3.05}$ & 10.54 $\pm$0.54 & $0.95^{+0.46}_{-0.29}$ \\
 		\hline
-		2017 & - & - & - \\
+		2017 & $14.0^{+5.32}_{-3.65}$ & 10.15 $\pm$0.56 & $1.38^{+0.53}_{-0.37}$ \\
 		\hline
-		2018 & - & - & - \\
+		2018 & $15.0^{+5.43}_{-3.79}$ & 14.83 $\pm$0.83 & $1.01^{+0.36}_{-0.26}$ \\
 		\hline
 	\end{tabular}
 	\label{table:ZGGtonunuGG}
 \end{table}
 
 \section{Signal and control regions}
-The background estimation methods are validated in various low-BDT data control regions.  
+The background estimation methods are validated in various data control regions.  
 
-The first such region is the low-BDT $ee$ region in which the pixel seed veto requirements are inverted, resulting in events with two electrons.  This region is primarily composed of $t\bar{t}$, which is a source of real $E_T^{miss}$, and Drell-Yan (DY) with $Z\rightarrow ee$.  As the DY background is comprised of multi-jet events with two electrons (photos with inverted pixel seed requirements), this is a source of fake $E_T^{miss}$ that is very similar yet orthogonal to our expected signal which consists of multi-jet events with two photons.
+The first such region is the $ee$ region in which the pixel seed veto requirements are inverted, resulting in events with two electrons.  This region is primarily composed of $t\bar{t}$, which is a source of real $E_T^{miss}$, and Drell-Yan (DY) with $Z\rightarrow ee$.  As the DY background is comprised of multi-jet events with two electrons (photos with inverted pixel seed requirements), this is a source of fake $E_T^{miss}$ that is very similar yet orthogonal to our expected signal which consists of multi-jet events with two photons.  Applying Rebalance and Smear on these events results in an estimation of the DY background.  Looking at the invariant mass distribution of the two electrons, we see in Figure \ref{fig:eefakemet} that the Rebalance and Smear DY estimation, which is fake $E_T^{miss}$, dominates on the $Z$ mass peak.  Looking at the Hard $E_T^{miss}$ distribution in events where the invariant mass is within 10 GeV of the $Z$ mass peak gives a very pure fake $E_T^{miss}$ region shown in Figure \ref{fig:eeonzhardmet} that shows good agreement between data and prediction.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{Figures/eefakemet}
+	\caption[Invariant mass $m_{ee}$ distribution for di-electron control region.]{Invariant mass $m_{ee}$ distribution for di-electron control region.}
+	\label{fig:eefakemet}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{Figures/eeonZhardmet}
+	\caption[Hard $E_T^{miss}$ distribution for di-electron control region.]{Hard $E_T^{miss}$ distribution for di-electron control region with invariant mass $m_{ee}$ within 10 GeV of the Z boson mass.}
+	\label{fig:eeonzhardmet}
+\end{figure}
+
+The BDT output is used to define the data control region and signal region having two photons, as mentioned in Section \ref{section:BDT}.  The regions are also binned in Hard $E_T^{miss}$.  The results are shown in Figure --.  Interpretations of these results is discussed in the next chapter.

@@ -1,92 +1,99 @@
 \addvspace {10pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Illustration of the Higgs potential for $\mu ^2$ < 0}}{22}{}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Summary of content of the SM.}}{25}{}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Illustration of the Higgs potential for $\mu ^2$ < 0}}{24}{}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Summary of content of the SM.}}{27}{}%
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces LHC interaction points}}{32}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Layout of LHC accelerator complex \cite {Evans_2008}.\relax }}{33}{}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Proton bunch capture onto RF bucket \cite {Baird:1017689}.\relax }}{34}{}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Cross section of LHC dipole \cite {dipole} \relax }}{34}{}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Integrated luminosity delivered by the LHC to the CMS experiment each year from 2010-2018.\relax }}{35}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces LHC interaction points}}{39}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Layout of LHC accelerator complex \cite {Evans_2008}.\relax }}{40}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Proton bunch capture onto RF bucket \cite {Baird:1017689}.\relax }}{41}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Cross section of LHC dipole \cite {dipole} \relax }}{41}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Integrated luminosity delivered by the LHC to the CMS experiment each year from 2010-2018.\relax }}{42}{}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Schematic of CMS detector \cite {Sakuma_2014}\relax }}{37}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Transverse slice of the CMS detector\cite {Barney:2628641}.\relax }}{38}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Cross section (side) of CMS tracker prior to the Phase 1 upgrade during the year-end technical stop of 2016/2017. Each line represents a detector module while double lines indicate back-to-back strip modules. Surrounding the pixel tracker (PIXEL) is the strip detector, which is divided into the Tracker Inner Barrel (TIB), Tracker Outer Barrel (TOB), Tracker Inner Disks (TID), and Tracker Endcaps (TEC). Reprinted from Reference \cite {Chatrchyan:1704291}.\relax }}{40}{}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Cross section (side) of pixel detector. The lower half , labeled "Current", shows the design prior to 2017 while the upper half, labeled "Upgrade", shows the design after the upgrade. Reprinted from Resource \cite {Dominguez:1481838}\relax }}{41}{}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces PbWO$_{4}$ crystals. Left: EB crystal with APD. Right: EE crystal with VPT. Reprinted from \cite {Collaboration_2008}\relax }}{44}{}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Schematic of ECAL. Reprint from \cite {Collaboration_2008}\relax }}{47}{}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Longitudinal view of HCAL \cite {CERN-LHCC-97-031}\relax }}{49}{}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Longitudinal slice of CMS detector while operating at 3.8-T central magnetic field. The right-hand side of the figure shows a mapping of the magnetic field lines while the left-hand side shows a mapping of the field strength. Reprint from \cite {Chatrchyan:2009si}\relax }}{50}{}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Cross-section of one quadrant of the CMS detector. The DTs are labeled as "MB" (Muon Barrel) and the CSCs are labelled as "ME" (Muon Endcap). The RPCs are "RB" for those in the barrel and "RE" for those in the endcap. Reprint from \cite {Sirunyan_2018}.\relax }}{52}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Schematic of CMS detector \cite {Sakuma_2014}\relax }}{44}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Transverse slice of the CMS detector\cite {Barney:2628641}.\relax }}{45}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Cross section (side) of CMS tracker prior to the Phase 1 upgrade during the year-end technical stop of 2016/2017. Each line represents a detector module while double lines indicate back-to-back strip modules. Surrounding the pixel tracker (PIXEL) is the strip detector, which is divided into the Tracker Inner Barrel (TIB), Tracker Outer Barrel (TOB), Tracker Inner Disks (TID), and Tracker Endcaps (TEC). Reprinted from Reference \cite {Chatrchyan:1704291}.\relax }}{47}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Cross section (side) of pixel detector. The lower half , labeled "Current", shows the design prior to 2017 while the upper half, labeled "Upgrade", shows the design after the upgrade. Reprinted from Resource \cite {Dominguez:1481838}\relax }}{48}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces PbWO$_{4}$ crystals. Left: EB crystal with APD. Right: EE crystal with VPT. Reprinted from \cite {Collaboration_2008}\relax }}{51}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Schematic of ECAL. Reprint from \cite {Collaboration_2008}\relax }}{54}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Longitudinal view of HCAL \cite {CERN-LHCC-97-031}\relax }}{56}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Longitudinal slice of CMS detector while operating at 3.8-T central magnetic field. The right-hand side of the figure shows a mapping of the magnetic field lines while the left-hand side shows a mapping of the field strength. Reprint from \cite {Chatrchyan:2009si}\relax }}{57}{}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Cross-section of one quadrant of the CMS detector. The DTs are labeled as "MB" (Muon Barrel) and the CSCs are labelled as "ME" (Muon Endcap). The RPCs are "RB" for those in the barrel and "RE" for those in the endcap. Reprint from \cite {Sirunyan_2018}.\relax }}{59}{}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces L1 trigger system. Reprint from \cite {L1Triggerfigure:2013yva}\relax }}{55}{}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces L1 trigger system. Reprint from \cite {L1Triggerfigure:2013yva}\relax }}{62}{}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces The Bremsstrahlung photons continue along a straight trajectory while the electron path is bent by the magnetic field. This results in energy deposited in the calorimeter for such electrons to be spread out along the $\phi $-direction.\relax }}{63}{}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Comparison of the $k_T$, Cambridge/Aachen, and anti-$k_T$ jet clustering algorithms with the distance parameter set to $R$ = 1. This is a sample parton-level event upon which each algorithm was applied. Of the three, the anti-$k_T$ algorithm gives the most regularly shaped jets. Reprint from \cite {Cacciari:2008gp}\relax }}{70}{}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces $k_T$ jet clustering algorithm.}}{70}{}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces Cambridge/Aachen jet clustering algorithm}}{70}{}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces Anti-$k_T$ jet clustering algorithm}}{70}{}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Pileup distribution for 2016.}}{71}{}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Pileup distribution for 2017}}{71}{}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Pileup distribution for 2018}}{72}{}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces The Bremsstrahlung photons continue along a straight trajectory while the electron path is bent by the magnetic field. This results in energy deposited in the calorimeter for such electrons to be spread out along the $\phi $-direction.\relax }}{69}{}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Comparison of the $k_T$, Cambridge/Aachen, and anti-$k_T$ jet clustering algorithms with the distance parameter set to $R$ = 1. This is a sample parton-level event upon which each algorithm was applied. Of the three, the anti-$k_T$ algorithm gives the most regularly shaped jets. Reprint from \cite {Cacciari:2008gp}\relax }}{76}{}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces $k_T$ jet clustering algorithm.}}{76}{}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces Cambridge/Aachen jet clustering algorithm}}{76}{}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces Anti-$k_T$ jet clustering algorithm}}{76}{}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Pileup distribution for 2016.}}{77}{}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Pileup distribution for 2017}}{77}{}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Pileup distribution for 2018}}{78}{}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Two examples of GGM supersymmetry breaking processes resulting in final states conaining two photons and missing transverse momentum. The T5gg model (left) shows gluinos produced from $p-p$ collisions which subsequently result in two neutralinos, each decaying to a photon and a gravitino. The T6gg model (right) shows squarks produced from $p-p$ collisions following a similar decay chain.\relax }}{73}{}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Scale factors for 2016 loose photon ID.}}{78}{}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Scale factors fo 2017 loose photon ID.}}{79}{}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Scale factors for 2018 loose photon ID.}}{80}{}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Mismeasurement of Jet3 results in an inbalance in the events transverse momentum.\relax }}{83}{}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Summary of the steps for the Rebalance and Smear method.}}{85}{}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Jet energy response for leading jets in QCD MC before and after rebalancing.}}{86}{}%
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Leading photon $p_T$ distrubutions for di-photon QCD MC events before and after Rebalance and Smear implimentation.}}{87}{}%
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Next-to-leading photon $p_T$ distrubutions for di-photon QCD MC events before and after Rebalance and Smear implimentation.}}{88}{}%
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Schematic view of a decision tree.}}{90}{}%
-\contentsline {figure}{\numberline {7.11}{\ignorespaces The 95\% confidence level upper limits on the pair production cross sections for gluinos (7.11a\hbox {})and squarks (7.11b\hbox {})as a function of gluino/squark and neutralino masses as reported in \cite {CMS:OldSUSYpaper}. The shaded vertical bands show the mass bands used in the BDT training.\relax }}{97}{}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces Cross-section upper limits with 95\% confidence level for gluino pair production}}{97}{}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces Cross-section upper limits with 95\% confidence level for squark pair production}}{97}{}%
-\contentsline {figure}{\numberline {7.12}{\ignorespaces BDT input variables 1}}{98}{}%
-\contentsline {figure}{\numberline {7.13}{\ignorespaces BDT input variables 2}}{99}{}%
-\contentsline {figure}{\numberline {7.14}{\ignorespaces BDT input variables 3}}{100}{}%
-\contentsline {figure}{\numberline {7.15}{\ignorespaces Overtraining check for background samples in Phase 0 BDT.}}{101}{}%
-\contentsline {figure}{\numberline {7.16}{\ignorespaces Overtraining check for signal samples in Phase 0 BDT.}}{102}{}%
-\contentsline {figure}{\numberline {7.17}{\ignorespaces Overtraining check for background samples in Phase 1 BDT.}}{103}{}%
-\contentsline {figure}{\numberline {7.18}{\ignorespaces Overtraining check for signal samples in Phase 1 BDT.}}{104}{}%
-\contentsline {figure}{\numberline {7.19}{\ignorespaces Phase 0 BDT response for signal and background}}{105}{}%
-\contentsline {figure}{\numberline {7.20}{\ignorespaces Phase 1 BDT response for signal and background}}{106}{}%
-\contentsline {figure}{\numberline {7.21}{\ignorespaces BDT cut values on T5gg models resulting in 90\% signal acceptance.}}{107}{}%
-\contentsline {figure}{\numberline {7.22}{\ignorespaces BDT cut values on T6gg models resulting in 90\% signal acceptance.}}{108}{}%
-\contentsline {figure}{\numberline {7.23}{\ignorespaces BDT response to Rebalance and Smear events in 2016 GJets MC}}{109}{}%
-\contentsline {figure}{\numberline {7.24}{\ignorespaces BDT response to Rebalance and Smear events in 2017 GJets MC}}{109}{}%
-\contentsline {figure}{\numberline {7.25}{\ignorespaces BDT response to Rebalance and Smear events in 2018 GJets MC}}{110}{}%
-\contentsline {figure}{\numberline {7.26}{\ignorespaces Comparison of ZGGToLLGG MC to data}}{111}{}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Two examples of GGM supersymmetry breaking processes resulting in final states conaining two photons and missing transverse momentum. The T5gg model (left) shows gluinos produced from $p-p$ collisions which subsequently result in two neutralinos, each decaying to a photon and a gravitino. The T6gg model (right) shows squarks produced from $p-p$ collisions following a similar decay chain.\relax }}{79}{}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Scale factors for 2016 loose photon ID.}}{84}{}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Scale factors fo 2017 loose photon ID.}}{85}{}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Scale factors for 2018 loose photon ID.}}{86}{}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Mismeasurement of Jet3 results in an inbalance in the events transverse momentum.\relax }}{89}{}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Summary of the steps for the Rebalance and Smear method.}}{91}{}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Jet energy response for leading jets in QCD MC before and after rebalancing.}}{92}{}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Hard $E_T^{miss}$ distribution for QCD MC events before and after being Rebalanced and Smeared.}}{93}{}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Leading photon $p_T$ distrubutions for di-photon QCD MC events before and after Rebalance and Smear implimentation.}}{94}{}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Next-to-leading photon $p_T$ distrubutions for di-photon QCD MC events before and after Rebalance and Smear implimentation.}}{95}{}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Schematic view of a decision tree.}}{96}{}%
+\contentsline {figure}{\numberline {7.12}{\ignorespaces The 95\% confidence level upper limits on the pair production cross sections for gluinos (7.12a\hbox {})and squarks (7.12b\hbox {})as a function of gluino/squark and neutralino masses as reported in \cite {CMS:OldSUSYpaper}. The shaded vertical bands show the mass bands used in the BDT training.\relax }}{105}{}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces Cross-section upper limits with 95\% confidence level for gluino pair production}}{105}{}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces Cross-section upper limits with 95\% confidence level for squark pair production}}{105}{}%
+\contentsline {figure}{\numberline {7.13}{\ignorespaces BDT input variables 1}}{106}{}%
+\contentsline {figure}{\numberline {7.14}{\ignorespaces BDT input variables 2}}{107}{}%
+\contentsline {figure}{\numberline {7.15}{\ignorespaces BDT input variables 3}}{108}{}%
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Overtraining check for background samples in Phase 0 BDT.}}{109}{}%
+\contentsline {figure}{\numberline {7.17}{\ignorespaces Overtraining check for signal samples in Phase 0 BDT.}}{110}{}%
+\contentsline {figure}{\numberline {7.18}{\ignorespaces Overtraining check for background samples in Phase 1 BDT.}}{111}{}%
+\contentsline {figure}{\numberline {7.19}{\ignorespaces Overtraining check for signal samples in Phase 1 BDT.}}{112}{}%
+\contentsline {figure}{\numberline {7.20}{\ignorespaces Phase 0 BDT response for signal and background}}{113}{}%
+\contentsline {figure}{\numberline {7.21}{\ignorespaces Phase 1 BDT response for signal and background}}{114}{}%
+\contentsline {figure}{\numberline {7.22}{\ignorespaces BDT cut values on T5gg models resulting in 90\% signal acceptance.}}{115}{}%
+\contentsline {figure}{\numberline {7.23}{\ignorespaces BDT cut values on T6gg models resulting in 90\% signal acceptance.}}{116}{}%
+\contentsline {figure}{\numberline {7.24}{\ignorespaces BDT response to Rebalance and Smear events in 2016 GJets MC}}{117}{}%
+\contentsline {figure}{\numberline {7.25}{\ignorespaces BDT response to Rebalance and Smear events in 2017 GJets MC}}{117}{}%
+\contentsline {figure}{\numberline {7.26}{\ignorespaces BDT response to Rebalance and Smear events in 2018 GJets MC}}{118}{}%
+\contentsline {figure}{\numberline {7.27}{\ignorespaces Tag and probe.}}{118}{}%
+\contentsline {figure}{\numberline {7.28}{\ignorespaces Comparison of ZGGToLLGG MC to data}}{119}{}%
+\contentsline {figure}{\numberline {7.29}{\ignorespaces Invariant mass $m_{ee}$ distribution for di-electron control region.}}{120}{}%
+\contentsline {figure}{\numberline {7.30}{\ignorespaces Hard $E_T^{miss}$ distribution for di-electron control region.}}{121}{}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Theoretical cross section gluino pair production as a function of gluino mass}}{113}{}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Theoretical cross section for squark pair production as a function of squark mass}}{114}{}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Cross section limits for T5gg simplified model.}}{117}{}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Cross section upper limits for T6gg simplified model.}}{118}{}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Theoretical cross section gluino pair production as a function of gluino mass}}{123}{}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Theoretical cross section for squark pair production as a function of squark mass}}{124}{}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Cross section limits for T5gg simplified model.}}{127}{}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Cross section upper limits for T6gg simplified model.}}{128}{}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Timeline for LHC}}{120}{}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Vertices from a simulated 200 pileup event with MTD timing resolution of $\sim $30 ps. The red dots represent the simulated vertices while the yellow lines indicate vertices reconstructed without the use of timing information. The black crosses and blue open circles represent tracks and vertices reconstructed using time information from the MTD. Reprint from\relax }}{121}{}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Schematic view of MTD}}{122}{}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces LYSO:Ce crystal slant thickness in the BTL.}}{125}{}%
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Overview of the BTL}}{126}{}%
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Readout unit for the BTL.}}{127}{}%
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Evolution of time resolution for the BTL.}}{128}{}%
-\contentsline {figure}{\numberline {9.8}{\ignorespaces Transmission curve for LYSO:Ce before and after being irradiated to a fluence of $2 \times 10^{13}$ cm$^{-2}$ with 24 GeV protons.}}{129}{}%
-\contentsline {figure}{\numberline {9.9}{\ignorespaces Time resolution measurements of LYSO:Ce before and after irradiation.}}{130}{}%
-\contentsline {figure}{\numberline {9.10}{\ignorespaces Energy spectrum for Cs$^{137}$.}}{132}{}%
-\contentsline {figure}{\numberline {9.11}{\ignorespaces Left: This is a teflon mold used to produce glue samples. Right: The glue samples after being removed from the mold. These samples were then placed in the irradiator for radiation exposure.\relax }}{133}{}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces Teflon mold used to produce glue samples}}{133}{}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces Glue samples}}{133}{}%
-\contentsline {figure}{\numberline {9.12}{\ignorespaces Preliminary radiation tolerance studies of the top five glue candidates show that only NOA-61 and RTV-3145 are viable. Epotek, Polytec, and BC-600 all show substantial optical degradation after just a fraction of 50 kGy target.\relax }}{136}{}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces Irradiated NOA-61 glue sample}}{136}{}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces Irradiated RTV glue sample}}{136}{}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces Irradiated Epotek glue sample}}{136}{}%
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces Irradiated Polytec glue sample}}{136}{}%
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces Irradiated BC-600 glue sample}}{136}{}%
-\contentsline {figure}{\numberline {9.13}{\ignorespaces Figure 9.13a\hbox {} shows an example a glue sample ready for transmission measurements. Figure 9.13b\hbox {} shows how the measurement is taken with the sample placed inside the photo-spectrometer.\relax }}{137}{}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces Glue sample between quartz slides}}{137}{}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces Glue sample positioned in photo-spectrometer}}{137}{}%
-\contentsline {figure}{\numberline {9.14}{\ignorespaces Transmission curves for both NOA-61 (Figure 9.14a\hbox {} and RTV-3145 (Figure 9.14b\hbox {}). Figure 9.14c\hbox {} shows the transmission at 420 nm, the peak of the LYSO:Ce emission spectrum, with increasing ionizing doses. While NOA-61 starts with a higher transmission, RTV-3145 is more radiation tolerant and has a higher transmission after the full ionizing dose.\relax }}{138}{}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces Optical transmission curves for NOA-61 with increasing doses of radiation.}}{138}{}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces Optical transmission curves for RTV-3145 with increasing doses of radiation.}}{138}{}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces Transmission at at wavelength of 420 nm after various ionizing doses}}{138}{}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Timeline for LHC}}{130}{}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Vertices from a simulated 200 pileup event with MTD timing resolution of $\sim $30 ps. The red dots represent the simulated vertices while the yellow lines indicate vertices reconstructed without the use of timing information. The black crosses and blue open circles represent tracks and vertices reconstructed using time information from the MTD. Reprint from\relax }}{131}{}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Schematic view of MTD}}{132}{}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces LYSO:Ce crystal slant thickness in the BTL.}}{135}{}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Overview of the BTL}}{136}{}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Readout unit for the BTL.}}{137}{}%
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Evolution of time resolution for the BTL.}}{138}{}%
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Transmission curve for LYSO:Ce before and after being irradiated to a fluence of $2 \times 10^{13}$ cm$^{-2}$ with 24 GeV protons.}}{139}{}%
+\contentsline {figure}{\numberline {9.9}{\ignorespaces Time resolution measurements of LYSO:Ce before and after irradiation.}}{140}{}%
+\contentsline {figure}{\numberline {9.10}{\ignorespaces Energy spectrum for Cs$^{137}$.}}{142}{}%
+\contentsline {figure}{\numberline {9.11}{\ignorespaces Left: This is a teflon mold used to produce glue samples. Right: The glue samples after being removed from the mold. These samples were then placed in the irradiator for radiation exposure.\relax }}{143}{}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces Teflon mold used to produce glue samples}}{143}{}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces Glue samples}}{143}{}%
+\contentsline {figure}{\numberline {9.12}{\ignorespaces Preliminary radiation tolerance studies of the top five glue candidates show that only NOA-61 and RTV-3145 are viable. Epotek, Polytec, and BC-600 all show substantial optical degradation after just a fraction of 50 kGy target.\relax }}{147}{}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces Irradiated NOA-61 glue sample}}{147}{}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces Irradiated RTV glue sample}}{147}{}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces Irradiated Epotek glue sample}}{147}{}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces Irradiated Polytec glue sample}}{147}{}%
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces Irradiated BC-600 glue sample}}{147}{}%
+\contentsline {figure}{\numberline {9.13}{\ignorespaces Figure 9.13a\hbox {} shows an example a glue sample ready for transmission measurements. Figure 9.13b\hbox {} shows how the measurement is taken with the sample placed inside the photo-spectrometer.\relax }}{148}{}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces Glue sample between quartz slides}}{148}{}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces Glue sample positioned in photo-spectrometer}}{148}{}%
+\contentsline {figure}{\numberline {9.14}{\ignorespaces Transmission curves for both NOA-61 (Figure 9.14a\hbox {} and RTV-3145 (Figure 9.14b\hbox {}). Figure 9.14c\hbox {} shows the transmission at 420 nm, the peak of the LYSO:Ce emission spectrum, with increasing ionizing doses. While NOA-61 starts with a higher transmission, RTV-3145 is more radiation tolerant and has a higher transmission after the full ionizing dose.\relax }}{149}{}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces Optical transmission curves for NOA-61 with increasing doses of radiation.}}{149}{}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces Optical transmission curves for RTV-3145 with increasing doses of radiation.}}{149}{}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces Transmission at at wavelength of 420 nm after various ionizing doses}}{149}{}%
+\contentsline {figure}{\numberline {9.15}{\ignorespaces Test beam setup at Fermilab for investigating different BTL sensor configurations.}}{150}{}%
+\contentsline {figure}{\numberline {9.16}{\ignorespaces Test beam setup at Fermilab for verifying time resolution capabilities.}}{150}{}%
+\contentsline {figure}{\numberline {9.17}{\ignorespaces Time resolution measured as a function of the impact point along the LYSO:Ce bar.}}{151}{}%

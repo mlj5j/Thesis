@@ -12,6 +12,12 @@
 {CMS Technical Design Report for the Level-1 Trigger Upgrade}.
 \newblock 6 2013.
 
+\bibitem{ATLAS:2012yve}
+Georges Aad et~al.
+\newblock {Observation of a new particle in the search for the Standard Model
+  Higgs boson with the ATLAS detector at the LHC}.
+\newblock {\em Phys. Lett. B}, 716:1--29, 2012.
+
 \bibitem{Abdullin:2011zz}
 S.~Abdullin, P.~Azzi, F.~Beaudette, P.~Janot, and A.~Perrotta.
 \newblock {The fast simulation of the CMS detector at LHC}.
@@ -50,8 +56,13 @@ S~Baird.
 
 \bibitem{Barney:2628641}
 David Barney.
-\newblock {CMS Slice}.
+\newblock {CMS Slice, https://cds.cern.ch/record/2628641}.
 \newblock Feb 2015.
+
+\bibitem{Darkmatter:2004pz}
+Gianfranco Bertone, Dan Hooper, and Joseph Silk.
+\newblock {Particle dark matter: Evidence, candidates and constraints}.
+\newblock {\em Phys. Rept.}, 405:279--390, 2005.
 
 \bibitem{Borschensky:2014cia}
 Christoph Borschensky, Michael Kr\"amer, Anna Kulesza, Michelangelo Mangano,
@@ -86,9 +97,16 @@ S~Chatrchyan et~al.
   Cosmic Rays}.
 \newblock {\em JINST}, 5:T03021, 2010.
 
+\bibitem{CMS:2012qbp}
+Serguei Chatrchyan et~al.
+\newblock {Observation of a New Boson at a Mass of 125 GeV with the CMS
+  Experiment at the LHC}.
+\newblock {\em Phys. Lett. B}, 716:30--61, 2012.
+
 \bibitem{PhotonSF}
 CMS Collaboration.
-\newblock {EGM ID recipes Run II}, note =.
+\newblock {EGM ID recipes Run II,
+  https://twiki.cern.ch/twiki/bin/view/CMS/EgammaIDRecipesRun2}.
 
 \bibitem{Dominguez:1481838}
 CMS Collaboration.
@@ -131,6 +149,12 @@ J.~D'Hondt, S.~Lowette, O.~L. Buchmuller, S.~Cucciarelli, F.~P. Schilling,
 \newblock {Fitting of event topologies with external kinematic constraints in
   CMS}.
 \newblock 1 2006.
+
+\bibitem{Ellis:2002wba}
+John~R. Ellis.
+\newblock {Limits of the standard model}.
+\newblock In {\em {PSI Zuoz Summer School on Exploring the Limits of the
+  Standard Model}}, 11 2002.
 
 \bibitem{Evans_2008}
 Lyndon Evans and Philip Bryant.
@@ -186,6 +210,11 @@ Thomas Junk.
   statistics}.
 \newblock {\em Nucl. Instrum. Meth. A}, 434:435--443, 1999.
 
+\bibitem{Martin:1997ns}
+Stephen~P. Martin.
+\newblock {A Supersymmetry primer}.
+\newblock {\em Adv. Ser. Direct. High Energy Phys.}, 18:1--98, 1998.
+
 \bibitem{Read:2002hq}
 Alexander~L. Read.
 \newblock {Presentation of search results: The CL(s) technique}.
@@ -224,6 +253,12 @@ A.M. Sirunyan et~al.
 Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
 \newblock {A Brief Introduction to PYTHIA 8.1}.
 \newblock {\em Comput. Phys. Commun.}, 178:852--867, 2008.
+
+\bibitem{Terwort:2008ii}
+Mark Terwort.
+\newblock {Searches for GMSB at the LHC}.
+\newblock In {\em {16th International Workshop on Deep Inelastic Scattering and
+  Related Subjects}}, page 110, 5 2008.
 
 \bibitem{Weinberg:2004kv}
 Steven Weinberg.

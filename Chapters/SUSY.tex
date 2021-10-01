@@ -1,1 +1,60 @@
 \chapter{Supersymmetry}
+
+Supersymmetry (SUSY) is an elegant theory that deals with some of the SM issues described in Section \ref{section:SMproblems}.  One of the primary motivations of SUSY is to have a symmetric theory that connects fermions to bosons.  The SUSY operator $Q$ generates a transformation between boson and fermion states with 
+\begin{eqnarray}
+	Q\vert Boson \rangle = \vert Fermion \rangle, \\
+	Q\vert Fermion \rangle =  \vert Boson \rangle
+\end{eqnarray}
+This means that for every SM boson there is a fermion superpartner and for every SM fermion there will be a boson superpartner.  It's important to note that the spins of the superpartners will differ from their SM counterparts by 1/2, while the other quantum numbers remain unchanged.  We now have a remedy for the hierarchy problem if we realize that the one-loop level corrections due to scalars is of the opposite sign for that of fermions and is given by
+\begin{equation}
+	\Delta m_H^2 = \frac{\lambda_s}{16\pi^2}\Lambda_{UV}^2 + ...
+\end{equation}
+where the coupling in this case is $\lambda_s$.  We can then cancel the troublesome one-loop corrections if we were to have two complex scalar fields for each SM fermion and the $\lambda_s = |\lambda_f|^2$.\cite{Martin:1997ns}
+
+%There is a remedy for this if we realize that the one-loop level corrections due to scalars is of the opposite sign and is given by
+%\begin{equation}
+%	\Delta m_H^2 = \frac{\lambda_s}{16\pi^2}\Lambda_{UV}^2 + ...
+%\end{equation}
+%where the coupling in this case is $\lambda_s$.  That being said, the c
+
+\subsection{Minimal Supersymmetric Standar Model (MSSM)}
+
+In the SUSY framework the SM particles and their superpartners are arranged in supermultiplets\cite{Martin:1997ns}.  The SM fermions and their superpartners belong to chiral multiplets.  Each of which contains a Weyl fermion and a complex scalar field.  In these chiral multiplets, the names for each superpartner is that of its SM counterpart but this an 's' in front of it, i.e. 'selectron', 'stop squark', or more generally 'sleptons' and 'squarks'.  The 's' is meant to denote that it is a scalar superpartner.  The SM spin-1 gauge bosons and their superpartners belong to gauge supermultiplets.  Each of these contains a massless spin-1 boson and a massless Weyl fermion.  The Weyl fermions in the gauge supermultiplet are referred to with an 'ino' added as a suffix, i.e. 'wino', 'gluino', or more generally as 'gauginos'.  Table \ref{table:susyparticles} shows the particles in MSSM and their associated SM particles.
+\begin{table}[h]
+	\centering
+	\caption{Summery of SM particles and superpartners}
+	\begin{tabular}{|l|c|c|l|c|c|}
+		\hline
+		\hline
+		\multicolumn{2}{|c|}{SM particles} & Spin & \multicolumn{2}{|c|}{MSSM particles} & Spin \\
+		\hline
+		Quark & q & 1/2 & Squark & $\tilde{q}$ & 0 \\
+		Lepton & l & 1/2 & Slepton & $\tilde{l}$ & 0 \\
+		\hline
+		Gluon & g & 1 & Gluino & $\tilde{g}$ & 0 \\
+		B & B & 1 & Bino &$\tilde{B}$ & 1/2 \\
+		W & W & 1 & Wino & $\tilde{W}$ & 1/2 \\
+		Higgs & H & 0 & Higgsino & $\tilde{H}$ & 1/2 \\
+		\hline	
+	\end{tabular}
+	\label{table:susyparticles}  
+\end{table}
+After electroweak symmetry breaking the neutral gauginos, $\tilde{W}_0$ and $\tilde{B}_0$, and the Higgsino form four mass eigenstates referred to as neutralinos $\tilde{\chi}_0$.
+
+A new quantum number, \textit{R-parity}, is used in the MSSM.  It can written as
+\begin{equation}
+	P_R = (-1)^{3\cdot(B-L)+2s}
+\end{equation}
+where \textit{B} represents the baryon number, \textit{L} represents the lepton number, and \textit{s} gives the spin.  All SM particles have $P_R = +1$ and all superpartners have $P_R = -1$.  This means that if we conserve R-parity all SUSY particles must will be produced in even number, or in the case of a collider experiment they will be pair produced.  Conservation of R-parity also makes the lightest SUSY particle (LSP) completely stable making it a good candidate for dark matter.  From the standpoint of a collider experiment, the completely stable LSP will exit the detector without leaving a signal so long as it is electrically neutral.  This lack of signal will present in the form of an imbalance in the reconstructed momentum in the transverse plane of the detector.  The magnitude of this imbalance is called the missing transverse energy $E_T^{miss}$.
+
+\section{Gauge-mediated supersymmetry breaking}
+
+Superpartners and their SM counterparts would have the same masses if SUSY were an unbroken symmetry, but since there has yet to be any experimental evidence of SUSY at what should be detectable masses, it must be that SUSY is a broken symmetry.  In this analysis we will focus on the model of gauge-mediated supersymmetry breaking (GMSB) in which SUSY is spontaneously broken.  In this model the SUSY breaking occurs in a "hidden" sector and then the breaking is communicated to the "visible" sector by messenger particles via SM gauge interactions\cite{Martin:1997ns}.  
+
+The lightest SUSY particle in GMSB is the gravitino $\tilde{G}$, which is the superpartner of the gravitino.  Since the gravitino is a spin-2 particle, this makes the gravitino spin-3/2.  The gravitino is significantly lighter than all of the other SUSY particles in this model and since it is only able to interact with SM particles gravitationally, it would leave the detector without depositing any energy.  The lightest neutralino is taken to be the next-to-lightest supersymmetric particle (NLSP) and we assume that this promply decays as $\tilde{\chi}_1^0 \rightarrow \gamma \tilde{G}$, $\tilde{\chi}_1^0 \rightarrow Z \tilde{G}$, or $\tilde{\chi}_1^0 \rightarrow H \tilde{G}$ of which the first has a branching ratio of over 90\% in most GMSB models\cite{Terwort:2008ii}.  In this analysis we assume a 100\% branching ratio for $\tilde{\chi}_1^0 \rightarrow \gamma \tilde{G}$.  
+
+As strong productions are dominant at a proton-proton collider such as the LHC, the prevailing modes of SUSY production are gluino pair production and squark pair production.  These are the modes that we target in this analysis.  In particular this analysis looks at two simplified models, T5gg and T6gg.  In the T5gg simplified model gluino pairs are produced from the proton-proton collision.  The gluinos decay to quark-antiquark pairs and neutralinos.  Each neutralino then decays to a photon and a gravitino.  In the T6gg simplified model squark pairs are produced which then each decays to a quark or antiquark and a neutralino.  The neutralinos then each decay to a photon and a gravitino.
+
+%This model assumes that this breaking occurs in a "hidden sector" and new chiral supermultiplets act as messengers that interact with the "visible sector" which is where SM particles and their superpartners reside.  
+
+

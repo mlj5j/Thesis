@@ -5,12 +5,6 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 Database file #1: myref.bib
-Warning--entry type for "PhotonSF" isn't style-file defined
---line 546 of file myref.bib
-I was expecting a `,' or a `}'---line 549 of file myref.bib
- :  note = "
- :          https://twiki.cern.ch/twiki/bin/viewauth/CMS/EgammaIDRecipesRun2#Photon_efficiencies_and_scale_fa"
-I'm skipping whatever remains of this entry
 Warning--to sort, need author, editor, or key in CERN-LHCC-97-031
 Warning--to sort, need author or key in L1Triggerfigure:2013yva
 Warning--to sort, need author, editor, or key in CERN-LHCC-97-033
@@ -20,6 +14,8 @@ Warning--empty author in L1Triggerfigure:2013yva
 Warning--empty journal in L1Triggerfigure:2013yva
 Warning--there's a number but no volume in Apollinari:2017cqg
 Warning--empty journal in Barney:2628641
+Warning--empty journal in PhotonSF
+Warning--empty year in PhotonSF
 Warning--empty institution in Dominguez:1481838
 Warning--empty journal in DeMelis:2063307
 Warning--empty journal in DHondt:2006iej
@@ -27,45 +23,45 @@ Warning--empty journal in Hocker:2007ht
 Warning--can't use both author and editor fields in Zweig:1964jf
 Warning--empty chapter and pages in Zweig:1964jf
 Warning--empty publisher in Zweig:1964jf
-You've used 44 entries,
+You've used 50 entries,
             2118 wiz_defined-function locations,
-            790 strings with 11342 characters,
-and the built_in function-call counts, 13377 in all, are:
-= -- 1321
-> -- 585
-< -- 2
-+ -- 238
-- -- 192
-* -- 996
-:= -- 2306
-add.period$ -- 134
-call.type$ -- 44
-change.case$ -- 216
+            829 strings with 12349 characters,
+and the built_in function-call counts, 15168 in all, are:
+= -- 1503
+> -- 650
+< -- 3
++ -- 264
+- -- 212
+* -- 1110
+:= -- 2607
+add.period$ -- 152
+call.type$ -- 50
+change.case$ -- 242
 chr.to.int$ -- 0
-cite$ -- 60
-duplicate$ -- 468
-empty$ -- 1053
-format.name$ -- 192
-if$ -- 2696
+cite$ -- 68
+duplicate$ -- 550
+empty$ -- 1204
+format.name$ -- 212
+if$ -- 3070
 int.to.chr$ -- 0
-int.to.str$ -- 44
-missing$ -- 39
-newline$ -- 223
-num.names$ -- 82
-pop$ -- 174
+int.to.str$ -- 50
+missing$ -- 46
+newline$ -- 253
+num.names$ -- 94
+pop$ -- 200
 preamble$ -- 1
-purify$ -- 177
+purify$ -- 197
 quote$ -- 0
-skip$ -- 314
+skip$ -- 365
 stack$ -- 0
-substring$ -- 946
-swap$ -- 39
-text.length$ -- 2
+substring$ -- 1058
+swap$ -- 53
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 170
-warning$ -- 16
-while$ -- 128
-width$ -- 46
-write$ -- 473
-(There was 1 error message)
+type$ -- 194
+warning$ -- 18
+while$ -- 149
+width$ -- 52
+write$ -- 538
+(There were 18 warnings)

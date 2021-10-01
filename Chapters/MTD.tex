@@ -18,7 +18,7 @@ The increased luminosity results in more interactions per bunch crossing or pile
 	\centering
 	\includegraphics[width=1.0\linewidth]{Figures/MDT_pileup}
 	\caption{Vertices from a simulated 200 pileup event with MTD timing resolution of $\sim$30 ps. The red dots represent the simulated vertices while the yellow lines indicate vertices reconstructed without the use of timing information. The black crosses and blue open circles represent tracks and vertices reconstructed using time information from the MTD. Reprint from}
-	\label{fig:mdtpileup}
+	\label{fig:mtdpileup}
 \end{figure}
 
 \begin{figure}[h]
@@ -250,14 +250,36 @@ As previously mentioned, the glues would need to withstand temperature ranges fr
 
 Test beam facilities at both CERN and Fermilab were used to test the BTL sensor prototypes throughout the research and development process.  These facilities provide well calibrated sources of MIPs in the form of high energy pions at CERN and protons at Fermilab.  
 
-%Among the first test beam campaigns was an investigation of potential LYSO:Ce geometries and SiPM arrangements.  Figure \ref{fig:testbeam1} shows three configurations.  All of these configuration used HBK S12572 SiPMs having a $3 \times 3$ mm$^2$ sensitive area and 15 $\mu$m cell pitch.  These were, from left to right, a $5 \times 3 \times 3$ mm$^3$ bar with one SiPM on each end, a $5 \times 5 \times 3$ mm$^3$ tile with an array of three SiPMs on each side, and a $5 \times 5 \times 3$ mm$^3$ tile with a single SiPM centered on the back.  The crystals were wrapped in Teflon to limit external light leakage.  The time resolution for the tiles showed impact point position dependence while using the average time between the two SiPMs on the bar showed 
+Among the first test beam campaigns was an investigation of potential LYSO:Ce geometries and SiPM arrangements.  Figure \ref{fig:testbeam1} shows three configurations.  All of these configuration used HBK S12572 SiPMs having a $3 \times 3$ mm$^2$ sensitive area and 15 $\mu$m cell pitch.  These were, from left to right, a $5 \times 3 \times 3$ mm$^3$ bar with one SiPM on each end, a $5 \times 5 \times 3$ mm$^3$ tile with an array of three SiPMs on each side, and a $5 \times 5 \times 3$ mm$^3$ tile with a single SiPM centered on the back.  The crystals were wrapped in Teflon to limit external light leakage.  The time resolution for the tiles showed impact point position dependence while using the average time between the two SiPMs on the bar showed a minimal dependence.  This led to the decision to use a bar geometry for the scintillating crystal with SiPMs connected to each end.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/testbeam1}
+	\caption[Test beam setup at Fermilab for investigating different BTL sensor configurations.]{Three BTL sensor configurations investigated during a test beam campaign at Fermilab. On the left is a $5 \times 3\times 3$ mm$^3$ LYSO:Ce bar instrumented with SiPMs on both ends. In the middle is a $5 \times 5 \times 3$ mm$^3$ tile with an array of three SiPMs on each side. To the right is $5 \times 5 \times 3$ mm$^3$ tile with a single SiPM in the middle behind the tile.}
+	\label{fig:testbeam1}
+\end{figure}
 
-%\begin{figure}[h]
-%	\centering
-%	\includegraphics[width=0.7\linewidth]{Figures/testbeam1}
-%	\caption[Test beam setup at Fermilab for investigating different BTL sensor configurations.]{Three BTL sensor configurations investigated during a test beam campaign at Fermilab. On the left is a $5 \times 3\times 3$ mm$^3$ LYSO:Ce bar instrumented with SiPMs on both ends. In the middle is a $5 \times 5 \times 3$ mm$^3$ tile with an array of three SiPMs on each side. To the right is $5 \times 5 \times 3$ mm$^3$ tile with a single SiPM in the middle behind the tile.}
-%	\label{fig:testbeam1}
-%\end{figure}
+The next step was to verify that the target of 30 ps time resolution was attainable with the bar geometry.  In this test beam campaign the same type of SiPMs, HBK 12572, were used.  This time they were connected to a $50 \times 3 \times 3$ mm$^3$ LYSO:Ce bar.  Figure \ref{fig:testbeam2} shows the experimental configuration used.  In addition to what is shown, a microchannel plate detector (MCP) was placed downstream of the bars to act as a time reference.  The time resolution was determined by taking the standard deviation of the average time of a MIP signal relative the time of a signal in the MCP which is shown here.
+\begin{equation}
+	t_{avg} = \frac{(t_L - t_{MCP})+(t_R - t_{MCP})}{2}
+\end{equation}
+This gives a time resolution of 
+\begin{equation}
+	\sigma_{t_{avg}} = \frac{\sigma_{t_{L,R}}}{\sqrt{2}}
+\end{equation}
+The results are shown in Figure \ref{fig:testbeamtimeres} where we see the average time resolution along the length of the bar is around 28 ps.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/Testbeam2}
+	\caption[Test beam setup at Fermilab for verifying time resolution capabilities.]{Two bar assemblies with SiPMs tested during a test beam campaign at Fermilab.  The LYSO:Ce bars had a cross-section of $3 \times 3$ mm$^2$ and a length of 50 mm with HBK 12572 SiPMs instrumented on both ends.  The bars were wrapped in teflon tape to minimize light leaking into the crystal.}
+	\label{fig:testbeam2}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Figures/testbeamtimeres}
+	\caption[Time resolution measured as a function of the impact point along the LYSO:Ce bar.]{The time resolution measured for the SiPMs + LYSO:Ce bar configuration.  The red and blue data points are for each SiPM on the bar while the black data points are the average of the two.}
+	\label{fig:testbeamtimeres}
+\end{figure}
+There is ongoing research and development for the MTD and with its proven time resolution capabilities it will be a very promising addition to the CMS experiment.
 
 
 %\begin{figure}[h]
